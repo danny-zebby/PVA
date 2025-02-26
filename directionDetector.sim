@@ -1,0 +1,1745 @@
+| units: 30 tech: scmos format: MIT
+n directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/a_9_8# directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/a_17_8# 2 4 289 244
+p directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND3_0/INV_0/A VDD 2 8 289 276
+n directionDetectorPart_1/B VSS directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/a_9_8# 2 4 281 244
+p directionDetectorPart_0/011detector_0/AND3_0/C VDD directionDetectorPart_0/011detector_0/AND3_0/INV_0/A 2 8 301 276
+p directionDetectorPart_1/B VDD directionDetectorPart_0/011detector_0/AND3_0/INV_0/A 2 8 281 276
+n directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/a_17_8# directionDetectorPart_0/011detector_0/AND3_0/INV_0/A 2 4 301 244
+n directionDetectorPart_0/011detector_0/AND3_0/INV_0/A VSS directionDetectorPart_0/011detector_0/AND3_0/Y 2 4 317 244
+p directionDetectorPart_0/011detector_0/AND3_0/INV_0/A VDD directionDetectorPart_0/011detector_0/AND3_0/Y 2 8 317 276
+n directionDetectorPart_0/011detector_0/OR2_0/B directionDetectorPart_0/011detector_0/OR2_0/INV_0/A VSS 2 4 343 120
+p directionDetectorPart_0/011detector_0/OR2_0/B directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/a_9_32# directionDetectorPart_0/011detector_0/OR2_0/INV_0/A 2 16 343 144
+n directionDetectorPart_0/011detector_0/OR2_0/A VSS directionDetectorPart_0/011detector_0/OR2_0/INV_0/A 2 4 335 120
+p directionDetectorPart_0/011detector_0/OR2_0/A VDD directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/a_9_32# 2 16 335 144
+n directionDetectorPart_0/011detector_0/OR2_0/INV_0/A VSS directionDetectorPart_0/011detector_0/OR2_0/Y 2 4 359 120
+p directionDetectorPart_0/011detector_0/OR2_0/INV_0/A VDD directionDetectorPart_0/011detector_0/OR2_0/Y 2 8 359 152
+p directionDetectorPart_0/011detector_0/A_xor_B VDD directionDetectorPart_0/011detector_0/AND2_1/INV_0/A 2 4 282 156
+n directionDetectorPart_0/011detector_0/A_xor_B VSS directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/a_10_8# 2 4 282 120
+n directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/a_10_8# directionDetectorPart_0/011detector_0/AND2_1/INV_0/A 2 4 292 120
+p directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND2_1/INV_0/A VDD 2 4 292 156
+n directionDetectorPart_0/011detector_0/AND2_1/INV_0/A VSS directionDetectorPart_0/011detector_0/AND2_1/Y 2 4 309 120
+p directionDetectorPart_0/011detector_0/AND2_1/INV_0/A VDD directionDetectorPart_0/011detector_0/AND2_1/Y 2 8 309 152
+p directionDetectorPart_0/011detector_0/XOR2_1/A VDD directionDetectorPart_0/011detector_0/AND2_2/INV_0/A 2 4 470 280
+n directionDetectorPart_0/011detector_0/XOR2_1/A VSS directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/a_10_8# 2 4 470 244
+n directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/a_10_8# directionDetectorPart_0/011detector_0/AND2_2/INV_0/A 2 4 480 244
+p directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND2_2/INV_0/A VDD 2 4 480 280
+n directionDetectorPart_0/011detector_0/AND2_2/INV_0/A VSS directionDetectorPart_0/011detector_0/OR2_0/A 2 4 497 244
+p directionDetectorPart_0/011detector_0/AND2_2/INV_0/A VDD directionDetectorPart_0/011detector_0/OR2_0/A 2 8 497 276
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# 2 4 596 128
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD 2 8 596 160
+n directionDetectorPart_0/011detector_0/OR2_0/Y VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# 2 4 588 128
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 608 160
+p directionDetectorPart_0/011detector_0/OR2_0/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 588 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 4 608 128
+n CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# 2 4 632 128
+p CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD 2 8 632 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# 2 4 624 128
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 644 160
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 624 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 4 644 128
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# 2 4 668 128
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2 8 668 160
+n CLK VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# 2 4 660 128
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 680 160
+p CLK VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 660 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 4 680 128
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# 2 4 704 128
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD 2 8 704 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# 2 4 696 128
+p VDD VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 716 160
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 696 160
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 4 716 128
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# 2 4 740 128
+p RST directionDetectorPart_0/011detector_0/AND3_0/C VDD 2 8 740 160
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# 2 4 732 128
+p directionDetectorPart_0/011detector_0/XOR2_1/B VDD directionDetectorPart_0/011detector_0/AND3_0/C 2 8 752 160
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_0/011detector_0/AND3_0/C 2 8 732 160
+n directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# directionDetectorPart_0/011detector_0/AND3_0/C 2 4 752 128
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# 2 4 776 128
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/XOR2_1/B VDD 2 8 776 160
+n directionDetectorPart_0/011detector_0/AND3_0/C VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# 2 4 768 128
+p VDD VDD directionDetectorPart_0/011detector_0/XOR2_1/B 2 8 788 160
+p directionDetectorPart_0/011detector_0/AND3_0/C VDD directionDetectorPart_0/011detector_0/XOR2_1/B 2 8 768 160
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# directionDetectorPart_0/011detector_0/XOR2_1/B 2 4 788 128
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# 2 4 596 344
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD 2 8 596 376
+n directionDetectorPart_0/011detector_0/AND3_0/Y VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# 2 4 588 344
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 608 376
+p directionDetectorPart_0/011detector_0/AND3_0/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 588 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 4 608 344
+n CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# 2 4 632 344
+p CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD 2 8 632 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# 2 4 624 344
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 644 376
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 624 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 4 644 344
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# 2 4 668 344
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2 8 668 376
+n CLK VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# 2 4 660 344
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 680 376
+p CLK VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 660 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 4 680 344
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# 2 4 704 344
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD 2 8 704 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# 2 4 696 344
+p VDD VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 716 376
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 696 376
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 4 716 344
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# 2 4 740 344
+p RST directionDetectorPart_0/011detector_0/Reg3_0/Q2b VDD 2 8 740 376
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# 2 4 732 344
+p directionDetectorPart_0/AND2_1INV_0/B VDD directionDetectorPart_0/011detector_0/Reg3_0/Q2b 2 8 752 376
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_0/011detector_0/Reg3_0/Q2b 2 8 732 376
+n directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/Q2b 2 4 752 344
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# 2 4 776 344
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/AND2_1INV_0/B VDD 2 8 776 376
+n directionDetectorPart_0/011detector_0/Reg3_0/Q2b VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# 2 4 768 344
+p VDD VDD directionDetectorPart_0/AND2_1INV_0/B 2 8 788 376
+p directionDetectorPart_0/011detector_0/Reg3_0/Q2b VDD directionDetectorPart_0/AND2_1INV_0/B 2 8 768 376
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# directionDetectorPart_0/AND2_1INV_0/B 2 4 788 344
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# 2 4 596 236
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD 2 8 596 268
+n directionDetectorPart_0/011detector_0/AND2_1/Y VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# 2 4 588 236
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 608 268
+p directionDetectorPart_0/011detector_0/AND2_1/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 588 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 4 608 236
+n CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# 2 4 632 236
+p CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD 2 8 632 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# 2 4 624 236
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 644 268
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 624 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 4 644 236
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# 2 4 668 236
+p RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2 8 668 268
+n CLK VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# 2 4 660 236
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 680 268
+p CLK VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 660 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 4 680 236
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# 2 4 704 236
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD 2 8 704 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# 2 4 696 236
+p VDD VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 716 268
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 696 268
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 4 716 236
+n RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# 2 4 740 236
+p RST directionDetectorPart_0/011detector_0/Reg3_0/Q1b VDD 2 8 740 268
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# 2 4 732 236
+p directionDetectorPart_0/011detector_0/XOR2_1/A VDD directionDetectorPart_0/011detector_0/Reg3_0/Q1b 2 8 752 268
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_0/011detector_0/Reg3_0/Q1b 2 8 732 268
+n directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# directionDetectorPart_0/011detector_0/Reg3_0/Q1b 2 4 752 236
+n directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# 2 4 776 236
+p directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/XOR2_1/A VDD 2 8 776 268
+n directionDetectorPart_0/011detector_0/Reg3_0/Q1b VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# 2 4 768 236
+p VDD VDD directionDetectorPart_0/011detector_0/XOR2_1/A 2 8 788 268
+p directionDetectorPart_0/011detector_0/Reg3_0/Q1b VDD directionDetectorPart_0/011detector_0/XOR2_1/A 2 8 768 268
+n VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# directionDetectorPart_0/011detector_0/XOR2_1/A 2 4 788 236
+p directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A 2 4 358 280
+n directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 358 244
+n directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A 2 4 368 244
+p directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A VDD 2 4 368 280
+n directionDetectorPart_0/011detector_0/XOR2_1/A VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 4 341 244
+p directionDetectorPart_0/011detector_0/XOR2_1/A VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 8 341 276
+p directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B 2 4 402 280
+n directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 402 244
+n directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B 2 4 412 244
+p directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B VDD 2 4 412 280
+n directionDetectorPart_0/011detector_0/XOR2_1/B VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 4 385 244
+p directionDetectorPart_0/011detector_0/XOR2_1/B VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 8 385 276
+p directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A VDD directionDetectorPart_0/011detector_0/A_xor_B 2 4 430 280
+n directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/a_10_8# 2 4 430 244
+n directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/a_10_8# directionDetectorPart_0/011detector_0/A_xor_B 2 4 440 244
+p directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_0/011detector_0/A_xor_B VDD 2 4 440 280
+n directionDetectorPart_1/B VSS directionDetectorPart_0/011detector_0/OR2_0/B 2 4 383 120
+p directionDetectorPart_1/B VDD directionDetectorPart_0/011detector_0/OR2_0/B 2 8 383 152
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# 2 4 33 88
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD 2 8 33 120
+n A VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# 2 4 25 88
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 45 120
+p A VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 25 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 4 45 88
+n CLK directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# 2 4 69 88
+p CLK directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD 2 8 69 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# 2 4 61 88
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 81 120
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 61 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 4 81 88
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# 2 4 105 88
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2 8 105 120
+n CLK VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# 2 4 97 88
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 117 120
+p CLK VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 97 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 4 117 88
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# 2 4 141 88
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD 2 8 141 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# 2 4 133 88
+p VDD VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 153 120
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 133 120
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 4 153 88
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# 2 4 177 88
+p RST directionDetectorPart_0/Reg3_0/Q0b VDD 2 8 177 120
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# 2 4 169 88
+p directionDetectorPart_0/Reg3_0/Q0 VDD directionDetectorPart_0/Reg3_0/Q0b 2 8 189 120
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/Q0b 2 8 169 120
+n directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# directionDetectorPart_0/Reg3_0/Q0b 2 4 189 88
+n directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# 2 4 213 88
+p directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/Q0 VDD 2 8 213 120
+n directionDetectorPart_0/Reg3_0/Q0b VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# 2 4 205 88
+p VDD VDD directionDetectorPart_0/Reg3_0/Q0 2 8 225 120
+p directionDetectorPart_0/Reg3_0/Q0b VDD directionDetectorPart_0/Reg3_0/Q0 2 8 205 120
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# directionDetectorPart_0/Reg3_0/Q0 2 4 225 88
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# 2 4 33 304
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD 2 8 33 336
+n directionDetectorPart_0/Reg3_0/Q1 VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# 2 4 25 304
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 45 336
+p directionDetectorPart_0/Reg3_0/Q1 VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 25 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 4 45 304
+n CLK directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# 2 4 69 304
+p CLK directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD 2 8 69 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# 2 4 61 304
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 81 336
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 61 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 4 81 304
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# 2 4 105 304
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2 8 105 336
+n CLK VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# 2 4 97 304
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 117 336
+p CLK VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 97 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 4 117 304
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# 2 4 141 304
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD 2 8 141 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# 2 4 133 304
+p VDD VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 153 336
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 133 336
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 4 153 304
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# 2 4 177 304
+p RST directionDetectorPart_0/Reg3_0/Q2b VDD 2 8 177 336
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# 2 4 169 304
+p directionDetectorPart_1/B VDD directionDetectorPart_0/Reg3_0/Q2b 2 8 189 336
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/Q2b 2 8 169 336
+n directionDetectorPart_1/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# directionDetectorPart_0/Reg3_0/Q2b 2 4 189 304
+n directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# 2 4 213 304
+p directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/B VDD 2 8 213 336
+n directionDetectorPart_0/Reg3_0/Q2b VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# 2 4 205 304
+p VDD VDD directionDetectorPart_1/B 2 8 225 336
+p directionDetectorPart_0/Reg3_0/Q2b VDD directionDetectorPart_1/B 2 8 205 336
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# directionDetectorPart_1/B 2 4 225 304
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# 2 4 33 196
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD 2 8 33 228
+n directionDetectorPart_0/Reg3_0/Q0 VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# 2 4 25 196
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 45 228
+p directionDetectorPart_0/Reg3_0/Q0 VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 25 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 4 45 196
+n CLK directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# 2 4 69 196
+p CLK directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD 2 8 69 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# 2 4 61 196
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 81 228
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 61 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 4 81 196
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# 2 4 105 196
+p RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2 8 105 228
+n CLK VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# 2 4 97 196
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 117 228
+p CLK VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 97 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 4 117 196
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# 2 4 141 196
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD 2 8 141 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# 2 4 133 196
+p VDD VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 153 228
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 133 228
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 4 153 196
+n RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# 2 4 177 196
+p RST directionDetectorPart_0/Reg3_0/Q1b VDD 2 8 177 228
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# 2 4 169 196
+p directionDetectorPart_0/Reg3_0/Q1 VDD directionDetectorPart_0/Reg3_0/Q1b 2 8 189 228
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_0/Reg3_0/Q1b 2 8 169 228
+n directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# directionDetectorPart_0/Reg3_0/Q1b 2 4 189 196
+n directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# 2 4 213 196
+p directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/Q1 VDD 2 8 213 228
+n directionDetectorPart_0/Reg3_0/Q1b VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# 2 4 205 196
+p VDD VDD directionDetectorPart_0/Reg3_0/Q1 2 8 225 228
+p directionDetectorPart_0/Reg3_0/Q1b VDD directionDetectorPart_0/Reg3_0/Q1 2 8 205 228
+n VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# directionDetectorPart_0/Reg3_0/Q1 2 4 225 196
+p directionDetectorPart_0/AND2_1INV_0/INV_0/Y VDD directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A 2 4 870 164
+n directionDetectorPart_0/AND2_1INV_0/INV_0/Y VSS directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# 2 4 870 128
+n directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A 2 4 880 128
+p directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VDD 2 4 880 164
+n directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VSS BWD 2 4 897 128
+p directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VDD BWD 2 8 897 160
+n directionDetectorPart_0/B VSS directionDetectorPart_0/AND2_1INV_0/INV_0/Y 2 4 853 128
+p directionDetectorPart_0/B VDD directionDetectorPart_0/AND2_1INV_0/INV_0/Y 2 8 853 160
+n directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_9_8# directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_17_8# 2 4 289 696
+p directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND3_0/INV_0/A VDD 2 8 289 728
+n directionDetectorPart_0/B VSS directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_9_8# 2 4 281 696
+p directionDetectorPart_1/011detector_0/AND3_0/C VDD directionDetectorPart_1/011detector_0/AND3_0/INV_0/A 2 8 301 728
+p directionDetectorPart_0/B VDD directionDetectorPart_1/011detector_0/AND3_0/INV_0/A 2 8 281 728
+n directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_17_8# directionDetectorPart_1/011detector_0/AND3_0/INV_0/A 2 4 301 696
+n directionDetectorPart_1/011detector_0/AND3_0/INV_0/A VSS directionDetectorPart_1/011detector_0/AND3_0/Y 2 4 317 696
+p directionDetectorPart_1/011detector_0/AND3_0/INV_0/A VDD directionDetectorPart_1/011detector_0/AND3_0/Y 2 8 317 728
+n directionDetectorPart_1/011detector_0/OR2_0/B directionDetectorPart_1/011detector_0/OR2_0/INV_0/A VSS 2 4 343 572
+p directionDetectorPart_1/011detector_0/OR2_0/B directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/a_9_32# directionDetectorPart_1/011detector_0/OR2_0/INV_0/A 2 16 343 596
+n directionDetectorPart_1/011detector_0/OR2_0/A VSS directionDetectorPart_1/011detector_0/OR2_0/INV_0/A 2 4 335 572
+p directionDetectorPart_1/011detector_0/OR2_0/A VDD directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/a_9_32# 2 16 335 596
+n directionDetectorPart_1/011detector_0/OR2_0/INV_0/A VSS directionDetectorPart_1/011detector_0/OR2_0/Y 2 4 359 572
+p directionDetectorPart_1/011detector_0/OR2_0/INV_0/A VDD directionDetectorPart_1/011detector_0/OR2_0/Y 2 8 359 604
+p directionDetectorPart_1/011detector_0/A_xor_B VDD directionDetectorPart_1/011detector_0/AND2_1/INV_0/A 2 4 282 608
+n directionDetectorPart_1/011detector_0/A_xor_B VSS directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/a_10_8# 2 4 282 572
+n directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/a_10_8# directionDetectorPart_1/011detector_0/AND2_1/INV_0/A 2 4 292 572
+p directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND2_1/INV_0/A VDD 2 4 292 608
+n directionDetectorPart_1/011detector_0/AND2_1/INV_0/A VSS directionDetectorPart_1/011detector_0/AND2_1/Y 2 4 309 572
+p directionDetectorPart_1/011detector_0/AND2_1/INV_0/A VDD directionDetectorPart_1/011detector_0/AND2_1/Y 2 8 309 604
+p directionDetectorPart_1/011detector_0/XOR2_1/A VDD directionDetectorPart_1/011detector_0/AND2_2/INV_0/A 2 4 470 732
+n directionDetectorPart_1/011detector_0/XOR2_1/A VSS directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/a_10_8# 2 4 470 696
+n directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/a_10_8# directionDetectorPart_1/011detector_0/AND2_2/INV_0/A 2 4 480 696
+p directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND2_2/INV_0/A VDD 2 4 480 732
+n directionDetectorPart_1/011detector_0/AND2_2/INV_0/A VSS directionDetectorPart_1/011detector_0/OR2_0/A 2 4 497 696
+p directionDetectorPart_1/011detector_0/AND2_2/INV_0/A VDD directionDetectorPart_1/011detector_0/OR2_0/A 2 8 497 728
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# 2 4 596 580
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD 2 8 596 612
+n directionDetectorPart_1/011detector_0/OR2_0/Y VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# 2 4 588 580
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 608 612
+p directionDetectorPart_1/011detector_0/OR2_0/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 588 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 2 4 608 580
+n CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# 2 4 632 580
+p CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD 2 8 632 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# 2 4 624 580
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 644 612
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 624 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2 4 644 580
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# 2 4 668 580
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2 8 668 612
+n CLK VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# 2 4 660 580
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 680 612
+p CLK VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 660 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2 4 680 580
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# 2 4 704 580
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD 2 8 704 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# 2 4 696 580
+p VDD VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 716 612
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 696 612
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 4 716 580
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# 2 4 740 580
+p RST directionDetectorPart_1/011detector_0/AND3_0/C VDD 2 8 740 612
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# 2 4 732 580
+p directionDetectorPart_1/011detector_0/XOR2_1/B VDD directionDetectorPart_1/011detector_0/AND3_0/C 2 8 752 612
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_1/011detector_0/AND3_0/C 2 8 732 612
+n directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# directionDetectorPart_1/011detector_0/AND3_0/C 2 4 752 580
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# 2 4 776 580
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/XOR2_1/B VDD 2 8 776 612
+n directionDetectorPart_1/011detector_0/AND3_0/C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# 2 4 768 580
+p VDD VDD directionDetectorPart_1/011detector_0/XOR2_1/B 2 8 788 612
+p directionDetectorPart_1/011detector_0/AND3_0/C VDD directionDetectorPart_1/011detector_0/XOR2_1/B 2 8 768 612
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# directionDetectorPart_1/011detector_0/XOR2_1/B 2 4 788 580
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# 2 4 596 796
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD 2 8 596 828
+n directionDetectorPart_1/011detector_0/AND3_0/Y VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# 2 4 588 796
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 608 828
+p directionDetectorPart_1/011detector_0/AND3_0/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 588 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 2 4 608 796
+n CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# 2 4 632 796
+p CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD 2 8 632 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# 2 4 624 796
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 644 828
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 624 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2 4 644 796
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# 2 4 668 796
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2 8 668 828
+n CLK VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# 2 4 660 796
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 680 828
+p CLK VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 660 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2 4 680 796
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# 2 4 704 796
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD 2 8 704 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# 2 4 696 796
+p VDD VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 716 828
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 696 828
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 4 716 796
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# 2 4 740 796
+p RST directionDetectorPart_1/011detector_0/Reg3_0/Q2b VDD 2 8 740 828
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# 2 4 732 796
+p directionDetectorPart_1/AND2_1INV_0/B VDD directionDetectorPart_1/011detector_0/Reg3_0/Q2b 2 8 752 828
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_1/011detector_0/Reg3_0/Q2b 2 8 732 828
+n directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/Q2b 2 4 752 796
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# 2 4 776 796
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/AND2_1INV_0/B VDD 2 8 776 828
+n directionDetectorPart_1/011detector_0/Reg3_0/Q2b VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# 2 4 768 796
+p VDD VDD directionDetectorPart_1/AND2_1INV_0/B 2 8 788 828
+p directionDetectorPart_1/011detector_0/Reg3_0/Q2b VDD directionDetectorPart_1/AND2_1INV_0/B 2 8 768 828
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# directionDetectorPart_1/AND2_1INV_0/B 2 4 788 796
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# 2 4 596 688
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD 2 8 596 720
+n directionDetectorPart_1/011detector_0/AND2_1/Y VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# 2 4 588 688
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 608 720
+p directionDetectorPart_1/011detector_0/AND2_1/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 588 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 2 4 608 688
+n CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# 2 4 632 688
+p CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD 2 8 632 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# 2 4 624 688
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 644 720
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 624 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2 4 644 688
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# 2 4 668 688
+p RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2 8 668 720
+n CLK VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# 2 4 660 688
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 680 720
+p CLK VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 660 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2 4 680 688
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# 2 4 704 688
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD 2 8 704 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# 2 4 696 688
+p VDD VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 716 720
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 696 720
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 4 716 688
+n RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# 2 4 740 688
+p RST directionDetectorPart_1/011detector_0/Reg3_0/Q1b VDD 2 8 740 720
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# 2 4 732 688
+p directionDetectorPart_1/011detector_0/XOR2_1/A VDD directionDetectorPart_1/011detector_0/Reg3_0/Q1b 2 8 752 720
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_1/011detector_0/Reg3_0/Q1b 2 8 732 720
+n directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# directionDetectorPart_1/011detector_0/Reg3_0/Q1b 2 4 752 688
+n directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# 2 4 776 688
+p directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/XOR2_1/A VDD 2 8 776 720
+n directionDetectorPart_1/011detector_0/Reg3_0/Q1b VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# 2 4 768 688
+p VDD VDD directionDetectorPart_1/011detector_0/XOR2_1/A 2 8 788 720
+p directionDetectorPart_1/011detector_0/Reg3_0/Q1b VDD directionDetectorPart_1/011detector_0/XOR2_1/A 2 8 768 720
+n VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# directionDetectorPart_1/011detector_0/XOR2_1/A 2 4 788 688
+p directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 2 4 358 732
+n directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 358 696
+n directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 2 4 368 696
+p directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A VDD 2 4 368 732
+n directionDetectorPart_1/011detector_0/XOR2_1/A VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 4 341 696
+p directionDetectorPart_1/011detector_0/XOR2_1/A VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 8 341 728
+p directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B 2 4 402 732
+n directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 402 696
+n directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B 2 4 412 696
+p directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B VDD 2 4 412 732
+n directionDetectorPart_1/011detector_0/XOR2_1/B VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 4 385 696
+p directionDetectorPart_1/011detector_0/XOR2_1/B VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 8 385 728
+p directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A VDD directionDetectorPart_1/011detector_0/A_xor_B 2 4 430 732
+n directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/a_10_8# 2 4 430 696
+n directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/a_10_8# directionDetectorPart_1/011detector_0/A_xor_B 2 4 440 696
+p directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_1/011detector_0/A_xor_B VDD 2 4 440 732
+n directionDetectorPart_0/B VSS directionDetectorPart_1/011detector_0/OR2_0/B 2 4 383 572
+p directionDetectorPart_0/B VDD directionDetectorPart_1/011detector_0/OR2_0/B 2 8 383 604
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# 2 4 33 540
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B VDD 2 8 33 572
+n B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/a_9_8# 2 4 25 540
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 45 572
+p B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B 2 8 25 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B 2 4 45 540
+n CLK directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# 2 4 69 540
+p CLK directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VDD 2 8 69 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/a_9_8# 2 4 61 540
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 81 572
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2 8 61 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2 4 81 540
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# 2 4 105 540
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2 8 105 572
+n CLK VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/a_9_8# 2 4 97 540
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 117 572
+p CLK VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 2 8 97 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 2 4 117 540
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# 2 4 141 540
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y VDD 2 8 141 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/a_9_8# 2 4 133 540
+p VDD VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 153 572
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 8 133 572
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y 2 4 153 540
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# 2 4 177 540
+p RST directionDetectorPart_1/Reg3_0/Q0b VDD 2 8 177 572
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/a_9_8# 2 4 169 540
+p directionDetectorPart_1/Reg3_0/Q0 VDD directionDetectorPart_1/Reg3_0/Q0b 2 8 189 572
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/Q0b 2 8 169 572
+n directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/a_17_8# directionDetectorPart_1/Reg3_0/Q0b 2 4 189 540
+n directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# 2 4 213 540
+p directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/Q0 VDD 2 8 213 572
+n directionDetectorPart_1/Reg3_0/Q0b VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/a_9_8# 2 4 205 540
+p VDD VDD directionDetectorPart_1/Reg3_0/Q0 2 8 225 572
+p directionDetectorPart_1/Reg3_0/Q0b VDD directionDetectorPart_1/Reg3_0/Q0 2 8 205 572
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/a_17_8# directionDetectorPart_1/Reg3_0/Q0 2 4 225 540
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# 2 4 33 756
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B VDD 2 8 33 788
+n directionDetectorPart_1/Reg3_0/Q1 VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/a_9_8# 2 4 25 756
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 45 788
+p directionDetectorPart_1/Reg3_0/Q1 VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B 2 8 25 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B 2 4 45 756
+n CLK directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# 2 4 69 756
+p CLK directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A VDD 2 8 69 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/a_9_8# 2 4 61 756
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 81 788
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2 8 61 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2 4 81 756
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# 2 4 105 756
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2 8 105 788
+n CLK VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/a_9_8# 2 4 97 756
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 117 788
+p CLK VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 2 8 97 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 2 4 117 756
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# 2 4 141 756
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y VDD 2 8 141 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/a_9_8# 2 4 133 756
+p VDD VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 153 788
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 8 133 788
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y 2 4 153 756
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# 2 4 177 756
+p RST directionDetectorPart_1/Reg3_0/Q2b VDD 2 8 177 788
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/a_9_8# 2 4 169 756
+p directionDetectorPart_0/B VDD directionDetectorPart_1/Reg3_0/Q2b 2 8 189 788
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/Q2b 2 8 169 788
+n directionDetectorPart_0/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/a_17_8# directionDetectorPart_1/Reg3_0/Q2b 2 4 189 756
+n directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# 2 4 213 756
+p directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/B VDD 2 8 213 788
+n directionDetectorPart_1/Reg3_0/Q2b VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/a_9_8# 2 4 205 756
+p VDD VDD directionDetectorPart_0/B 2 8 225 788
+p directionDetectorPart_1/Reg3_0/Q2b VDD directionDetectorPart_0/B 2 8 205 788
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/a_17_8# directionDetectorPart_0/B 2 4 225 756
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# 2 4 33 648
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B VDD 2 8 33 680
+n directionDetectorPart_1/Reg3_0/Q0 VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/a_9_8# 2 4 25 648
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 45 680
+p directionDetectorPart_1/Reg3_0/Q0 VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B 2 8 25 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B 2 4 45 648
+n CLK directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# 2 4 69 648
+p CLK directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A VDD 2 8 69 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/a_9_8# 2 4 61 648
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 81 680
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2 8 61 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2 4 81 648
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# 2 4 105 648
+p RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2 8 105 680
+n CLK VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/a_9_8# 2 4 97 648
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 117 680
+p CLK VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 2 8 97 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 2 4 117 648
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# 2 4 141 648
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y VDD 2 8 141 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/a_9_8# 2 4 133 648
+p VDD VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 153 680
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 8 133 680
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/a_17_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y 2 4 153 648
+n RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# 2 4 177 648
+p RST directionDetectorPart_1/Reg3_0/Q1b VDD 2 8 177 680
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/a_9_8# 2 4 169 648
+p directionDetectorPart_1/Reg3_0/Q1 VDD directionDetectorPart_1/Reg3_0/Q1b 2 8 189 680
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A VDD directionDetectorPart_1/Reg3_0/Q1b 2 8 169 680
+n directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/a_17_8# directionDetectorPart_1/Reg3_0/Q1b 2 4 189 648
+n directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# 2 4 213 648
+p directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/Q1 VDD 2 8 213 680
+n directionDetectorPart_1/Reg3_0/Q1b VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/a_9_8# 2 4 205 648
+p VDD VDD directionDetectorPart_1/Reg3_0/Q1 2 8 225 680
+p directionDetectorPart_1/Reg3_0/Q1b VDD directionDetectorPart_1/Reg3_0/Q1 2 8 205 680
+n VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/a_17_8# directionDetectorPart_1/Reg3_0/Q1 2 4 225 648
+p directionDetectorPart_1/AND2_1INV_0/INV_0/Y VDD directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A 2 4 870 616
+n directionDetectorPart_1/AND2_1INV_0/INV_0/Y VSS directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# 2 4 870 580
+n directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A 2 4 880 580
+p directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VDD 2 4 880 616
+n directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VSS FWD 2 4 897 580
+p directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VDD FWD 2 8 897 612
+n directionDetectorPart_1/B VSS directionDetectorPart_1/AND2_1INV_0/INV_0/Y 2 4 853 580
+p directionDetectorPart_1/B VDD directionDetectorPart_1/AND2_1INV_0/INV_0/Y 2 8 853 612
+C VDD directionDetectorPart_0/B 5.75
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
+C directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/XOR2_1/B 8.28
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C VDD directionDetectorPart_1/011detector_0/XOR2_1/A 3.97
+C VSS directionDetectorPart_0/B 3.07
+C RST A 2.32
+C VSS directionDetectorPart_1/011detector_0/XOR2_1/A 4.37
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
+C directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/Q1 6.21
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
+C RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
+C VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
+C directionDetectorPart_0/011detector_0/A_xor_B VDD 3.79
+C VDD directionDetectorPart_1/Reg3_0/Q0 3.57
+C VDD directionDetectorPart_1/011detector_0/XOR2_1/B 3.10
+C VSS directionDetectorPart_1/Reg3_0/Q0 2.21
+C directionDetectorPart_1/B VDD 8.36
+C VSS directionDetectorPart_1/011detector_0/XOR2_1/B 2.26
+C RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2.62
+C directionDetectorPart_0/011detector_0/XOR2_1/A VDD 3.97
+C directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/AND2_1/Y 2.71
+C VDD directionDetectorPart_1/Reg3_0/Q1 2.58
+C directionDetectorPart_1/B VSS 4.01
+C directionDetectorPart_0/011detector_0/XOR2_1/A VSS 4.37
+C RST VDD 18.43
+C CLK VDD 14.11
+C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/A 6.83
+C RST VSS 5.80
+C CLK VSS 5.21
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS 2.33
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2.62
+C CLK directionDetectorPart_0/B 3.57
+C CLK directionDetectorPart_1/011detector_0/XOR2_1/A 2.19
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
+C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
+C BWD FWD 2.37
+C directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A 2.04
+C VDD directionDetectorPart_0/Reg3_0/Q0 3.57
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2.33
+C directionDetectorPart_0/011detector_0/XOR2_1/B VDD 3.10
+C VSS directionDetectorPart_0/Reg3_0/Q0 2.21
+C directionDetectorPart_0/011detector_0/XOR2_1/B VSS 2.26
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/XOR2_1/B 8.28
+C VDD directionDetectorPart_0/Reg3_0/Q1 2.58
+C VDD directionDetectorPart_1/011detector_0/AND3_0/Y 5.56
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/Q1 6.21
+C directionDetectorPart_0/B FWD 6.70
+C directionDetectorPart_1/B CLK 9.78
+C VDD directionDetectorPart_1/AND2_1INV_0/B 2.74
+C CLK directionDetectorPart_0/011detector_0/XOR2_1/A 2.19
+C VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C CLK RST 61.85
+C RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C VDD directionDetectorPart_1/011detector_0/AND3_0/C 2.72
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/AND2_1/Y 2.71
+C RST B 11.75
+C CLK B 14.16
+C RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/AND3_0/Y VDD 5.56
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS 2.33
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2.62
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/A 6.83
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
+C directionDetectorPart_0/AND2_1INV_0/B VDD 2.74
+C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C VDD VSS 18.02
+C VDD directionDetectorPart_1/011detector_0/A_xor_B 3.79
+C directionDetectorPart_0/011detector_0/AND3_0/C VDD 2.72
+C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 2.04
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C FWD GND 7.97
+R FWD 20
+= FWD directionDetectorPart_1/FWD
+= FWD directionDetectorPart_1/AND2_1INV_0/Y
+= FWD directionDetectorPart_1/AND2_1INV_0/AND2_0/Y
+= FWD directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/Y
+C directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A GND 2.02
+R directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A 65
+= directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/Y
+= directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_1/AND2_1INV_0/AND2_0/m1_29_16#
+C directionDetectorPart_1/AND2_1INV_0/INV_0/Y GND 2.06
+R directionDetectorPart_1/AND2_1INV_0/INV_0/Y 64
+= directionDetectorPart_1/AND2_1INV_0/INV_0/Y directionDetectorPart_1/AND2_1INV_0/m1_18_26#
+= directionDetectorPart_1/AND2_1INV_0/INV_0/Y directionDetectorPart_1/AND2_1INV_0/AND2_0/A
+= directionDetectorPart_1/AND2_1INV_0/INV_0/Y directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/A
+C directionDetectorPart_1/Reg3_0/Q1b GND 2.91
+R directionDetectorPart_1/Reg3_0/Q1b 75
+= directionDetectorPart_1/Reg3_0/Q1b directionDetectorPart_1/Reg3_0/DFlipFlop_1/Qb
+= directionDetectorPart_1/Reg3_0/Q1b directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/Y
+= directionDetectorPart_1/Reg3_0/Q1b directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/A
+C directionDetectorPart_1/Reg3_0/Q1 GND 10.56
+R directionDetectorPart_1/Reg3_0/Q1 141
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/D2
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_2/D
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/A
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/m1_n12_248#
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_1/Q
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/Y
+= directionDetectorPart_1/Reg3_0/Q1 directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/C
+C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B GND 8.91
+R directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 201
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_58_n40#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y 77
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_94_n24#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A GND 6.89
+R directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 139
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_22_n8#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B GND 6.01
+R directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B 138
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_30_n32#
+C directionDetectorPart_1/Reg3_0/Q2b GND 2.91
+R directionDetectorPart_1/Reg3_0/Q2b 75
+= directionDetectorPart_1/Reg3_0/Q2b directionDetectorPart_1/Reg3_0/DFlipFlop_2/Qb
+= directionDetectorPart_1/Reg3_0/Q2b directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/Y
+= directionDetectorPart_1/Reg3_0/Q2b directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/A
+C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B GND 8.91
+R directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 201
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_58_n40#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y 77
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_94_n24#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A GND 6.89
+R directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 139
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_22_n8#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B GND 6.01
+R directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B 138
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_30_n32#
+C directionDetectorPart_1/Reg3_0/Q0b GND 2.91
+R directionDetectorPart_1/Reg3_0/Q0b 75
+= directionDetectorPart_1/Reg3_0/Q0b directionDetectorPart_1/Reg3_0/DFlipFlop_0/Qb
+= directionDetectorPart_1/Reg3_0/Q0b directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/Y
+= directionDetectorPart_1/Reg3_0/Q0b directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/A
+C directionDetectorPart_1/Reg3_0/Q0 GND 6.01
+R directionDetectorPart_1/Reg3_0/Q0 139
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/D1
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_1/D
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/A
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/m1_n4_140#
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_0/Q
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/Y
+= directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/C
+C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B GND 8.91
+R directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 201
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_58_n40#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y 77
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_94_n24#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A GND 6.89
+R directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 139
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/C
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_22_n8#
+C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B GND 6.01
+R directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B 138
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/A
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/Y
+= directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_30_n32#
+C B GND 30.80
+R B 84
+= B directionDetectorPart_1/A
+= B directionDetectorPart_1/Reg3_0/D0
+= B directionDetectorPart_1/Reg3_0/DFlipFlop_0/D
+= B directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/A
+C directionDetectorPart_1/011detector_0/XOR2_1/B GND 19.27
+R directionDetectorPart_1/011detector_0/XOR2_1/B 213
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/Reg3_0/Q0
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/m1_95_n24#
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/Q
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/Y
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/C
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/B
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/B
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/A
+= directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/A
+C directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B GND 3.19
+R directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B 67
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/Y
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_1/011detector_0/XOR2_1/m1_86_n8#
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/Y
+C directionDetectorPart_1/011detector_0/XOR2_1/A GND 25.75
+R directionDetectorPart_1/011detector_0/XOR2_1/A 340
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND2_2/A
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/A
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND3_0/B
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/B
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/Reg3_0/Q1
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/Q
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/Y
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/C
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/m1_20_0#
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/m1_139_n8#
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/A
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/A
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/B
+= directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/B
+C directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y GND 2.06
+R directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 63
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/A
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/m1_18_25#
+C directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A GND 4.09
+R directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 68
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/Y
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_1/011detector_0/XOR2_1/m1_42_n24#
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/Y
+C directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y GND 2.06
+R directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 63
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/A
+= directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/m1_18_25#
+C directionDetectorPart_1/011detector_0/Reg3_0/Q1b GND 2.91
+R directionDetectorPart_1/011detector_0/Reg3_0/Q1b 75
+= directionDetectorPart_1/011detector_0/Reg3_0/Q1b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/Qb
+= directionDetectorPart_1/011detector_0/Reg3_0/Q1b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/Q1b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/A
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B GND 8.91
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 201
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_58_n40#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 77
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_94_n24#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A GND 6.89
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 139
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_22_n8#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B GND 6.01
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 138
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_30_n32#
+C directionDetectorPart_1/011detector_0/AND2_1/Y GND 7.98
+R directionDetectorPart_1/011detector_0/AND2_1/Y 70
+= directionDetectorPart_1/011detector_0/AND2_1/Y directionDetectorPart_1/011detector_0/m1_44_n133#
+= directionDetectorPart_1/011detector_0/AND2_1/Y directionDetectorPart_1/011detector_0/AND2_1/INV_0/Y
+= directionDetectorPart_1/011detector_0/AND2_1/Y directionDetectorPart_1/011detector_0/Reg3_0/D1
+= directionDetectorPart_1/011detector_0/AND2_1/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/D
+= directionDetectorPart_1/011detector_0/AND2_1/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/A
+C directionDetectorPart_1/011detector_0/Reg3_0/Q2b GND 2.91
+R directionDetectorPart_1/011detector_0/Reg3_0/Q2b 75
+= directionDetectorPart_1/011detector_0/Reg3_0/Q2b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/Qb
+= directionDetectorPart_1/011detector_0/Reg3_0/Q2b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/Q2b directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/A
+C directionDetectorPart_1/AND2_1INV_0/B GND 10.92
+R directionDetectorPart_1/AND2_1INV_0/B 147
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/B
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/B
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Y
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/m1_807_0#
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Reg3_0/Q2
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/Q
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/Y
+= directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/C
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B GND 8.91
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 201
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_58_n40#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 77
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_94_n24#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A GND 6.89
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 139
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_22_n8#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B GND 6.01
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 138
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_30_n32#
+C directionDetectorPart_1/011detector_0/AND3_0/Y GND 3.66
+R directionDetectorPart_1/011detector_0/AND3_0/Y 66
+= directionDetectorPart_1/011detector_0/AND3_0/Y directionDetectorPart_1/011detector_0/m1_52_35#
+= directionDetectorPart_1/011detector_0/AND3_0/Y directionDetectorPart_1/011detector_0/AND3_0/INV_0/Y
+= directionDetectorPart_1/011detector_0/AND3_0/Y directionDetectorPart_1/011detector_0/Reg3_0/D2
+= directionDetectorPart_1/011detector_0/AND3_0/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/D
+= directionDetectorPart_1/011detector_0/AND3_0/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/A
+C directionDetectorPart_1/011detector_0/AND3_0/C GND 16.33
+R directionDetectorPart_1/011detector_0/AND3_0/C 208
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND2_2/B
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/B
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/C
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/Reg3_0/Q0b
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/m1_28_n32#
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/Qb
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/Y
+= directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/A
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B GND 8.91
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 201
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_58_n40#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y GND 3.79
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 77
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_94_n24#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A GND 6.89
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 139
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/C
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_22_n8#
+C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B GND 6.01
+R directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 138
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/A
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/Y
+= directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_30_n32#
+C directionDetectorPart_1/011detector_0/OR2_0/Y GND 7.63
+R directionDetectorPart_1/011detector_0/OR2_0/Y 69
+= directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/m1_94_n141#
+= directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/OR2_0/INV_0/Y
+= directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/Reg3_0/D0
+= directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/D
+= directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/A
+C directionDetectorPart_1/011detector_0/AND2_2/INV_0/A GND 2.02
+R directionDetectorPart_1/011detector_0/AND2_2/INV_0/A 65
+= directionDetectorPart_1/011detector_0/AND2_2/INV_0/A directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/Y
+= directionDetectorPart_1/011detector_0/AND2_2/INV_0/A directionDetectorPart_1/011detector_0/AND2_2/m1_29_16#
+C directionDetectorPart_1/011detector_0/AND2_1/INV_0/A GND 2.02
+R directionDetectorPart_1/011detector_0/AND2_1/INV_0/A 65
+= directionDetectorPart_1/011detector_0/AND2_1/INV_0/A directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/Y
+= directionDetectorPart_1/011detector_0/AND2_1/INV_0/A directionDetectorPart_1/011detector_0/AND2_1/m1_29_16#
+C directionDetectorPart_0/B GND 57.98
+R directionDetectorPart_0/B 370
+= directionDetectorPart_0/B m1_252_863#
+= directionDetectorPart_0/B m1_48_0#
+= directionDetectorPart_0/B directionDetectorPart_0/AND2_1INV_0/A
+= directionDetectorPart_0/B directionDetectorPart_0/AND2_1INV_0/INV_0/A
+= directionDetectorPart_0/B directionDetectorPart_1/Q2
+= directionDetectorPart_0/B directionDetectorPart_1/Reg3_0/Q2
+= directionDetectorPart_0/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/Q
+= directionDetectorPart_0/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/Y
+= directionDetectorPart_0/B directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/C
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/I
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND3_0/A
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/A
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/INV_0/A
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND2_1/B
+= directionDetectorPart_0/B directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/B
+C directionDetectorPart_1/011detector_0/A_xor_B GND 3.72
+R directionDetectorPart_1/011detector_0/A_xor_B 69
+= directionDetectorPart_1/011detector_0/A_xor_B directionDetectorPart_1/011detector_0/XOR2_1/Y
+= directionDetectorPart_1/011detector_0/A_xor_B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/Y
+= directionDetectorPart_1/011detector_0/A_xor_B directionDetectorPart_1/011detector_0/AND2_1/A
+= directionDetectorPart_1/011detector_0/A_xor_B directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/A
+R directionDetectorPart_1/011detector_0/OR2_0/INV_0/A 68
+= directionDetectorPart_1/011detector_0/OR2_0/INV_0/A directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/Y
+= directionDetectorPart_1/011detector_0/OR2_0/INV_0/A directionDetectorPart_1/011detector_0/OR2_0/m1_10_28#
+C directionDetectorPart_1/011detector_0/OR2_0/B GND 2.99
+R directionDetectorPart_1/011detector_0/OR2_0/B 65
+= directionDetectorPart_1/011detector_0/OR2_0/B directionDetectorPart_1/011detector_0/INV_0/Y
+= directionDetectorPart_1/011detector_0/OR2_0/B directionDetectorPart_1/011detector_0/m1_78_n125#
+= directionDetectorPart_1/011detector_0/OR2_0/B directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/B
+C directionDetectorPart_1/011detector_0/OR2_0/A GND 2.67
+R directionDetectorPart_1/011detector_0/OR2_0/A 65
+= directionDetectorPart_1/011detector_0/OR2_0/A directionDetectorPart_1/011detector_0/AND2_2/Y
+= directionDetectorPart_1/011detector_0/OR2_0/A directionDetectorPart_1/011detector_0/AND2_2/INV_0/Y
+= directionDetectorPart_1/011detector_0/OR2_0/A directionDetectorPart_1/011detector_0/m1_62_n96#
+= directionDetectorPart_1/011detector_0/OR2_0/A directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/A
+C directionDetectorPart_1/011detector_0/AND3_0/INV_0/A GND 2.16
+R directionDetectorPart_1/011detector_0/AND3_0/INV_0/A 74
+= directionDetectorPart_1/011detector_0/AND3_0/INV_0/A directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/Y
+= directionDetectorPart_1/011detector_0/AND3_0/INV_0/A directionDetectorPart_1/011detector_0/AND3_0/m1_36_20#
+C BWD GND 3.40
+R BWD 12
+= BWD directionDetectorPart_0/FWD
+= BWD directionDetectorPart_0/AND2_1INV_0/Y
+= BWD directionDetectorPart_0/AND2_1INV_0/AND2_0/Y
+= BWD directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/Y
+C directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A GND 2.02
+R directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A 65
+= directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/Y
+= directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_0/AND2_1INV_0/AND2_0/m1_29_16#
+C directionDetectorPart_0/AND2_1INV_0/INV_0/Y GND 2.06
+R directionDetectorPart_0/AND2_1INV_0/INV_0/Y 64
+= directionDetectorPart_0/AND2_1INV_0/INV_0/Y directionDetectorPart_0/AND2_1INV_0/m1_18_26#
+= directionDetectorPart_0/AND2_1INV_0/INV_0/Y directionDetectorPart_0/AND2_1INV_0/AND2_0/A
+= directionDetectorPart_0/AND2_1INV_0/INV_0/Y directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/A
+C directionDetectorPart_0/Reg3_0/Q1b GND 2.91
+R directionDetectorPart_0/Reg3_0/Q1b 75
+= directionDetectorPart_0/Reg3_0/Q1b directionDetectorPart_0/Reg3_0/DFlipFlop_1/Qb
+= directionDetectorPart_0/Reg3_0/Q1b directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/Y
+= directionDetectorPart_0/Reg3_0/Q1b directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/A
+C directionDetectorPart_0/Reg3_0/Q1 GND 10.56
+R directionDetectorPart_0/Reg3_0/Q1 141
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/D2
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_2/D
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/A
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/m1_n12_248#
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_1/Q
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/Y
+= directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/C
+C directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B GND 8.91
+R directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 201
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_58_n40#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 77
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_94_n24#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A GND 6.89
+R directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 139
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_22_n8#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B GND 6.01
+R directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B 138
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_30_n32#
+C directionDetectorPart_0/Reg3_0/Q2b GND 2.91
+R directionDetectorPart_0/Reg3_0/Q2b 75
+= directionDetectorPart_0/Reg3_0/Q2b directionDetectorPart_0/Reg3_0/DFlipFlop_2/Qb
+= directionDetectorPart_0/Reg3_0/Q2b directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/Y
+= directionDetectorPart_0/Reg3_0/Q2b directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/A
+C directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B GND 8.91
+R directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 201
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_58_n40#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 77
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_94_n24#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A GND 6.89
+R directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 139
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_22_n8#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B GND 6.01
+R directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B 138
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_30_n32#
+C directionDetectorPart_0/Reg3_0/Q0b GND 2.91
+R directionDetectorPart_0/Reg3_0/Q0b 75
+= directionDetectorPart_0/Reg3_0/Q0b directionDetectorPart_0/Reg3_0/DFlipFlop_0/Qb
+= directionDetectorPart_0/Reg3_0/Q0b directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/Y
+= directionDetectorPart_0/Reg3_0/Q0b directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/A
+C directionDetectorPart_0/Reg3_0/Q0 GND 6.01
+R directionDetectorPart_0/Reg3_0/Q0 139
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/D1
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_1/D
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/A
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/m1_n4_140#
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_0/Q
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/Y
+= directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/C
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B GND 8.91
+R directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 201
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_58_n40#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 77
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_94_n24#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A GND 6.89
+R directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A 139
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/C
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_22_n8#
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B GND 6.01
+R directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B 138
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/A
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/Y
+= directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_30_n32#
+C A GND 3.51
+R A 59
+= A directionDetectorPart_0/A
+= A directionDetectorPart_0/Reg3_0/D0
+= A directionDetectorPart_0/Reg3_0/DFlipFlop_0/D
+= A directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/A
+C directionDetectorPart_0/011detector_0/XOR2_1/B GND 19.27
+R directionDetectorPart_0/011detector_0/XOR2_1/B 213
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/Reg3_0/Q0
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/m1_95_n24#
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/Q
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/Y
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/C
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/B
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/B
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/A
+= directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/A
+C directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B GND 3.19
+R directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B 67
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/Y
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_0/011detector_0/XOR2_1/m1_86_n8#
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/Y
+C directionDetectorPart_0/011detector_0/XOR2_1/A GND 25.75
+R directionDetectorPart_0/011detector_0/XOR2_1/A 340
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND2_2/A
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/A
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND3_0/B
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/B
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/Reg3_0/Q1
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/Q
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/Y
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/C
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/m1_20_0#
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/m1_139_n8#
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/A
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/A
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/B
+= directionDetectorPart_0/011detector_0/XOR2_1/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/B
+C directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y GND 2.06
+R directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y 63
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/A
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/Y directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/m1_18_25#
+C directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A GND 4.09
+R directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A 68
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/Y
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_0/011detector_0/XOR2_1/m1_42_n24#
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/Y
+C directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y GND 2.06
+R directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y 63
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/A
+= directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/Y directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/m1_18_25#
+C VSS GND 114.67
+R VSS 2317
+= VSS directionDetectorPart_1/VSS
+= VSS directionDetectorPart_1/Reg3_0/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_186_0#
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_186_0#
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/VSS
+= VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_186_0#
+= VSS directionDetectorPart_1/AND2_1INV_0/VSS
+= VSS directionDetectorPart_1/AND2_1INV_0/INV_0/VSS
+= VSS directionDetectorPart_1/AND2_1INV_0/AND2_0/VSS
+= VSS directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/VSS
+= VSS directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/VSS
+= VSS directionDetectorPart_1/m1_783_80#
+= VSS directionDetectorPart_1/011detector_0/AND2_2/VSS
+= VSS directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND2_2/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND3_0/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND2_1/VSS
+= VSS directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/AND2_1/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/OR2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/OR2_0/INV_0/VSS
+= VSS directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_186_0#
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_186_0#
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/VSS
+= VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_186_0#
+= VSS directionDetectorPart_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_186_0#
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_186_0#
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/VSS
+= VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_186_0#
+= VSS directionDetectorPart_0/AND2_1INV_0/VSS
+= VSS directionDetectorPart_0/AND2_1INV_0/INV_0/VSS
+= VSS directionDetectorPart_0/AND2_1INV_0/AND2_0/VSS
+= VSS directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/VSS
+= VSS directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/VSS
+= VSS directionDetectorPart_0/m1_783_80#
+= VSS directionDetectorPart_0/011detector_0/AND2_2/VSS
+= VSS directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND2_2/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND3_0/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND2_1/VSS
+= VSS directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/AND2_1/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/OR2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/OR2_0/INV_0/VSS
+= VSS directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_186_0#
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_186_0#
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/VSS
+= VSS directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_186_0#
+C directionDetectorPart_0/011detector_0/Reg3_0/Q1b GND 2.91
+R directionDetectorPart_0/011detector_0/Reg3_0/Q1b 75
+= directionDetectorPart_0/011detector_0/Reg3_0/Q1b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/Qb
+= directionDetectorPart_0/011detector_0/Reg3_0/Q1b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/Q1b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/A
+C VDD GND 947.57
+R VDD 111199
+= VDD directionDetectorPart_1/VDD
+= VDD directionDetectorPart_1/Reg3_0/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_130_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/m1_202_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_3/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/w_n6_34#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_130_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/m1_202_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_3/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/w_n6_34#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_130_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/C
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/m1_202_20#
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_3/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/VDD
+= VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/w_n6_34#
+= VDD directionDetectorPart_1/AND2_1INV_0/VDD
+= VDD directionDetectorPart_1/AND2_1INV_0/INV_0/VDD
+= VDD directionDetectorPart_1/AND2_1INV_0/w_6_52#
+= VDD directionDetectorPart_1/AND2_1INV_0/AND2_0/VDD
+= VDD directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/VDD
+= VDD directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/VDD
+= VDD directionDetectorPart_1/m1_785_132#
+= VDD directionDetectorPart_1/011detector_0/AND2_2/VDD
+= VDD directionDetectorPart_1/011detector_0/AND2_2/NAND2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/AND2_2/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/AND3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/AND3_0/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_0/w_6_51#
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/w_6_52#
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/w_54_59#
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/XOR2_1/NAND2_1INV_1/w_6_51#
+= VDD directionDetectorPart_1/011detector_0/AND2_1/VDD
+= VDD directionDetectorPart_1/011detector_0/AND2_1/NAND2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/AND2_1/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/OR2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/w_6_n64#
+= VDD directionDetectorPart_1/011detector_0/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/OR2_0/INV_0/VDD
+= VDD directionDetectorPart_1/011detector_0/OR2_0/NOR2_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_130_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/m1_202_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/w_n6_34#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_130_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/m1_202_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/w_n6_34#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_130_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/C
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/m1_202_20#
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/VDD
+= VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/w_n6_34#
+= VDD directionDetectorPart_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_130_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/m1_202_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_3/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/w_n6_34#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_130_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/m1_202_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_3/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/w_n6_34#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_130_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/C
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/m1_202_20#
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_3/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/VDD
+= VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/w_n6_34#
+= VDD directionDetectorPart_0/AND2_1INV_0/VDD
+= VDD directionDetectorPart_0/AND2_1INV_0/INV_0/VDD
+= VDD directionDetectorPart_0/AND2_1INV_0/w_6_52#
+= VDD directionDetectorPart_0/AND2_1INV_0/AND2_0/VDD
+= VDD directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/VDD
+= VDD directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/VDD
+= VDD directionDetectorPart_0/m1_785_132#
+= VDD directionDetectorPart_0/011detector_0/AND2_2/VDD
+= VDD directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/AND2_2/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/AND3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/AND3_0/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/NAND2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_0/w_6_51#
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/w_6_52#
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/w_54_59#
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/NAND2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/XOR2_1/NAND2_1INV_1/w_6_51#
+= VDD directionDetectorPart_0/011detector_0/AND2_1/VDD
+= VDD directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/AND2_1/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/OR2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/w_6_n64#
+= VDD directionDetectorPart_0/011detector_0/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/OR2_0/INV_0/VDD
+= VDD directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_130_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_202_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/w_n6_34#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_130_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_202_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/w_n6_34#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_130_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/C
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_202_20#
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/VDD
+= VDD directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/w_n6_34#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B GND 8.91
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 201
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_58_n40#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y 77
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_94_n24#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A GND 6.89
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 139
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_22_n8#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B GND 6.01
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B 138
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/m1_30_n32#
+C directionDetectorPart_0/011detector_0/AND2_1/Y GND 7.98
+R directionDetectorPart_0/011detector_0/AND2_1/Y 70
+= directionDetectorPart_0/011detector_0/AND2_1/Y directionDetectorPart_0/011detector_0/m1_44_n133#
+= directionDetectorPart_0/011detector_0/AND2_1/Y directionDetectorPart_0/011detector_0/AND2_1/INV_0/Y
+= directionDetectorPart_0/011detector_0/AND2_1/Y directionDetectorPart_0/011detector_0/Reg3_0/D1
+= directionDetectorPart_0/011detector_0/AND2_1/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/D
+= directionDetectorPart_0/011detector_0/AND2_1/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/A
+C directionDetectorPart_0/011detector_0/Reg3_0/Q2b GND 2.91
+R directionDetectorPart_0/011detector_0/Reg3_0/Q2b 75
+= directionDetectorPart_0/011detector_0/Reg3_0/Q2b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/Qb
+= directionDetectorPart_0/011detector_0/Reg3_0/Q2b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/Q2b directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/A
+C directionDetectorPart_0/AND2_1INV_0/B GND 10.92
+R directionDetectorPart_0/AND2_1INV_0/B 147
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/B
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/B
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Y
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/m1_807_0#
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Reg3_0/Q2
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/Q
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/Y
+= directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/C
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B GND 8.91
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 201
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_58_n40#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y 77
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_94_n24#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A GND 6.89
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 139
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_22_n8#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B GND 6.01
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B 138
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/m1_30_n32#
+C directionDetectorPart_0/011detector_0/AND3_0/Y GND 3.66
+R directionDetectorPart_0/011detector_0/AND3_0/Y 66
+= directionDetectorPart_0/011detector_0/AND3_0/Y directionDetectorPart_0/011detector_0/m1_52_35#
+= directionDetectorPart_0/011detector_0/AND3_0/Y directionDetectorPart_0/011detector_0/AND3_0/INV_0/Y
+= directionDetectorPart_0/011detector_0/AND3_0/Y directionDetectorPart_0/011detector_0/Reg3_0/D2
+= directionDetectorPart_0/011detector_0/AND3_0/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/D
+= directionDetectorPart_0/011detector_0/AND3_0/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/A
+C directionDetectorPart_0/011detector_0/AND3_0/C GND 16.33
+R directionDetectorPart_0/011detector_0/AND3_0/C 208
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND2_2/B
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/B
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/C
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/Reg3_0/Q0b
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/m1_28_n32#
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/Qb
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/Y
+= directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/A
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B GND 8.91
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 201
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_58_n40#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y GND 3.79
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y 77
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_94_n24#
+C RST GND 150.22
+R RST 2288
+= RST directionDetectorPart_1/RST
+= RST directionDetectorPart_1/Reg3_0/RST
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/RST
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_0/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/RST
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_0/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/RST
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_0/B
+= RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/B
+= RST directionDetectorPart_1/011detector_0/RST'
+= RST directionDetectorPart_1/011detector_0/Reg3_0/RST
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/RST
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/RST
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/RST
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/B
+= RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/B
+= RST directionDetectorPart_0/RST
+= RST directionDetectorPart_0/Reg3_0/RST
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/RST
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_0/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/RST
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_0/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/RST
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_0/B
+= RST directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/B
+= RST directionDetectorPart_0/011detector_0/RST'
+= RST directionDetectorPart_0/011detector_0/Reg3_0/RST
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/RST
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_0/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/RST
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_0/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/RST
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/B
+= RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/B
+C CLK GND 115.16
+R CLK 1544
+= CLK directionDetectorPart_1/CLK
+= CLK directionDetectorPart_1/Reg3_0/CLK
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_2/CLK
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_1/B
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_2/A
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_1/CLK
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_1/B
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_2/A
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_0/CLK
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_1/B
+= CLK directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_2/A
+= CLK directionDetectorPart_1/011detector_0/CLK
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/CLK
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/CLK
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/B
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/A
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/CLK
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/B
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/A
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/CLK
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/B
+= CLK directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/A
+= CLK directionDetectorPart_0/CLK
+= CLK directionDetectorPart_0/Reg3_0/CLK
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_2/CLK
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_1/B
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_2/A
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_1/CLK
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_1/B
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_2/A
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_0/CLK
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_1/B
+= CLK directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_2/A
+= CLK directionDetectorPart_0/011detector_0/CLK
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/CLK
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/CLK
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_1/B
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_2/A
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/CLK
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_1/B
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_2/A
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/CLK
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/B
+= CLK directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_2/A
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A GND 6.89
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 139
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/C
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_22_n8#
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B GND 6.01
+R directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B 138
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_1/A
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/Y
+= directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_3/B directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/m1_30_n32#
+C directionDetectorPart_0/011detector_0/OR2_0/Y GND 7.63
+R directionDetectorPart_0/011detector_0/OR2_0/Y 69
+= directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/m1_94_n141#
+= directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/OR2_0/INV_0/Y
+= directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/Reg3_0/D0
+= directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/D
+= directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_0/A
+C directionDetectorPart_0/011detector_0/AND2_2/INV_0/A GND 2.02
+R directionDetectorPart_0/011detector_0/AND2_2/INV_0/A 65
+= directionDetectorPart_0/011detector_0/AND2_2/INV_0/A directionDetectorPart_0/011detector_0/AND2_2/NAND2_0/Y
+= directionDetectorPart_0/011detector_0/AND2_2/INV_0/A directionDetectorPart_0/011detector_0/AND2_2/m1_29_16#
+C directionDetectorPart_0/011detector_0/AND2_1/INV_0/A GND 2.02
+R directionDetectorPart_0/011detector_0/AND2_1/INV_0/A 65
+= directionDetectorPart_0/011detector_0/AND2_1/INV_0/A directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/Y
+= directionDetectorPart_0/011detector_0/AND2_1/INV_0/A directionDetectorPart_0/011detector_0/AND2_1/m1_29_16#
+C directionDetectorPart_1/B GND 39.66
+R directionDetectorPart_1/B 353
+= directionDetectorPart_1/B directionDetectorPart_1/AND2_1INV_0/A
+= directionDetectorPart_1/B directionDetectorPart_1/AND2_1INV_0/INV_0/A
+= directionDetectorPart_1/B directionDetectorPart_0/Q2
+= directionDetectorPart_1/B m1_252_452#
+= directionDetectorPart_1/B directionDetectorPart_0/Reg3_0/Q2
+= directionDetectorPart_1/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/Q
+= directionDetectorPart_1/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/Y
+= directionDetectorPart_1/B directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/C
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/I
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND3_0/A
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/A
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/INV_0/A
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND2_1/B
+= directionDetectorPart_1/B directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/B
+C directionDetectorPart_0/011detector_0/A_xor_B GND 3.72
+R directionDetectorPart_0/011detector_0/A_xor_B 69
+= directionDetectorPart_0/011detector_0/A_xor_B directionDetectorPart_0/011detector_0/XOR2_1/Y
+= directionDetectorPart_0/011detector_0/A_xor_B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/Y
+= directionDetectorPart_0/011detector_0/A_xor_B directionDetectorPart_0/011detector_0/AND2_1/A
+= directionDetectorPart_0/011detector_0/A_xor_B directionDetectorPart_0/011detector_0/AND2_1/NAND2_0/A
+R directionDetectorPart_0/011detector_0/OR2_0/INV_0/A 68
+= directionDetectorPart_0/011detector_0/OR2_0/INV_0/A directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/Y
+= directionDetectorPart_0/011detector_0/OR2_0/INV_0/A directionDetectorPart_0/011detector_0/OR2_0/m1_10_28#
+C directionDetectorPart_0/011detector_0/OR2_0/B GND 2.99
+R directionDetectorPart_0/011detector_0/OR2_0/B 65
+= directionDetectorPart_0/011detector_0/OR2_0/B directionDetectorPart_0/011detector_0/INV_0/Y
+= directionDetectorPart_0/011detector_0/OR2_0/B directionDetectorPart_0/011detector_0/m1_78_n125#
+= directionDetectorPart_0/011detector_0/OR2_0/B directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/B
+C directionDetectorPart_0/011detector_0/OR2_0/A GND 2.67
+R directionDetectorPart_0/011detector_0/OR2_0/A 65
+= directionDetectorPart_0/011detector_0/OR2_0/A directionDetectorPart_0/011detector_0/AND2_2/Y
+= directionDetectorPart_0/011detector_0/OR2_0/A directionDetectorPart_0/011detector_0/AND2_2/INV_0/Y
+= directionDetectorPart_0/011detector_0/OR2_0/A directionDetectorPart_0/011detector_0/m1_62_n96#
+= directionDetectorPart_0/011detector_0/OR2_0/A directionDetectorPart_0/011detector_0/OR2_0/NOR2_0/A
+C directionDetectorPart_0/011detector_0/AND3_0/INV_0/A GND 2.16
+R directionDetectorPart_0/011detector_0/AND3_0/INV_0/A 74
+= directionDetectorPart_0/011detector_0/AND3_0/INV_0/A directionDetectorPart_0/011detector_0/AND3_0/NAND3_0/Y
+= directionDetectorPart_0/011detector_0/AND3_0/INV_0/A directionDetectorPart_0/011detector_0/AND3_0/m1_36_20#

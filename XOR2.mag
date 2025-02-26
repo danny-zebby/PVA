@@ -1,0 +1,62 @@
+magic
+tech scmos
+timestamp 1711599452
+<< nwell >>
+rect 54 59 60 62
+rect 6 52 10 56
+<< metal1 >>
+rect 6 52 10 56
+rect 114 18 118 22
+rect 6 0 10 4
+rect 10 -8 77 -4
+rect 90 -8 105 -4
+rect 37 -16 50 -12
+rect 46 -24 95 -20
+<< m2contact >>
+rect 6 20 10 24
+rect 33 22 37 26
+rect 50 20 54 24
+rect 77 22 81 26
+rect 95 22 99 26
+rect 105 22 109 26
+rect 86 16 90 20
+rect 42 12 46 16
+rect 6 -8 10 -4
+rect 77 -8 81 -4
+rect 86 -8 90 -4
+rect 105 -8 109 -4
+rect 33 -16 37 -12
+rect 50 -16 54 -12
+rect 42 -24 46 -20
+rect 95 -24 99 -20
+<< metal2 >>
+rect 6 -4 10 20
+rect 33 -12 37 22
+rect 50 24 54 28
+rect 42 16 46 20
+rect 42 -20 46 12
+rect 50 -12 54 20
+rect 77 26 81 30
+rect 77 -4 81 22
+rect 86 -4 90 16
+rect 95 -20 99 22
+rect 105 -4 109 22
+use NAND2  NAND2_0
+timestamp 1711563584
+transform 1 0 92 0 1 0
+box -6 0 34 62
+use NAND2_1INV  NAND2_1INV_0
+timestamp 1711596499
+transform 1 0 0 0 1 1
+box 0 -1 54 61
+use NAND2_1INV  NAND2_1INV_1
+timestamp 1711596499
+transform 1 0 44 0 1 1
+box 0 -1 54 61
+<< labels >>
+rlabel m2contact 8 -6 8 -6 1 A
+rlabel m2contact 35 -14 35 -14 1 B
+rlabel metal1 116 20 116 20 1 Y
+rlabel metal1 8 54 8 54 1 VDD
+rlabel metal1 8 2 8 2 1 VSS
+<< end >>

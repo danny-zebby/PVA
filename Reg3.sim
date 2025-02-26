@@ -1,0 +1,312 @@
+| units: 30 tech: scmos format: MIT
+n RST DFlipFlop_0/NAND3_0/a_9_8# DFlipFlop_0/NAND3_0/a_17_8# 2 4 21 48
+p RST DFlipFlop_0/NAND3_3/B VDD 2 8 21 80
+n D0 VSS DFlipFlop_0/NAND3_0/a_9_8# 2 4 13 48
+p DFlipFlop_0/NAND3_4/A VDD DFlipFlop_0/NAND3_3/B 2 8 33 80
+p D0 VDD DFlipFlop_0/NAND3_3/B 2 8 13 80
+n DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_0/a_17_8# DFlipFlop_0/NAND3_3/B 2 4 33 48
+n CLK DFlipFlop_0/NAND3_1/a_9_8# DFlipFlop_0/NAND3_1/a_17_8# 2 4 57 48
+p CLK DFlipFlop_0/NAND3_4/A VDD 2 8 57 80
+n DFlipFlop_0/NAND3_3/B VSS DFlipFlop_0/NAND3_1/a_9_8# 2 4 49 48
+p DFlipFlop_0/NAND3_5/B VDD DFlipFlop_0/NAND3_4/A 2 8 69 80
+p DFlipFlop_0/NAND3_3/B VDD DFlipFlop_0/NAND3_4/A 2 8 49 80
+n DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_1/a_17_8# DFlipFlop_0/NAND3_4/A 2 4 69 48
+n RST DFlipFlop_0/NAND3_2/a_9_8# DFlipFlop_0/NAND3_2/a_17_8# 2 4 93 48
+p RST DFlipFlop_0/NAND3_5/B VDD 2 8 93 80
+n CLK VSS DFlipFlop_0/NAND3_2/a_9_8# 2 4 85 48
+p DFlipFlop_0/NAND3_3/Y VDD DFlipFlop_0/NAND3_5/B 2 8 105 80
+p CLK VDD DFlipFlop_0/NAND3_5/B 2 8 85 80
+n DFlipFlop_0/NAND3_3/Y DFlipFlop_0/NAND3_2/a_17_8# DFlipFlop_0/NAND3_5/B 2 4 105 48
+n DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_3/a_9_8# DFlipFlop_0/NAND3_3/a_17_8# 2 4 129 48
+p DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_3/Y VDD 2 8 129 80
+n DFlipFlop_0/NAND3_5/B VSS DFlipFlop_0/NAND3_3/a_9_8# 2 4 121 48
+p VDD VDD DFlipFlop_0/NAND3_3/Y 2 8 141 80
+p DFlipFlop_0/NAND3_5/B VDD DFlipFlop_0/NAND3_3/Y 2 8 121 80
+n VDD DFlipFlop_0/NAND3_3/a_17_8# DFlipFlop_0/NAND3_3/Y 2 4 141 48
+n RST DFlipFlop_0/NAND3_4/a_9_8# DFlipFlop_0/NAND3_4/a_17_8# 2 4 165 48
+p RST Q0b VDD 2 8 165 80
+n DFlipFlop_0/NAND3_4/A VSS DFlipFlop_0/NAND3_4/a_9_8# 2 4 157 48
+p Q0 VDD Q0b 2 8 177 80
+p DFlipFlop_0/NAND3_4/A VDD Q0b 2 8 157 80
+n Q0 DFlipFlop_0/NAND3_4/a_17_8# Q0b 2 4 177 48
+n DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_5/a_9_8# DFlipFlop_0/NAND3_5/a_17_8# 2 4 201 48
+p DFlipFlop_0/NAND3_5/B Q0 VDD 2 8 201 80
+n Q0b VSS DFlipFlop_0/NAND3_5/a_9_8# 2 4 193 48
+p VDD VDD Q0 2 8 213 80
+p Q0b VDD Q0 2 8 193 80
+n VDD DFlipFlop_0/NAND3_5/a_17_8# Q0 2 4 213 48
+n RST DFlipFlop_2/NAND3_0/a_9_8# DFlipFlop_2/NAND3_0/a_17_8# 2 4 21 264
+p RST DFlipFlop_2/NAND3_3/B VDD 2 8 21 296
+n D2 VSS DFlipFlop_2/NAND3_0/a_9_8# 2 4 13 264
+p DFlipFlop_2/NAND3_4/A VDD DFlipFlop_2/NAND3_3/B 2 8 33 296
+p D2 VDD DFlipFlop_2/NAND3_3/B 2 8 13 296
+n DFlipFlop_2/NAND3_4/A DFlipFlop_2/NAND3_0/a_17_8# DFlipFlop_2/NAND3_3/B 2 4 33 264
+n CLK DFlipFlop_2/NAND3_1/a_9_8# DFlipFlop_2/NAND3_1/a_17_8# 2 4 57 264
+p CLK DFlipFlop_2/NAND3_4/A VDD 2 8 57 296
+n DFlipFlop_2/NAND3_3/B VSS DFlipFlop_2/NAND3_1/a_9_8# 2 4 49 264
+p DFlipFlop_2/NAND3_5/B VDD DFlipFlop_2/NAND3_4/A 2 8 69 296
+p DFlipFlop_2/NAND3_3/B VDD DFlipFlop_2/NAND3_4/A 2 8 49 296
+n DFlipFlop_2/NAND3_5/B DFlipFlop_2/NAND3_1/a_17_8# DFlipFlop_2/NAND3_4/A 2 4 69 264
+n RST DFlipFlop_2/NAND3_2/a_9_8# DFlipFlop_2/NAND3_2/a_17_8# 2 4 93 264
+p RST DFlipFlop_2/NAND3_5/B VDD 2 8 93 296
+n CLK VSS DFlipFlop_2/NAND3_2/a_9_8# 2 4 85 264
+p DFlipFlop_2/NAND3_3/Y VDD DFlipFlop_2/NAND3_5/B 2 8 105 296
+p CLK VDD DFlipFlop_2/NAND3_5/B 2 8 85 296
+n DFlipFlop_2/NAND3_3/Y DFlipFlop_2/NAND3_2/a_17_8# DFlipFlop_2/NAND3_5/B 2 4 105 264
+n DFlipFlop_2/NAND3_3/B DFlipFlop_2/NAND3_3/a_9_8# DFlipFlop_2/NAND3_3/a_17_8# 2 4 129 264
+p DFlipFlop_2/NAND3_3/B DFlipFlop_2/NAND3_3/Y VDD 2 8 129 296
+n DFlipFlop_2/NAND3_5/B VSS DFlipFlop_2/NAND3_3/a_9_8# 2 4 121 264
+p VDD VDD DFlipFlop_2/NAND3_3/Y 2 8 141 296
+p DFlipFlop_2/NAND3_5/B VDD DFlipFlop_2/NAND3_3/Y 2 8 121 296
+n VDD DFlipFlop_2/NAND3_3/a_17_8# DFlipFlop_2/NAND3_3/Y 2 4 141 264
+n RST DFlipFlop_2/NAND3_4/a_9_8# DFlipFlop_2/NAND3_4/a_17_8# 2 4 165 264
+p RST Q2b VDD 2 8 165 296
+n DFlipFlop_2/NAND3_4/A VSS DFlipFlop_2/NAND3_4/a_9_8# 2 4 157 264
+p Q2 VDD Q2b 2 8 177 296
+p DFlipFlop_2/NAND3_4/A VDD Q2b 2 8 157 296
+n Q2 DFlipFlop_2/NAND3_4/a_17_8# Q2b 2 4 177 264
+n DFlipFlop_2/NAND3_5/B DFlipFlop_2/NAND3_5/a_9_8# DFlipFlop_2/NAND3_5/a_17_8# 2 4 201 264
+p DFlipFlop_2/NAND3_5/B Q2 VDD 2 8 201 296
+n Q2b VSS DFlipFlop_2/NAND3_5/a_9_8# 2 4 193 264
+p VDD VDD Q2 2 8 213 296
+p Q2b VDD Q2 2 8 193 296
+n VDD DFlipFlop_2/NAND3_5/a_17_8# Q2 2 4 213 264
+n RST DFlipFlop_1/NAND3_0/a_9_8# DFlipFlop_1/NAND3_0/a_17_8# 2 4 21 156
+p RST DFlipFlop_1/NAND3_3/B VDD 2 8 21 188
+n D1 VSS DFlipFlop_1/NAND3_0/a_9_8# 2 4 13 156
+p DFlipFlop_1/NAND3_4/A VDD DFlipFlop_1/NAND3_3/B 2 8 33 188
+p D1 VDD DFlipFlop_1/NAND3_3/B 2 8 13 188
+n DFlipFlop_1/NAND3_4/A DFlipFlop_1/NAND3_0/a_17_8# DFlipFlop_1/NAND3_3/B 2 4 33 156
+n CLK DFlipFlop_1/NAND3_1/a_9_8# DFlipFlop_1/NAND3_1/a_17_8# 2 4 57 156
+p CLK DFlipFlop_1/NAND3_4/A VDD 2 8 57 188
+n DFlipFlop_1/NAND3_3/B VSS DFlipFlop_1/NAND3_1/a_9_8# 2 4 49 156
+p DFlipFlop_1/NAND3_5/B VDD DFlipFlop_1/NAND3_4/A 2 8 69 188
+p DFlipFlop_1/NAND3_3/B VDD DFlipFlop_1/NAND3_4/A 2 8 49 188
+n DFlipFlop_1/NAND3_5/B DFlipFlop_1/NAND3_1/a_17_8# DFlipFlop_1/NAND3_4/A 2 4 69 156
+n RST DFlipFlop_1/NAND3_2/a_9_8# DFlipFlop_1/NAND3_2/a_17_8# 2 4 93 156
+p RST DFlipFlop_1/NAND3_5/B VDD 2 8 93 188
+n CLK VSS DFlipFlop_1/NAND3_2/a_9_8# 2 4 85 156
+p DFlipFlop_1/NAND3_3/Y VDD DFlipFlop_1/NAND3_5/B 2 8 105 188
+p CLK VDD DFlipFlop_1/NAND3_5/B 2 8 85 188
+n DFlipFlop_1/NAND3_3/Y DFlipFlop_1/NAND3_2/a_17_8# DFlipFlop_1/NAND3_5/B 2 4 105 156
+n DFlipFlop_1/NAND3_3/B DFlipFlop_1/NAND3_3/a_9_8# DFlipFlop_1/NAND3_3/a_17_8# 2 4 129 156
+p DFlipFlop_1/NAND3_3/B DFlipFlop_1/NAND3_3/Y VDD 2 8 129 188
+n DFlipFlop_1/NAND3_5/B VSS DFlipFlop_1/NAND3_3/a_9_8# 2 4 121 156
+p VDD VDD DFlipFlop_1/NAND3_3/Y 2 8 141 188
+p DFlipFlop_1/NAND3_5/B VDD DFlipFlop_1/NAND3_3/Y 2 8 121 188
+n VDD DFlipFlop_1/NAND3_3/a_17_8# DFlipFlop_1/NAND3_3/Y 2 4 141 156
+n RST DFlipFlop_1/NAND3_4/a_9_8# DFlipFlop_1/NAND3_4/a_17_8# 2 4 165 156
+p RST Q1b VDD 2 8 165 188
+n DFlipFlop_1/NAND3_4/A VSS DFlipFlop_1/NAND3_4/a_9_8# 2 4 157 156
+p Q1 VDD Q1b 2 8 177 188
+p DFlipFlop_1/NAND3_4/A VDD Q1b 2 8 157 188
+n Q1 DFlipFlop_1/NAND3_4/a_17_8# Q1b 2 4 177 156
+n DFlipFlop_1/NAND3_5/B DFlipFlop_1/NAND3_5/a_9_8# DFlipFlop_1/NAND3_5/a_17_8# 2 4 201 156
+p DFlipFlop_1/NAND3_5/B Q1 VDD 2 8 201 188
+n Q1b VSS DFlipFlop_1/NAND3_5/a_9_8# 2 4 193 156
+p VDD VDD Q1 2 8 213 188
+p Q1b VDD Q1 2 8 193 188
+n VDD DFlipFlop_1/NAND3_5/a_17_8# Q1 2 4 213 156
+C Q2 VDD 2.22
+C CLK RST 6.28
+C DFlipFlop_0/NAND3_4/A RST 2.72
+C DFlipFlop_2/NAND3_4/A RST 2.72
+C DFlipFlop_0/NAND3_4/A VSS 2.33
+C DFlipFlop_2/NAND3_4/A VSS 2.33
+C DFlipFlop_1/NAND3_4/A RST 2.72
+C VDD Q0 2.22
+C VDD DFlipFlop_2/NAND3_5/B 2.62
+C DFlipFlop_1/NAND3_5/B VDD 2.62
+C DFlipFlop_1/NAND3_4/A VSS 2.33
+C VDD DFlipFlop_0/NAND3_5/B 2.62
+C VDD RST 4.57
+C VDD CLK 3.49
+C VDD Q1 2.22
+C VSS GND 18.41
+R VSS 381
+= VSS DFlipFlop_2/VSS
+= VSS DFlipFlop_2/NAND3_0/VSS
+= VSS DFlipFlop_2/NAND3_5/VSS
+= VSS DFlipFlop_2/NAND3_1/VSS
+= VSS DFlipFlop_2/NAND3_2/VSS
+= VSS DFlipFlop_2/NAND3_3/VSS
+= VSS DFlipFlop_2/NAND3_4/VSS
+= VSS DFlipFlop_2/m1_186_0#
+= VSS DFlipFlop_1/VSS
+= VSS DFlipFlop_0/VSS
+= VSS DFlipFlop_0/NAND3_0/VSS
+= VSS DFlipFlop_0/NAND3_5/VSS
+= VSS DFlipFlop_0/NAND3_1/VSS
+= VSS DFlipFlop_0/NAND3_2/VSS
+= VSS DFlipFlop_0/NAND3_3/VSS
+= VSS DFlipFlop_0/NAND3_4/VSS
+= VSS DFlipFlop_0/m1_186_0#
+= VSS DFlipFlop_1/NAND3_0/VSS
+= VSS DFlipFlop_1/NAND3_5/VSS
+= VSS DFlipFlop_1/NAND3_1/VSS
+= VSS DFlipFlop_1/NAND3_2/VSS
+= VSS DFlipFlop_1/NAND3_3/VSS
+= VSS DFlipFlop_1/NAND3_4/VSS
+= VSS DFlipFlop_1/m1_186_0#
+C Q1b GND 2.91
+R Q1b 75
+= Q1b DFlipFlop_1/Qb
+= Q1b DFlipFlop_1/NAND3_4/Y
+= Q1b DFlipFlop_1/NAND3_5/A
+C Q1 GND 3.68
+R Q1 77
+= Q1 DFlipFlop_1/Q
+= Q1 DFlipFlop_1/NAND3_5/Y
+= Q1 DFlipFlop_1/NAND3_4/C
+C VDD GND 183.73
+R VDD 17562
+= VDD DFlipFlop_2/VDD
+= VDD DFlipFlop_2/NAND3_4/VDD
+= VDD DFlipFlop_2/NAND3_3/C
+= VDD DFlipFlop_2/m1_130_20#
+= VDD DFlipFlop_2/NAND3_5/VDD
+= VDD DFlipFlop_2/NAND3_5/C
+= VDD DFlipFlop_2/m1_202_20#
+= VDD DFlipFlop_2/NAND3_0/VDD
+= VDD DFlipFlop_2/NAND3_3/VDD
+= VDD DFlipFlop_2/NAND3_1/VDD
+= VDD DFlipFlop_2/NAND3_2/VDD
+= VDD DFlipFlop_2/w_n6_34#
+= VDD DFlipFlop_1/VDD
+= VDD DFlipFlop_0/VDD
+= VDD DFlipFlop_0/NAND3_4/VDD
+= VDD DFlipFlop_0/NAND3_3/C
+= VDD DFlipFlop_0/m1_130_20#
+= VDD DFlipFlop_0/NAND3_5/VDD
+= VDD DFlipFlop_0/NAND3_5/C
+= VDD DFlipFlop_0/m1_202_20#
+= VDD DFlipFlop_0/NAND3_0/VDD
+= VDD DFlipFlop_0/NAND3_3/VDD
+= VDD DFlipFlop_0/NAND3_1/VDD
+= VDD DFlipFlop_0/NAND3_2/VDD
+= VDD DFlipFlop_0/w_n6_34#
+= VDD DFlipFlop_1/NAND3_4/VDD
+= VDD DFlipFlop_1/NAND3_3/C
+= VDD DFlipFlop_1/m1_130_20#
+= VDD DFlipFlop_1/NAND3_5/VDD
+= VDD DFlipFlop_1/NAND3_5/C
+= VDD DFlipFlop_1/m1_202_20#
+= VDD DFlipFlop_1/NAND3_0/VDD
+= VDD DFlipFlop_1/NAND3_3/VDD
+= VDD DFlipFlop_1/NAND3_1/VDD
+= VDD DFlipFlop_1/NAND3_2/VDD
+= VDD DFlipFlop_1/w_n6_34#
+C DFlipFlop_1/NAND3_5/B GND 8.91
+R DFlipFlop_1/NAND3_5/B 201
+= DFlipFlop_1/NAND3_5/B DFlipFlop_1/NAND3_3/A
+= DFlipFlop_1/NAND3_5/B DFlipFlop_1/NAND3_2/Y
+= DFlipFlop_1/NAND3_5/B DFlipFlop_1/NAND3_1/C
+= DFlipFlop_1/NAND3_5/B DFlipFlop_1/m1_58_n40#
+C DFlipFlop_1/NAND3_3/Y GND 3.79
+R DFlipFlop_1/NAND3_3/Y 77
+= DFlipFlop_1/NAND3_3/Y DFlipFlop_1/NAND3_2/C
+= DFlipFlop_1/NAND3_3/Y DFlipFlop_1/m1_94_n24#
+C DFlipFlop_1/NAND3_4/A GND 6.89
+R DFlipFlop_1/NAND3_4/A 139
+= DFlipFlop_1/NAND3_4/A DFlipFlop_1/NAND3_1/Y
+= DFlipFlop_1/NAND3_4/A DFlipFlop_1/NAND3_0/C
+= DFlipFlop_1/NAND3_4/A DFlipFlop_1/m1_22_n8#
+C DFlipFlop_1/NAND3_3/B GND 6.01
+R DFlipFlop_1/NAND3_3/B 138
+= DFlipFlop_1/NAND3_3/B DFlipFlop_1/NAND3_1/A
+= DFlipFlop_1/NAND3_3/B DFlipFlop_1/NAND3_0/Y
+= DFlipFlop_1/NAND3_3/B DFlipFlop_1/m1_30_n32#
+R D1 56
+= D1 DFlipFlop_1/D
+= D1 DFlipFlop_1/NAND3_0/A
+C Q2b GND 2.91
+R Q2b 75
+= Q2b DFlipFlop_2/Qb
+= Q2b DFlipFlop_2/NAND3_4/Y
+= Q2b DFlipFlop_2/NAND3_5/A
+C Q2 GND 3.68
+R Q2 77
+= Q2 DFlipFlop_2/Q
+= Q2 DFlipFlop_2/NAND3_5/Y
+= Q2 DFlipFlop_2/NAND3_4/C
+C DFlipFlop_2/NAND3_5/B GND 8.91
+R DFlipFlop_2/NAND3_5/B 201
+= DFlipFlop_2/NAND3_5/B DFlipFlop_2/NAND3_3/A
+= DFlipFlop_2/NAND3_5/B DFlipFlop_2/NAND3_2/Y
+= DFlipFlop_2/NAND3_5/B DFlipFlop_2/NAND3_1/C
+= DFlipFlop_2/NAND3_5/B DFlipFlop_2/m1_58_n40#
+C DFlipFlop_2/NAND3_3/Y GND 3.79
+R DFlipFlop_2/NAND3_3/Y 77
+= DFlipFlop_2/NAND3_3/Y DFlipFlop_2/NAND3_2/C
+= DFlipFlop_2/NAND3_3/Y DFlipFlop_2/m1_94_n24#
+C DFlipFlop_2/NAND3_4/A GND 6.89
+R DFlipFlop_2/NAND3_4/A 139
+= DFlipFlop_2/NAND3_4/A DFlipFlop_2/NAND3_1/Y
+= DFlipFlop_2/NAND3_4/A DFlipFlop_2/NAND3_0/C
+= DFlipFlop_2/NAND3_4/A DFlipFlop_2/m1_22_n8#
+C DFlipFlop_2/NAND3_3/B GND 6.01
+R DFlipFlop_2/NAND3_3/B 138
+= DFlipFlop_2/NAND3_3/B DFlipFlop_2/NAND3_1/A
+= DFlipFlop_2/NAND3_3/B DFlipFlop_2/NAND3_0/Y
+= DFlipFlop_2/NAND3_3/B DFlipFlop_2/m1_30_n32#
+R D2 56
+= D2 DFlipFlop_2/D
+= D2 DFlipFlop_2/NAND3_0/A
+C Q0b GND 2.91
+R Q0b 75
+= Q0b DFlipFlop_0/Qb
+= Q0b DFlipFlop_0/NAND3_4/Y
+= Q0b DFlipFlop_0/NAND3_5/A
+C Q0 GND 3.68
+R Q0 77
+= Q0 DFlipFlop_0/Q
+= Q0 DFlipFlop_0/NAND3_5/Y
+= Q0 DFlipFlop_0/NAND3_4/C
+C DFlipFlop_0/NAND3_5/B GND 8.91
+R DFlipFlop_0/NAND3_5/B 201
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_3/A
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_2/Y
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_1/C
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/m1_58_n40#
+C DFlipFlop_0/NAND3_3/Y GND 3.79
+R DFlipFlop_0/NAND3_3/Y 77
+= DFlipFlop_0/NAND3_3/Y DFlipFlop_0/NAND3_2/C
+= DFlipFlop_0/NAND3_3/Y DFlipFlop_0/m1_94_n24#
+C RST GND 24.38
+R RST 556
+= RST DFlipFlop_2/RST
+= RST DFlipFlop_2/NAND3_4/B
+= RST DFlipFlop_2/NAND3_0/B
+= RST DFlipFlop_2/NAND3_2/B
+= RST DFlipFlop_1/RST
+= RST DFlipFlop_1/NAND3_4/B
+= RST DFlipFlop_1/NAND3_0/B
+= RST DFlipFlop_1/NAND3_2/B
+= RST DFlipFlop_0/RST
+= RST DFlipFlop_0/NAND3_4/B
+= RST DFlipFlop_0/NAND3_0/B
+= RST DFlipFlop_0/NAND3_2/B
+C CLK GND 14.43
+R CLK 369
+= CLK DFlipFlop_2/CLK
+= CLK DFlipFlop_2/NAND3_1/B
+= CLK DFlipFlop_2/NAND3_2/A
+= CLK DFlipFlop_1/CLK
+= CLK DFlipFlop_1/NAND3_1/B
+= CLK DFlipFlop_1/NAND3_2/A
+= CLK DFlipFlop_0/CLK
+= CLK DFlipFlop_0/NAND3_1/B
+= CLK DFlipFlop_0/NAND3_2/A
+C DFlipFlop_0/NAND3_4/A GND 6.89
+R DFlipFlop_0/NAND3_4/A 139
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_1/Y
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_0/C
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/m1_22_n8#
+C DFlipFlop_0/NAND3_3/B GND 6.01
+R DFlipFlop_0/NAND3_3/B 138
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_1/A
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_0/Y
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/m1_30_n32#
+R D0 56
+= D0 DFlipFlop_0/D
+= D0 DFlipFlop_0/NAND3_0/A

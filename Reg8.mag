@@ -1,0 +1,109 @@
+magic
+tech scmos
+timestamp 1711923903
+<< nwell >>
+rect 8 92 12 96
+<< psubstratepcontact >>
+rect 8 40 12 44
+<< nsubstratencontact >>
+rect 8 92 12 96
+<< metal1 >>
+rect 8 896 12 900
+rect 220 897 224 901
+rect 220 888 224 892
+rect 8 788 12 792
+rect 220 789 224 793
+rect 220 780 224 784
+rect 8 680 12 684
+rect 220 681 224 685
+rect 220 672 224 676
+rect 8 572 12 576
+rect 220 573 224 577
+rect 220 564 224 568
+rect 8 464 12 468
+rect 220 465 224 469
+rect 220 456 224 460
+rect 8 356 12 360
+rect 220 357 224 361
+rect 220 348 224 352
+rect 8 248 12 252
+rect 220 249 224 253
+rect 220 240 224 244
+rect 8 140 12 144
+rect 220 141 224 145
+rect 220 132 224 136
+rect 8 32 12 36
+rect 220 33 224 37
+rect 220 24 224 28
+<< m2contact >>
+rect 20 24 24 28
+rect 56 16 60 20
+use DFlipFlop  DFlipFlop_0
+timestamp 1711920764
+transform 1 0 6 0 1 40
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_1
+timestamp 1711920764
+transform 1 0 6 0 1 148
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_2
+timestamp 1711920764
+transform 1 0 6 0 1 256
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_3
+timestamp 1711920764
+transform 1 0 6 0 1 364
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_4
+timestamp 1711920764
+transform 1 0 6 0 1 472
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_5
+timestamp 1711920764
+transform 1 0 6 0 1 580
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_6
+timestamp 1711920764
+transform 1 0 6 0 1 688
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_7
+timestamp 1711920764
+transform 1 0 6 0 1 796
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_8
+timestamp 1711920764
+transform 1 0 6 0 1 904
+box -6 -40 222 68
+<< labels >>
+rlabel m2contact 22 26 22 26 1 RST
+rlabel m2contact 58 18 58 18 1 CLK
+rlabel psubstratepcontact 10 42 10 42 1 VSS
+rlabel nsubstratencontact 10 94 10 94 1 VDD
+rlabel metal1 10 34 10 34 1 D0
+rlabel metal1 222 35 222 35 1 Q0
+rlabel metal1 222 26 222 26 1 Q0b
+rlabel metal1 10 142 10 142 1 D1
+rlabel metal1 10 250 10 250 1 D2
+rlabel metal1 222 134 222 134 1 Q1b
+rlabel metal1 222 143 222 143 1 Q1
+rlabel metal1 222 251 222 251 1 Q2
+rlabel metal1 222 242 222 242 1 Q2b
+rlabel metal1 10 358 10 358 1 D3
+rlabel metal1 222 350 222 350 1 Q3b
+rlabel metal1 222 359 222 359 1 Q3
+rlabel metal1 10 466 10 466 1 D4
+rlabel metal1 222 458 222 458 1 Q4b
+rlabel metal1 222 467 222 467 1 Q4
+rlabel metal1 10 574 10 574 1 D5
+rlabel metal1 222 566 222 566 1 Q5b
+rlabel metal1 222 575 222 575 1 Q5
+rlabel metal1 10 682 10 682 1 D6
+rlabel metal1 222 674 222 674 1 Q6b
+rlabel metal1 222 683 222 683 1 Q6
+rlabel metal1 10 790 10 790 1 D7
+rlabel metal1 222 782 222 782 1 Q7b
+rlabel metal1 222 791 222 791 1 Q7
+rlabel metal1 10 898 10 898 1 D8
+rlabel metal1 222 890 222 890 1 Q8b
+rlabel metal1 222 899 222 899 1 Q8
+<< end >>

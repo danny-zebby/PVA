@@ -1,0 +1,90 @@
+magic
+tech scmos
+timestamp 1715122279
+<< metal1 >>
+rect -8 332 232 336
+rect 0 324 224 328
+rect -8 248 8 252
+rect 224 249 240 253
+rect 0 140 8 144
+rect 221 141 232 145
+rect 785 132 834 136
+rect 252 124 264 128
+rect 222 92 248 96
+rect 888 92 892 96
+rect 783 80 836 84
+rect 260 72 265 76
+rect 222 40 256 44
+rect 244 32 362 36
+rect 807 0 863 4
+rect 6 -16 12 -12
+rect 6 -24 20 -20
+rect 24 -24 274 -20
+rect 6 -32 56 -28
+rect 60 -32 282 -28
+rect 6 -40 836 -36
+<< m2contact >>
+rect -12 332 -8 336
+rect 232 332 236 336
+rect -4 324 0 328
+rect 224 324 228 328
+rect -12 248 -8 252
+rect 240 249 244 253
+rect -4 140 0 144
+rect 232 141 236 145
+rect 248 124 252 128
+rect 836 100 840 104
+rect 863 102 867 106
+rect 248 92 252 96
+rect 256 72 260 76
+rect 256 40 260 44
+rect 224 33 228 37
+rect 240 32 244 36
+rect 362 32 366 36
+rect 282 8 286 12
+rect 274 0 278 4
+rect 863 0 867 4
+rect 12 -16 16 -12
+rect 20 -24 24 -20
+rect 274 -24 278 -20
+rect 56 -32 60 -28
+rect 282 -32 286 -28
+rect 836 -40 840 -36
+<< metal2 >>
+rect -12 252 -8 332
+rect -4 144 0 324
+rect 224 37 228 324
+rect 232 145 236 332
+rect 240 36 244 249
+rect 248 96 252 124
+rect 256 44 260 72
+rect 366 32 370 39
+rect 12 -12 16 32
+rect 20 -20 24 0
+rect 56 -28 60 12
+rect 274 -20 278 0
+rect 282 -28 286 8
+rect 836 -36 840 100
+rect 863 4 867 102
+use 011detector  011detector_0
+timestamp 1712355526
+transform 1 0 256 0 1 188
+box 0 -188 551 176
+use AND2_1INV  AND2_1INV_0
+timestamp 1711565272
+transform 1 0 830 0 1 80
+box 0 0 68 62
+use Reg3  Reg3_0
+timestamp 1711921289
+transform 1 0 0 0 1 0
+box 0 0 228 324
+<< labels >>
+rlabel m2contact 258 42 258 42 1 VSS
+rlabel m2contact 250 94 250 94 1 VDD
+rlabel metal1 8 -14 8 -14 1 A
+rlabel metal1 8 -22 8 -22 1 RST
+rlabel metal1 8 -30 8 -30 1 CLK
+rlabel metal1 8 -38 8 -38 1 B
+rlabel metal1 890 94 890 94 1 FWD
+rlabel m2contact 242 34 242 34 1 Q2
+<< end >>

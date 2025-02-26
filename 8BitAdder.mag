@@ -1,0 +1,159 @@
+magic
+tech scmos
+timestamp 1714603105
+<< metal1 >>
+rect 0 636 6 640
+rect 155 636 161 640
+rect 0 628 6 632
+rect 155 628 161 632
+rect 123 620 127 624
+rect 0 544 6 548
+rect 155 544 161 548
+rect 0 536 6 540
+rect 131 536 161 540
+rect 123 528 127 532
+rect 0 452 6 456
+rect 155 452 161 456
+rect 0 444 6 448
+rect 131 444 161 448
+rect 123 436 127 440
+rect 0 360 6 364
+rect 155 360 161 364
+rect 0 352 6 356
+rect 131 352 161 356
+rect 123 344 127 348
+rect 0 268 6 272
+rect 155 268 161 272
+rect 0 260 6 264
+rect 131 260 161 264
+rect 123 252 127 256
+rect 0 176 6 180
+rect 155 176 161 180
+rect 0 168 6 172
+rect 131 168 161 172
+rect 123 160 127 164
+rect 0 84 10 88
+rect 155 84 161 88
+rect 0 76 10 80
+rect 131 76 161 80
+rect 123 68 127 72
+rect 0 -8 10 -4
+rect 155 -8 161 -4
+rect 0 -16 10 -12
+rect 131 -16 155 -12
+rect 22 -24 32 -20
+<< m2contact >>
+rect 54 696 58 700
+rect 94 644 98 648
+rect 127 620 131 624
+rect 54 604 58 608
+rect 94 552 98 556
+rect 127 536 131 540
+rect 127 528 131 532
+rect 54 512 58 516
+rect 94 460 98 464
+rect 127 444 131 448
+rect 127 436 131 440
+rect 54 420 58 424
+rect 94 368 98 372
+rect 127 352 131 356
+rect 127 344 131 348
+rect 54 328 58 332
+rect 94 276 98 280
+rect 127 260 131 264
+rect 127 252 131 256
+rect 54 236 58 240
+rect 94 184 98 188
+rect 127 168 131 172
+rect 127 160 131 164
+rect 54 144 58 148
+rect 94 92 98 96
+rect 127 76 131 80
+rect 127 68 131 72
+rect 54 52 58 56
+rect 94 0 98 4
+rect 127 -16 131 -12
+<< metal2 >>
+rect 54 608 58 696
+rect 54 516 58 604
+rect 54 424 58 512
+rect 54 332 58 420
+rect 54 240 58 328
+rect 54 148 58 236
+rect 54 56 58 144
+rect 94 556 98 644
+rect 94 464 98 552
+rect 127 540 131 620
+rect 94 372 98 460
+rect 127 448 131 528
+rect 94 280 98 368
+rect 127 356 131 436
+rect 94 188 98 276
+rect 127 264 131 344
+rect 94 96 98 184
+rect 127 172 131 252
+rect 94 4 98 92
+rect 127 80 131 160
+rect 127 -12 131 68
+use FullAdder  FullAdder_0
+timestamp 1713982514
+transform 1 0 0 0 1 0
+box -6 -32 165 62
+use FullAdder  FullAdder_1
+timestamp 1713982514
+transform 1 0 0 0 1 92
+box -6 -32 165 62
+use FullAdder  FullAdder_2
+timestamp 1713982514
+transform 1 0 0 0 1 184
+box -6 -32 165 62
+use FullAdder  FullAdder_3
+timestamp 1713982514
+transform 1 0 0 0 1 276
+box -6 -32 165 62
+use FullAdder  FullAdder_4
+timestamp 1713982514
+transform 1 0 0 0 1 368
+box -6 -32 165 62
+use FullAdder  FullAdder_5
+timestamp 1713982514
+transform 1 0 0 0 1 460
+box -6 -32 165 62
+use FullAdder  FullAdder_6
+timestamp 1713982514
+transform 1 0 0 0 1 552
+box -6 -32 165 62
+use FullAdder  FullAdder_7
+timestamp 1713982514
+transform 1 0 0 0 1 644
+box -6 -32 165 62
+<< labels >>
+rlabel metal1 1 -6 1 -6 1 A0
+rlabel metal1 1 -14 1 -14 1 B0
+rlabel metal1 24 -22 24 -22 1 Cin
+rlabel metal1 1 86 1 86 1 A1
+rlabel metal1 1 78 1 78 1 B1
+rlabel metal1 1 178 1 178 1 A2
+rlabel metal1 1 170 1 170 1 B2
+rlabel metal1 1 270 1 270 1 A3
+rlabel metal1 1 262 1 262 1 B3
+rlabel metal1 1 362 1 362 1 A4
+rlabel metal1 1 354 1 354 1 B4
+rlabel metal1 1 454 1 454 1 A5
+rlabel metal1 1 446 1 446 1 B5
+rlabel metal1 1 538 1 538 1 B6
+rlabel metal1 1 546 1 546 1 A6
+rlabel metal1 1 630 1 630 1 B7
+rlabel metal1 1 638 1 638 1 A7
+rlabel metal1 160 638 160 638 7 S7
+rlabel metal1 160 630 160 630 7 Cout
+rlabel metal1 160 546 160 546 7 S6
+rlabel metal1 160 454 160 454 7 S5
+rlabel metal1 160 362 160 362 7 S4
+rlabel metal1 160 270 160 270 7 S3
+rlabel metal1 160 178 160 178 7 S2
+rlabel metal1 160 86 160 86 7 S1
+rlabel metal1 160 -6 160 -6 7 S0
+rlabel m2contact 96 2 96 2 1 VSS
+rlabel m2contact 56 55 56 55 1 VDD
+<< end >>

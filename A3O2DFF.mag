@@ -1,0 +1,43 @@
+magic
+tech scmos
+timestamp 1714414932
+<< nwell >>
+rect 146 59 154 63
+<< metal1 >>
+rect 0 52 6 56
+rect 0 24 6 28
+rect 150 24 166 28
+rect 0 16 6 20
+rect 0 0 6 4
+rect 0 -8 6 -4
+rect 364 -7 370 -3
+rect 0 -16 6 -12
+rect 162 -16 168 -12
+rect 364 -16 370 -12
+rect 0 -24 6 -20
+rect 162 -24 168 -20
+rect 0 -33 6 -29
+rect 0 -41 6 -37
+use A3A4O2  A3A4O2_0
+timestamp 1714414377
+transform 1 0 0 0 1 0
+box -6 -41 160 62
+use DFlipFlop  DFlipFlop_0
+timestamp 1711920764
+transform 1 0 156 0 1 0
+box -6 -40 222 68
+<< labels >>
+rlabel metal1 4 54 4 54 1 VDD
+rlabel metal1 1 26 1 26 1 A
+rlabel metal1 1 18 1 18 1 B
+rlabel metal1 4 2 4 2 1 VSS
+rlabel metal1 1 -6 1 -6 1 C
+rlabel metal1 1 -14 1 -14 1 D
+rlabel metal1 1 -22 1 -22 1 E
+rlabel metal1 1 -31 1 -31 1 F
+rlabel metal1 1 -39 1 -39 1 G
+rlabel metal1 163 -14 163 -14 1 RST
+rlabel metal1 163 -22 163 -22 1 CLK
+rlabel metal1 369 -14 369 -14 1 Qb
+rlabel metal1 368 -5 368 -5 1 Q
+<< end >>

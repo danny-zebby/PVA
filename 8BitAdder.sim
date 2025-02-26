@@ -1,0 +1,583 @@
+| units: 30 tech: scmos format: MIT
+n FullAdder_0/INV_1/A VSS FullAdder_1/C 2 4 152 8
+p FullAdder_0/INV_1/A VDD FullAdder_1/C 2 8 152 40
+n Cin FullAdder_0/MIRROR_ADDER_0/a_2_8# FullAdder_0/INV_1/A 2 4 23 8
+n Cin VSS FullAdder_0/MIRROR_ADDER_0/a_65_8# 2 4 79 8
+p FullAdder_0/INV_1/A FullAdder_0/MIRROR_ADDER_0/a_65_44# FullAdder_0/INV_0/A 2 4 87 44
+p A0 FullAdder_0/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 44
+p A0 FullAdder_0/INV_1/A FullAdder_0/MIRROR_ADDER_0/a_41_44# 2 4 39 44
+p B0 FullAdder_0/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 44
+n A0 FullAdder_0/INV_1/A FullAdder_0/MIRROR_ADDER_0/a_41_8# 2 4 39 8
+p Cin FullAdder_0/MIRROR_ADDER_0/a_2_44# FullAdder_0/INV_1/A 2 4 23 44
+p A0 FullAdder_0/INV_0/A FullAdder_0/MIRROR_ADDER_0/a_108_44# 2 4 106 44
+p B0 FullAdder_0/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 44
+p B0 FullAdder_0/MIRROR_ADDER_0/a_108_44# FullAdder_0/MIRROR_ADDER_0/a_115_44# 2 4 113 44
+n B0 VSS FullAdder_0/MIRROR_ADDER_0/a_2_8# 2 4 15 8
+n B0 FullAdder_0/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 8
+n A0 FullAdder_0/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 8
+n FullAdder_0/INV_1/A FullAdder_0/MIRROR_ADDER_0/a_65_8# FullAdder_0/INV_0/A 2 4 87 8
+n Cin FullAdder_0/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 8
+p Cin FullAdder_0/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 44
+n B0 FullAdder_0/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 8
+n B0 FullAdder_0/MIRROR_ADDER_0/a_108_8# FullAdder_0/MIRROR_ADDER_0/a_115_8# 2 4 113 8
+p Cin VDD FullAdder_0/MIRROR_ADDER_0/a_65_44# 2 4 79 44
+p A0 VDD FullAdder_0/MIRROR_ADDER_0/a_65_44# 2 4 63 44
+n A0 VSS FullAdder_0/MIRROR_ADDER_0/a_65_8# 2 4 63 8
+p B0 VDD FullAdder_0/MIRROR_ADDER_0/a_2_44# 2 4 15 44
+n A0 FullAdder_0/INV_0/A FullAdder_0/MIRROR_ADDER_0/a_108_8# 2 4 106 8
+n FullAdder_0/INV_0/A VSS S0 2 4 136 8
+p FullAdder_0/INV_0/A VDD S0 2 8 136 40
+n FullAdder_1/INV_1/A VSS FullAdder_2/C 2 4 152 100
+p FullAdder_1/INV_1/A VDD FullAdder_2/C 2 8 152 132
+n FullAdder_1/C FullAdder_1/MIRROR_ADDER_0/a_2_8# FullAdder_1/INV_1/A 2 4 23 100
+n FullAdder_1/C VSS FullAdder_1/MIRROR_ADDER_0/a_65_8# 2 4 79 100
+p FullAdder_1/INV_1/A FullAdder_1/MIRROR_ADDER_0/a_65_44# FullAdder_1/INV_0/A 2 4 87 136
+p A1 FullAdder_1/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 136
+p A1 FullAdder_1/INV_1/A FullAdder_1/MIRROR_ADDER_0/a_41_44# 2 4 39 136
+p B1 FullAdder_1/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 136
+n A1 FullAdder_1/INV_1/A FullAdder_1/MIRROR_ADDER_0/a_41_8# 2 4 39 100
+p FullAdder_1/C FullAdder_1/MIRROR_ADDER_0/a_2_44# FullAdder_1/INV_1/A 2 4 23 136
+p A1 FullAdder_1/INV_0/A FullAdder_1/MIRROR_ADDER_0/a_108_44# 2 4 106 136
+p B1 FullAdder_1/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 136
+p B1 FullAdder_1/MIRROR_ADDER_0/a_108_44# FullAdder_1/MIRROR_ADDER_0/a_115_44# 2 4 113 136
+n B1 VSS FullAdder_1/MIRROR_ADDER_0/a_2_8# 2 4 15 100
+n B1 FullAdder_1/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 100
+n A1 FullAdder_1/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 100
+n FullAdder_1/INV_1/A FullAdder_1/MIRROR_ADDER_0/a_65_8# FullAdder_1/INV_0/A 2 4 87 100
+n FullAdder_1/C FullAdder_1/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 100
+p FullAdder_1/C FullAdder_1/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 136
+n B1 FullAdder_1/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 100
+n B1 FullAdder_1/MIRROR_ADDER_0/a_108_8# FullAdder_1/MIRROR_ADDER_0/a_115_8# 2 4 113 100
+p FullAdder_1/C VDD FullAdder_1/MIRROR_ADDER_0/a_65_44# 2 4 79 136
+p A1 VDD FullAdder_1/MIRROR_ADDER_0/a_65_44# 2 4 63 136
+n A1 VSS FullAdder_1/MIRROR_ADDER_0/a_65_8# 2 4 63 100
+p B1 VDD FullAdder_1/MIRROR_ADDER_0/a_2_44# 2 4 15 136
+n A1 FullAdder_1/INV_0/A FullAdder_1/MIRROR_ADDER_0/a_108_8# 2 4 106 100
+n FullAdder_1/INV_0/A VSS S1 2 4 136 100
+p FullAdder_1/INV_0/A VDD S1 2 8 136 132
+n FullAdder_2/INV_1/A VSS FullAdder_3/C 2 4 152 192
+p FullAdder_2/INV_1/A VDD FullAdder_3/C 2 8 152 224
+n FullAdder_2/C FullAdder_2/MIRROR_ADDER_0/a_2_8# FullAdder_2/INV_1/A 2 4 23 192
+n FullAdder_2/C VSS FullAdder_2/MIRROR_ADDER_0/a_65_8# 2 4 79 192
+p FullAdder_2/INV_1/A FullAdder_2/MIRROR_ADDER_0/a_65_44# FullAdder_2/INV_0/A 2 4 87 228
+p A2 FullAdder_2/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 228
+p A2 FullAdder_2/INV_1/A FullAdder_2/MIRROR_ADDER_0/a_41_44# 2 4 39 228
+p B2 FullAdder_2/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 228
+n A2 FullAdder_2/INV_1/A FullAdder_2/MIRROR_ADDER_0/a_41_8# 2 4 39 192
+p FullAdder_2/C FullAdder_2/MIRROR_ADDER_0/a_2_44# FullAdder_2/INV_1/A 2 4 23 228
+p A2 FullAdder_2/INV_0/A FullAdder_2/MIRROR_ADDER_0/a_108_44# 2 4 106 228
+p B2 FullAdder_2/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 228
+p B2 FullAdder_2/MIRROR_ADDER_0/a_108_44# FullAdder_2/MIRROR_ADDER_0/a_115_44# 2 4 113 228
+n B2 VSS FullAdder_2/MIRROR_ADDER_0/a_2_8# 2 4 15 192
+n B2 FullAdder_2/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 192
+n A2 FullAdder_2/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 192
+n FullAdder_2/INV_1/A FullAdder_2/MIRROR_ADDER_0/a_65_8# FullAdder_2/INV_0/A 2 4 87 192
+n FullAdder_2/C FullAdder_2/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 192
+p FullAdder_2/C FullAdder_2/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 228
+n B2 FullAdder_2/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 192
+n B2 FullAdder_2/MIRROR_ADDER_0/a_108_8# FullAdder_2/MIRROR_ADDER_0/a_115_8# 2 4 113 192
+p FullAdder_2/C VDD FullAdder_2/MIRROR_ADDER_0/a_65_44# 2 4 79 228
+p A2 VDD FullAdder_2/MIRROR_ADDER_0/a_65_44# 2 4 63 228
+n A2 VSS FullAdder_2/MIRROR_ADDER_0/a_65_8# 2 4 63 192
+p B2 VDD FullAdder_2/MIRROR_ADDER_0/a_2_44# 2 4 15 228
+n A2 FullAdder_2/INV_0/A FullAdder_2/MIRROR_ADDER_0/a_108_8# 2 4 106 192
+n FullAdder_2/INV_0/A VSS S2 2 4 136 192
+p FullAdder_2/INV_0/A VDD S2 2 8 136 224
+n FullAdder_3/INV_1/A VSS FullAdder_4/C 2 4 152 284
+p FullAdder_3/INV_1/A VDD FullAdder_4/C 2 8 152 316
+n FullAdder_3/C FullAdder_3/MIRROR_ADDER_0/a_2_8# FullAdder_3/INV_1/A 2 4 23 284
+n FullAdder_3/C VSS FullAdder_3/MIRROR_ADDER_0/a_65_8# 2 4 79 284
+p FullAdder_3/INV_1/A FullAdder_3/MIRROR_ADDER_0/a_65_44# FullAdder_3/INV_0/A 2 4 87 320
+p A3 FullAdder_3/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 320
+p A3 FullAdder_3/INV_1/A FullAdder_3/MIRROR_ADDER_0/a_41_44# 2 4 39 320
+p B3 FullAdder_3/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 320
+n A3 FullAdder_3/INV_1/A FullAdder_3/MIRROR_ADDER_0/a_41_8# 2 4 39 284
+p FullAdder_3/C FullAdder_3/MIRROR_ADDER_0/a_2_44# FullAdder_3/INV_1/A 2 4 23 320
+p A3 FullAdder_3/INV_0/A FullAdder_3/MIRROR_ADDER_0/a_108_44# 2 4 106 320
+p B3 FullAdder_3/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 320
+p B3 FullAdder_3/MIRROR_ADDER_0/a_108_44# FullAdder_3/MIRROR_ADDER_0/a_115_44# 2 4 113 320
+n B3 VSS FullAdder_3/MIRROR_ADDER_0/a_2_8# 2 4 15 284
+n B3 FullAdder_3/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 284
+n A3 FullAdder_3/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 284
+n FullAdder_3/INV_1/A FullAdder_3/MIRROR_ADDER_0/a_65_8# FullAdder_3/INV_0/A 2 4 87 284
+n FullAdder_3/C FullAdder_3/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 284
+p FullAdder_3/C FullAdder_3/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 320
+n B3 FullAdder_3/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 284
+n B3 FullAdder_3/MIRROR_ADDER_0/a_108_8# FullAdder_3/MIRROR_ADDER_0/a_115_8# 2 4 113 284
+p FullAdder_3/C VDD FullAdder_3/MIRROR_ADDER_0/a_65_44# 2 4 79 320
+p A3 VDD FullAdder_3/MIRROR_ADDER_0/a_65_44# 2 4 63 320
+n A3 VSS FullAdder_3/MIRROR_ADDER_0/a_65_8# 2 4 63 284
+p B3 VDD FullAdder_3/MIRROR_ADDER_0/a_2_44# 2 4 15 320
+n A3 FullAdder_3/INV_0/A FullAdder_3/MIRROR_ADDER_0/a_108_8# 2 4 106 284
+n FullAdder_3/INV_0/A VSS S3 2 4 136 284
+p FullAdder_3/INV_0/A VDD S3 2 8 136 316
+n FullAdder_4/INV_1/A VSS FullAdder_5/C 2 4 152 376
+p FullAdder_4/INV_1/A VDD FullAdder_5/C 2 8 152 408
+n FullAdder_4/C FullAdder_4/MIRROR_ADDER_0/a_2_8# FullAdder_4/INV_1/A 2 4 23 376
+n FullAdder_4/C VSS FullAdder_4/MIRROR_ADDER_0/a_65_8# 2 4 79 376
+p FullAdder_4/INV_1/A FullAdder_4/MIRROR_ADDER_0/a_65_44# FullAdder_4/INV_0/A 2 4 87 412
+p A4 FullAdder_4/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 412
+p A4 FullAdder_4/INV_1/A FullAdder_4/MIRROR_ADDER_0/a_41_44# 2 4 39 412
+p B4 FullAdder_4/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 412
+n A4 FullAdder_4/INV_1/A FullAdder_4/MIRROR_ADDER_0/a_41_8# 2 4 39 376
+p FullAdder_4/C FullAdder_4/MIRROR_ADDER_0/a_2_44# FullAdder_4/INV_1/A 2 4 23 412
+p A4 FullAdder_4/INV_0/A FullAdder_4/MIRROR_ADDER_0/a_108_44# 2 4 106 412
+p B4 FullAdder_4/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 412
+p B4 FullAdder_4/MIRROR_ADDER_0/a_108_44# FullAdder_4/MIRROR_ADDER_0/a_115_44# 2 4 113 412
+n B4 VSS FullAdder_4/MIRROR_ADDER_0/a_2_8# 2 4 15 376
+n B4 FullAdder_4/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 376
+n A4 FullAdder_4/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 376
+n FullAdder_4/INV_1/A FullAdder_4/MIRROR_ADDER_0/a_65_8# FullAdder_4/INV_0/A 2 4 87 376
+n FullAdder_4/C FullAdder_4/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 376
+p FullAdder_4/C FullAdder_4/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 412
+n B4 FullAdder_4/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 376
+n B4 FullAdder_4/MIRROR_ADDER_0/a_108_8# FullAdder_4/MIRROR_ADDER_0/a_115_8# 2 4 113 376
+p FullAdder_4/C VDD FullAdder_4/MIRROR_ADDER_0/a_65_44# 2 4 79 412
+p A4 VDD FullAdder_4/MIRROR_ADDER_0/a_65_44# 2 4 63 412
+n A4 VSS FullAdder_4/MIRROR_ADDER_0/a_65_8# 2 4 63 376
+p B4 VDD FullAdder_4/MIRROR_ADDER_0/a_2_44# 2 4 15 412
+n A4 FullAdder_4/INV_0/A FullAdder_4/MIRROR_ADDER_0/a_108_8# 2 4 106 376
+n FullAdder_4/INV_0/A VSS S4 2 4 136 376
+p FullAdder_4/INV_0/A VDD S4 2 8 136 408
+n FullAdder_5/INV_1/A VSS FullAdder_6/C 2 4 152 468
+p FullAdder_5/INV_1/A VDD FullAdder_6/C 2 8 152 500
+n FullAdder_5/C FullAdder_5/MIRROR_ADDER_0/a_2_8# FullAdder_5/INV_1/A 2 4 23 468
+n FullAdder_5/C VSS FullAdder_5/MIRROR_ADDER_0/a_65_8# 2 4 79 468
+p FullAdder_5/INV_1/A FullAdder_5/MIRROR_ADDER_0/a_65_44# FullAdder_5/INV_0/A 2 4 87 504
+p A5 FullAdder_5/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 504
+p A5 FullAdder_5/INV_1/A FullAdder_5/MIRROR_ADDER_0/a_41_44# 2 4 39 504
+p B5 FullAdder_5/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 504
+n A5 FullAdder_5/INV_1/A FullAdder_5/MIRROR_ADDER_0/a_41_8# 2 4 39 468
+p FullAdder_5/C FullAdder_5/MIRROR_ADDER_0/a_2_44# FullAdder_5/INV_1/A 2 4 23 504
+p A5 FullAdder_5/INV_0/A FullAdder_5/MIRROR_ADDER_0/a_108_44# 2 4 106 504
+p B5 FullAdder_5/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 504
+p B5 FullAdder_5/MIRROR_ADDER_0/a_108_44# FullAdder_5/MIRROR_ADDER_0/a_115_44# 2 4 113 504
+n B5 VSS FullAdder_5/MIRROR_ADDER_0/a_2_8# 2 4 15 468
+n B5 FullAdder_5/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 468
+n A5 FullAdder_5/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 468
+n FullAdder_5/INV_1/A FullAdder_5/MIRROR_ADDER_0/a_65_8# FullAdder_5/INV_0/A 2 4 87 468
+n FullAdder_5/C FullAdder_5/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 468
+p FullAdder_5/C FullAdder_5/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 504
+n B5 FullAdder_5/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 468
+n B5 FullAdder_5/MIRROR_ADDER_0/a_108_8# FullAdder_5/MIRROR_ADDER_0/a_115_8# 2 4 113 468
+p FullAdder_5/C VDD FullAdder_5/MIRROR_ADDER_0/a_65_44# 2 4 79 504
+p A5 VDD FullAdder_5/MIRROR_ADDER_0/a_65_44# 2 4 63 504
+n A5 VSS FullAdder_5/MIRROR_ADDER_0/a_65_8# 2 4 63 468
+p B5 VDD FullAdder_5/MIRROR_ADDER_0/a_2_44# 2 4 15 504
+n A5 FullAdder_5/INV_0/A FullAdder_5/MIRROR_ADDER_0/a_108_8# 2 4 106 468
+n FullAdder_5/INV_0/A VSS S5 2 4 136 468
+p FullAdder_5/INV_0/A VDD S5 2 8 136 500
+n FullAdder_6/INV_1/A VSS FullAdder_7/C 2 4 152 560
+p FullAdder_6/INV_1/A VDD FullAdder_7/C 2 8 152 592
+n FullAdder_6/C FullAdder_6/MIRROR_ADDER_0/a_2_8# FullAdder_6/INV_1/A 2 4 23 560
+n FullAdder_6/C VSS FullAdder_6/MIRROR_ADDER_0/a_65_8# 2 4 79 560
+p FullAdder_6/INV_1/A FullAdder_6/MIRROR_ADDER_0/a_65_44# FullAdder_6/INV_0/A 2 4 87 596
+p A6 FullAdder_6/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 596
+p A6 FullAdder_6/INV_1/A FullAdder_6/MIRROR_ADDER_0/a_41_44# 2 4 39 596
+p B6 FullAdder_6/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 596
+n A6 FullAdder_6/INV_1/A FullAdder_6/MIRROR_ADDER_0/a_41_8# 2 4 39 560
+p FullAdder_6/C FullAdder_6/MIRROR_ADDER_0/a_2_44# FullAdder_6/INV_1/A 2 4 23 596
+p A6 FullAdder_6/INV_0/A FullAdder_6/MIRROR_ADDER_0/a_108_44# 2 4 106 596
+p B6 FullAdder_6/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 596
+p B6 FullAdder_6/MIRROR_ADDER_0/a_108_44# FullAdder_6/MIRROR_ADDER_0/a_115_44# 2 4 113 596
+n B6 VSS FullAdder_6/MIRROR_ADDER_0/a_2_8# 2 4 15 560
+n B6 FullAdder_6/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 560
+n A6 FullAdder_6/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 560
+n FullAdder_6/INV_1/A FullAdder_6/MIRROR_ADDER_0/a_65_8# FullAdder_6/INV_0/A 2 4 87 560
+n FullAdder_6/C FullAdder_6/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 560
+p FullAdder_6/C FullAdder_6/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 596
+n B6 FullAdder_6/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 560
+n B6 FullAdder_6/MIRROR_ADDER_0/a_108_8# FullAdder_6/MIRROR_ADDER_0/a_115_8# 2 4 113 560
+p FullAdder_6/C VDD FullAdder_6/MIRROR_ADDER_0/a_65_44# 2 4 79 596
+p A6 VDD FullAdder_6/MIRROR_ADDER_0/a_65_44# 2 4 63 596
+n A6 VSS FullAdder_6/MIRROR_ADDER_0/a_65_8# 2 4 63 560
+p B6 VDD FullAdder_6/MIRROR_ADDER_0/a_2_44# 2 4 15 596
+n A6 FullAdder_6/INV_0/A FullAdder_6/MIRROR_ADDER_0/a_108_8# 2 4 106 560
+n FullAdder_6/INV_0/A VSS S6 2 4 136 560
+p FullAdder_6/INV_0/A VDD S6 2 8 136 592
+n FullAdder_7/INV_1/A VSS Cout 2 4 152 652
+p FullAdder_7/INV_1/A VDD Cout 2 8 152 684
+n FullAdder_7/C FullAdder_7/MIRROR_ADDER_0/a_2_8# FullAdder_7/INV_1/A 2 4 23 652
+n FullAdder_7/C VSS FullAdder_7/MIRROR_ADDER_0/a_65_8# 2 4 79 652
+p FullAdder_7/INV_1/A FullAdder_7/MIRROR_ADDER_0/a_65_44# FullAdder_7/INV_0/A 2 4 87 688
+p A7 FullAdder_7/MIRROR_ADDER_0/a_2_44# VDD 2 4 7 688
+p A7 FullAdder_7/INV_1/A FullAdder_7/MIRROR_ADDER_0/a_41_44# 2 4 39 688
+p B7 FullAdder_7/MIRROR_ADDER_0/a_65_44# VDD 2 4 71 688
+n A7 FullAdder_7/INV_1/A FullAdder_7/MIRROR_ADDER_0/a_41_8# 2 4 39 652
+p FullAdder_7/C FullAdder_7/MIRROR_ADDER_0/a_2_44# FullAdder_7/INV_1/A 2 4 23 688
+p A7 FullAdder_7/INV_0/A FullAdder_7/MIRROR_ADDER_0/a_108_44# 2 4 106 688
+p B7 FullAdder_7/MIRROR_ADDER_0/a_41_44# VDD 2 4 47 688
+p B7 FullAdder_7/MIRROR_ADDER_0/a_108_44# FullAdder_7/MIRROR_ADDER_0/a_115_44# 2 4 113 688
+n B7 VSS FullAdder_7/MIRROR_ADDER_0/a_2_8# 2 4 15 652
+n B7 FullAdder_7/MIRROR_ADDER_0/a_65_8# VSS 2 4 71 652
+n A7 FullAdder_7/MIRROR_ADDER_0/a_2_8# VSS 2 4 7 652
+n FullAdder_7/INV_1/A FullAdder_7/MIRROR_ADDER_0/a_65_8# FullAdder_7/INV_0/A 2 4 87 652
+n FullAdder_7/C FullAdder_7/MIRROR_ADDER_0/a_115_8# VSS 2 4 120 652
+p FullAdder_7/C FullAdder_7/MIRROR_ADDER_0/a_115_44# VDD 2 4 120 688
+n B7 FullAdder_7/MIRROR_ADDER_0/a_41_8# VSS 2 4 47 652
+n B7 FullAdder_7/MIRROR_ADDER_0/a_108_8# FullAdder_7/MIRROR_ADDER_0/a_115_8# 2 4 113 652
+p FullAdder_7/C VDD FullAdder_7/MIRROR_ADDER_0/a_65_44# 2 4 79 688
+p A7 VDD FullAdder_7/MIRROR_ADDER_0/a_65_44# 2 4 63 688
+n A7 VSS FullAdder_7/MIRROR_ADDER_0/a_65_8# 2 4 63 652
+p B7 VDD FullAdder_7/MIRROR_ADDER_0/a_2_44# 2 4 15 688
+n A7 FullAdder_7/INV_0/A FullAdder_7/MIRROR_ADDER_0/a_108_8# 2 4 106 652
+n FullAdder_7/INV_0/A VSS S7 2 4 136 652
+p FullAdder_7/INV_0/A VDD S7 2 8 136 684
+C A4 B4 4.12
+C VDD FullAdder_6/C 2.15
+C VDD FullAdder_6/INV_1/A 4.02
+C VSS A5 2.44
+C A7 B7 4.12
+C Cin FullAdder_0/INV_1/A 2.75
+C FullAdder_4/C B4 3.43
+C FullAdder_1/INV_1/A FullAdder_1/C 2.96
+C VDD A5 2.11
+C VDD B3 2.16
+C FullAdder_1/INV_1/A VDD 4.02
+C A0 VSS 2.21
+C VDD VSS 4.15
+C FullAdder_2/INV_1/A FullAdder_2/C 3.00
+C FullAdder_7/C B7 3.43
+C VDD FullAdder_1/C 2.12
+C VDD FullAdder_5/C 2.15
+C FullAdder_5/INV_1/A FullAdder_5/C 3.00
+C VDD FullAdder_5/INV_1/A 4.02
+C VSS A4 2.40
+C VDD A4 2.11
+C A3 B3 4.16
+C VDD FullAdder_4/C 2.15
+C VDD FullAdder_4/INV_1/A 4.02
+C VSS A3 2.36
+C A6 B6 4.12
+C FullAdder_1/C B1 3.43
+C FullAdder_3/C B3 3.43
+C VDD A3 2.08
+C FullAdder_6/C B6 3.43
+C VDD FullAdder_3/C 2.15
+C FullAdder_4/INV_1/A FullAdder_4/C 3.00
+C VDD FullAdder_3/INV_1/A 4.02
+C Cin B0 3.43
+C VSS A2 2.38
+C A0 B0 4.12
+C VDD A2 2.11
+C FullAdder_7/INV_1/A FullAdder_7/C 3.00
+C VDD B6 2.00
+C A2 B2 4.12
+C VDD FullAdder_2/C 2.15
+C VDD FullAdder_2/INV_1/A 4.02
+C VSS A1 2.38
+C A5 B5 4.12
+C FullAdder_2/C B2 3.43
+C VDD A1 2.11
+C VSS A7 2.28
+C FullAdder_5/C B5 3.43
+C VDD A7 2.11
+C VDD B5 2.05
+C FullAdder_3/INV_1/A FullAdder_3/C 3.00
+C VDD FullAdder_7/C 2.15
+C FullAdder_6/INV_1/A FullAdder_6/C 3.00
+C VDD FullAdder_7/INV_1/A 4.02
+C VSS A6 2.41
+C VDD A6 2.11
+C VDD B4 2.11
+C A1 B1 4.12
+C B7 GND 9.00
+R B7 242
+= B7 FullAdder_7/B
+= B7 FullAdder_7/MIRROR_ADDER_0/B
+= B7 FullAdder_7/m1_112_n16#
+= S7 FullAdder_7/S
+= S7 FullAdder_7/INV_0/Y
+R FullAdder_7/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_7/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_7/INV_0/A GND 3.05
+R FullAdder_7/INV_0/A 89
+= FullAdder_7/INV_0/A FullAdder_7/MIRROR_ADDER_0/S`
+= FullAdder_7/INV_0/A FullAdder_7/m1_131_20#
+R FullAdder_7/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_7/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_7/INV_1/A GND 7.54
+R FullAdder_7/INV_1/A 153
+= FullAdder_7/INV_1/A FullAdder_7/MIRROR_ADDER_0/Cout`
+= FullAdder_7/INV_1/A FullAdder_7/m1_131_n32#
+C A7 GND 8.66
+R A7 241
+= A7 FullAdder_7/A
+= A7 FullAdder_7/MIRROR_ADDER_0/A
+= Cout FullAdder_7/Cout
+= Cout FullAdder_7/INV_1/Y
+C B6 GND 9.00
+R B6 242
+= B6 FullAdder_6/B
+= B6 FullAdder_6/MIRROR_ADDER_0/B
+= B6 FullAdder_6/m1_112_n16#
+= S6 FullAdder_6/S
+= S6 FullAdder_6/INV_0/Y
+R FullAdder_6/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_6/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_6/INV_0/A GND 3.05
+R FullAdder_6/INV_0/A 89
+= FullAdder_6/INV_0/A FullAdder_6/MIRROR_ADDER_0/S`
+= FullAdder_6/INV_0/A FullAdder_6/m1_131_20#
+R FullAdder_6/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_6/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_6/INV_1/A GND 7.54
+R FullAdder_6/INV_1/A 153
+= FullAdder_6/INV_1/A FullAdder_6/MIRROR_ADDER_0/Cout`
+= FullAdder_6/INV_1/A FullAdder_6/m1_131_n32#
+C A6 GND 8.66
+R A6 241
+= A6 FullAdder_6/A
+= A6 FullAdder_6/MIRROR_ADDER_0/A
+C FullAdder_7/C GND 9.38
+R FullAdder_7/C 192
+= FullAdder_7/C FullAdder_7/MIRROR_ADDER_0/C
+= FullAdder_7/C FullAdder_6/Cout
+= FullAdder_7/C m1_123_620#
+= FullAdder_7/C FullAdder_6/INV_1/Y
+C B5 GND 9.00
+R B5 242
+= B5 FullAdder_5/B
+= B5 FullAdder_5/MIRROR_ADDER_0/B
+= B5 FullAdder_5/m1_112_n16#
+= S5 FullAdder_5/S
+= S5 FullAdder_5/INV_0/Y
+R FullAdder_5/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_5/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_5/INV_0/A GND 3.05
+R FullAdder_5/INV_0/A 89
+= FullAdder_5/INV_0/A FullAdder_5/MIRROR_ADDER_0/S`
+= FullAdder_5/INV_0/A FullAdder_5/m1_131_20#
+R FullAdder_5/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_5/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_5/INV_1/A GND 7.54
+R FullAdder_5/INV_1/A 153
+= FullAdder_5/INV_1/A FullAdder_5/MIRROR_ADDER_0/Cout`
+= FullAdder_5/INV_1/A FullAdder_5/m1_131_n32#
+C A5 GND 8.66
+R A5 241
+= A5 FullAdder_5/A
+= A5 FullAdder_5/MIRROR_ADDER_0/A
+C FullAdder_6/C GND 9.38
+R FullAdder_6/C 192
+= FullAdder_6/C FullAdder_6/MIRROR_ADDER_0/C
+= FullAdder_6/C FullAdder_5/Cout
+= FullAdder_6/C m1_123_528#
+= FullAdder_6/C FullAdder_5/INV_1/Y
+C B4 GND 9.00
+R B4 242
+= B4 FullAdder_4/B
+= B4 FullAdder_4/MIRROR_ADDER_0/B
+= B4 FullAdder_4/m1_112_n16#
+= S4 FullAdder_4/S
+= S4 FullAdder_4/INV_0/Y
+R FullAdder_4/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_4/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_4/INV_0/A GND 3.05
+R FullAdder_4/INV_0/A 89
+= FullAdder_4/INV_0/A FullAdder_4/MIRROR_ADDER_0/S`
+= FullAdder_4/INV_0/A FullAdder_4/m1_131_20#
+R FullAdder_4/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_4/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_4/INV_1/A GND 7.54
+R FullAdder_4/INV_1/A 153
+= FullAdder_4/INV_1/A FullAdder_4/MIRROR_ADDER_0/Cout`
+= FullAdder_4/INV_1/A FullAdder_4/m1_131_n32#
+C A4 GND 8.66
+R A4 241
+= A4 FullAdder_4/A
+= A4 FullAdder_4/MIRROR_ADDER_0/A
+C FullAdder_5/C GND 9.38
+R FullAdder_5/C 192
+= FullAdder_5/C FullAdder_5/MIRROR_ADDER_0/C
+= FullAdder_5/C FullAdder_4/Cout
+= FullAdder_5/C m1_123_436#
+= FullAdder_5/C FullAdder_4/INV_1/Y
+C B3 GND 9.00
+R B3 242
+= B3 FullAdder_3/B
+= B3 FullAdder_3/MIRROR_ADDER_0/B
+= B3 FullAdder_3/m1_112_n16#
+= S3 FullAdder_3/S
+= S3 FullAdder_3/INV_0/Y
+R FullAdder_3/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_3/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_3/INV_0/A GND 3.05
+R FullAdder_3/INV_0/A 89
+= FullAdder_3/INV_0/A FullAdder_3/MIRROR_ADDER_0/S`
+= FullAdder_3/INV_0/A FullAdder_3/m1_131_20#
+R FullAdder_3/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_3/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_3/INV_1/A GND 7.54
+R FullAdder_3/INV_1/A 153
+= FullAdder_3/INV_1/A FullAdder_3/MIRROR_ADDER_0/Cout`
+= FullAdder_3/INV_1/A FullAdder_3/m1_131_n32#
+C A3 GND 8.62
+R A3 241
+= A3 FullAdder_3/A
+= A3 FullAdder_3/MIRROR_ADDER_0/A
+C FullAdder_4/C GND 9.38
+R FullAdder_4/C 192
+= FullAdder_4/C FullAdder_4/MIRROR_ADDER_0/C
+= FullAdder_4/C FullAdder_3/Cout
+= FullAdder_4/C m1_123_344#
+= FullAdder_4/C FullAdder_3/INV_1/Y
+C B2 GND 8.97
+R B2 242
+= B2 FullAdder_2/B
+= B2 FullAdder_2/MIRROR_ADDER_0/B
+= B2 FullAdder_2/m1_112_n16#
+= S2 FullAdder_2/S
+= S2 FullAdder_2/INV_0/Y
+R FullAdder_2/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_2/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_2/INV_0/A GND 3.05
+R FullAdder_2/INV_0/A 89
+= FullAdder_2/INV_0/A FullAdder_2/MIRROR_ADDER_0/S`
+= FullAdder_2/INV_0/A FullAdder_2/m1_131_20#
+R FullAdder_2/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_2/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_2/INV_1/A GND 7.54
+R FullAdder_2/INV_1/A 153
+= FullAdder_2/INV_1/A FullAdder_2/MIRROR_ADDER_0/Cout`
+= FullAdder_2/INV_1/A FullAdder_2/m1_131_n32#
+C A2 GND 8.66
+R A2 241
+= A2 FullAdder_2/A
+= A2 FullAdder_2/MIRROR_ADDER_0/A
+C FullAdder_3/C GND 9.34
+R FullAdder_3/C 192
+= FullAdder_3/C FullAdder_3/MIRROR_ADDER_0/C
+= FullAdder_3/C FullAdder_2/Cout
+= FullAdder_3/C m1_123_252#
+= FullAdder_3/C FullAdder_2/INV_1/Y
+C B1 GND 9.00
+R B1 242
+= B1 FullAdder_1/B
+= B1 FullAdder_1/MIRROR_ADDER_0/B
+= B1 FullAdder_1/m1_112_n16#
+= S1 FullAdder_1/S
+= S1 FullAdder_1/INV_0/Y
+R FullAdder_1/MIRROR_ADDER_0/a_65_8# 18
+R FullAdder_1/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_1/INV_0/A GND 3.05
+R FullAdder_1/INV_0/A 89
+= FullAdder_1/INV_0/A FullAdder_1/MIRROR_ADDER_0/S`
+= FullAdder_1/INV_0/A FullAdder_1/m1_131_20#
+R FullAdder_1/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_1/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_1/INV_1/A GND 7.54
+R FullAdder_1/INV_1/A 153
+= FullAdder_1/INV_1/A FullAdder_1/MIRROR_ADDER_0/Cout`
+= FullAdder_1/INV_1/A FullAdder_1/m1_131_n32#
+C FullAdder_1/C GND 9.38
+R FullAdder_1/C 192
+= FullAdder_1/C FullAdder_0/Cout
+= FullAdder_1/C FullAdder_0/INV_1/Y
+= FullAdder_1/C m1_123_68#
+= FullAdder_1/C FullAdder_1/MIRROR_ADDER_0/C
+C A1 GND 8.66
+R A1 241
+= A1 FullAdder_1/A
+= A1 FullAdder_1/MIRROR_ADDER_0/A
+C FullAdder_2/C GND 9.38
+R FullAdder_2/C 192
+= FullAdder_2/C FullAdder_2/MIRROR_ADDER_0/C
+= FullAdder_2/C FullAdder_1/Cout
+= FullAdder_2/C m1_123_160#
+= FullAdder_2/C FullAdder_1/INV_1/Y
+C B0 GND 9.00
+R B0 242
+= B0 FullAdder_0/B
+= B0 FullAdder_0/MIRROR_ADDER_0/B
+= B0 FullAdder_0/m1_112_n16#
+= S0 FullAdder_0/S
+= S0 FullAdder_0/INV_0/Y
+R FullAdder_0/MIRROR_ADDER_0/a_65_8# 18
+C VSS GND 38.15
+R VSS 892
+= VSS FullAdder_7/VSS
+= VSS FullAdder_7/INV_0/VSS
+= VSS FullAdder_7/INV_1/VSS
+= VSS FullAdder_7/MIRROR_ADDER_0/VSS
+= VSS FullAdder_6/VSS
+= VSS FullAdder_6/INV_0/VSS
+= VSS FullAdder_6/INV_1/VSS
+= VSS FullAdder_6/MIRROR_ADDER_0/VSS
+= VSS FullAdder_5/VSS
+= VSS FullAdder_5/INV_0/VSS
+= VSS FullAdder_5/INV_1/VSS
+= VSS FullAdder_5/MIRROR_ADDER_0/VSS
+= VSS FullAdder_4/VSS
+= VSS FullAdder_4/INV_0/VSS
+= VSS FullAdder_4/INV_1/VSS
+= VSS FullAdder_4/MIRROR_ADDER_0/VSS
+= VSS FullAdder_2/VSS
+= VSS FullAdder_2/INV_0/VSS
+= VSS FullAdder_2/INV_1/VSS
+= VSS FullAdder_2/MIRROR_ADDER_0/VSS
+= VSS FullAdder_3/VSS
+= VSS FullAdder_3/INV_0/VSS
+= VSS FullAdder_3/INV_1/VSS
+= VSS FullAdder_3/MIRROR_ADDER_0/VSS
+= VSS FullAdder_1/VSS
+= VSS FullAdder_1/INV_0/VSS
+= VSS FullAdder_1/INV_1/VSS
+= VSS FullAdder_1/MIRROR_ADDER_0/VSS
+= VSS FullAdder_0/VSS
+= VSS FullAdder_0/INV_0/VSS
+= VSS FullAdder_0/INV_1/VSS
+= VSS FullAdder_0/MIRROR_ADDER_0/VSS
+R FullAdder_0/MIRROR_ADDER_0/a_2_8# 18
+C FullAdder_0/INV_0/A GND 3.05
+R FullAdder_0/INV_0/A 89
+= FullAdder_0/INV_0/A FullAdder_0/MIRROR_ADDER_0/S`
+= FullAdder_0/INV_0/A FullAdder_0/m1_131_20#
+R FullAdder_0/MIRROR_ADDER_0/a_65_44# 15
+R FullAdder_0/MIRROR_ADDER_0/a_2_44# 15
+C FullAdder_0/INV_1/A GND 7.54
+R FullAdder_0/INV_1/A 153
+= FullAdder_0/INV_1/A FullAdder_0/MIRROR_ADDER_0/Cout`
+= FullAdder_0/INV_1/A FullAdder_0/m1_131_n32#
+C Cin GND 7.24
+R Cin 181
+= Cin FullAdder_0/C
+= Cin FullAdder_0/MIRROR_ADDER_0/C
+C A0 GND 8.66
+R A0 241
+= A0 FullAdder_0/A
+= A0 FullAdder_0/MIRROR_ADDER_0/A
+C VDD GND 285.54
+R VDD 53764
+= VDD FullAdder_7/VDD
+= VDD FullAdder_7/INV_0/VDD
+= VDD FullAdder_7/INV_1/VDD
+= VDD FullAdder_7/MIRROR_ADDER_0/VDD
+= VDD FullAdder_6/VDD
+= VDD FullAdder_6/INV_0/VDD
+= VDD FullAdder_6/INV_1/VDD
+= VDD FullAdder_6/MIRROR_ADDER_0/VDD
+= VDD FullAdder_5/VDD
+= VDD FullAdder_5/INV_0/VDD
+= VDD FullAdder_5/INV_1/VDD
+= VDD FullAdder_5/MIRROR_ADDER_0/VDD
+= VDD FullAdder_4/VDD
+= VDD FullAdder_4/INV_0/VDD
+= VDD FullAdder_4/INV_1/VDD
+= VDD FullAdder_4/MIRROR_ADDER_0/VDD
+= VDD FullAdder_3/VDD
+= VDD FullAdder_3/INV_0/VDD
+= VDD FullAdder_3/INV_1/VDD
+= VDD FullAdder_3/MIRROR_ADDER_0/VDD
+= VDD FullAdder_2/VDD
+= VDD FullAdder_2/INV_0/VDD
+= VDD FullAdder_2/INV_1/VDD
+= VDD FullAdder_2/MIRROR_ADDER_0/VDD
+= VDD FullAdder_1/VDD
+= VDD FullAdder_1/INV_0/VDD
+= VDD FullAdder_1/INV_1/VDD
+= VDD FullAdder_1/MIRROR_ADDER_0/VDD
+= VDD FullAdder_0/VDD
+= VDD FullAdder_0/INV_0/VDD
+= VDD FullAdder_0/INV_1/VDD
+= VDD FullAdder_0/MIRROR_ADDER_0/VDD

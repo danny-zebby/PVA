@@ -1,0 +1,76 @@
+magic
+tech scmos
+timestamp 1715124547
+<< metal1 >>
+rect 768 836 1052 840
+rect 795 780 1070 784
+rect 1056 598 1068 602
+rect 1048 447 1070 451
+rect 960 187 1044 191
+rect 952 150 1060 154
+rect 1061 61 1068 65
+rect 14 32 18 36
+rect 14 24 18 28
+rect 920 24 1057 28
+rect 14 16 18 20
+rect 928 16 1065 20
+rect 14 8 18 12
+<< m2contact >>
+rect 1052 836 1056 840
+rect 1070 780 1074 784
+rect 1070 751 1074 755
+rect 1052 598 1056 602
+rect 1044 447 1048 451
+rect 1070 447 1074 451
+rect 956 187 960 191
+rect 1044 187 1048 191
+rect 948 150 952 154
+rect 1060 150 1064 154
+rect 1057 61 1061 65
+rect 1065 53 1069 57
+rect 1057 24 1061 28
+rect 1065 16 1069 20
+<< metal2 >>
+rect 1052 602 1056 836
+rect 1070 755 1074 780
+rect 1044 191 1048 447
+rect 1060 237 1064 241
+rect 1060 154 1064 221
+rect 1057 28 1061 61
+rect 1065 20 1069 53
+rect 2266 12 2270 16
+rect 2274 12 2278 16
+rect 2282 12 2286 16
+rect 2290 12 2294 16
+rect 2298 12 2302 16
+rect 2306 12 2310 16
+rect 2314 12 2318 16
+rect 2322 12 2326 16
+rect 948 -4 952 0
+rect 956 -4 960 0
+use PositionPart  PositionPart_0
+timestamp 1715058024
+transform 1 0 1141 0 1 117
+box -81 -117 1185 824
+use directionDetector  directionDetector_0
+timestamp 1715124138
+transform 1 0 0 0 1 48
+box 0 -48 968 867
+<< labels >>
+rlabel m2contact 1072 782 1072 782 1 VDD
+rlabel m2contact 1054 838 1054 838 1 VSS
+rlabel metal1 16 10 16 10 1 B
+rlabel metal1 16 18 16 18 1 CLK
+rlabel metal1 16 26 16 26 1 RST
+rlabel metal1 16 34 16 34 1 A
+rlabel metal2 2268 14 2268 14 1 P0
+rlabel metal2 2276 14 2276 14 1 P1
+rlabel metal2 2284 14 2284 14 1 P2
+rlabel metal2 2292 14 2292 14 1 P3
+rlabel metal2 2300 14 2300 14 1 P4
+rlabel metal2 2308 14 2308 14 1 P5
+rlabel metal2 2316 14 2316 14 1 P6
+rlabel metal2 2324 14 2324 14 7 P7
+rlabel metal2 950 -2 950 -2 1 FWD
+rlabel metal2 958 -2 958 -2 1 BWD
+<< end >>

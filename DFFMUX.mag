@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1714612951
+<< nwell >>
+rect 132 59 140 64
+<< metal1 >>
+rect 0 52 6 56
+rect 142 24 151 28
+rect 0 0 6 4
+rect 0 -8 6 -4
+rect 354 -7 360 -3
+rect 0 -16 6 -12
+rect 354 -16 360 -12
+rect 0 -24 6 -20
+rect 33 -48 354 -44
+<< m2contact >>
+rect 158 -16 162 -12
+rect 194 -24 198 -20
+rect 29 -48 33 -44
+rect 354 -48 358 -44
+<< metal2 >>
+rect 2 24 6 62
+rect 2 -48 6 -8
+rect 29 -44 33 -15
+rect 73 -24 77 -21
+rect 158 -48 162 -40
+rect 194 -48 198 -40
+rect 330 -48 334 -40
+rect 346 -48 350 -40
+rect 354 -44 358 -3
+use DFlipFlop  DFlipFlop_0
+timestamp 1711920764
+transform 1 0 144 0 1 0
+box -6 -40 222 68
+use mux  mux_0
+timestamp 1714611556
+transform 1 0 16 0 1 0
+box -20 -24 132 62
+<< labels >>
+rlabel metal1 1 54 1 54 3 VDD
+rlabel metal1 1 2 1 2 3 VSS
+rlabel metal1 1 -6 1 -6 3 en
+rlabel m2contact 160 -14 160 -14 1 RST
+rlabel m2contact 196 -22 196 -22 1 CLK
+rlabel metal1 359 -5 359 -5 1 Q
+rlabel metal1 359 -14 359 -14 1 Qb
+rlabel metal1 1 -22 1 -22 3 D
+<< end >>

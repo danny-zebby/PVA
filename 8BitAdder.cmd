@@ -1,0 +1,13 @@
+h VDD
+l VSS
+analyzer A0 A1 A2 A3 A4 A5 A6 A7 B0 B1 B2 B3 B4 B5 B6 B7 Cin Cout S0 S1 S2 S3 S4 S5 S6 S7
+l Cin
+h A0 A1 A2 A3 A4 A5 B0 B2 B4
+l A6 A7 B1 B3 B5 B6 B7
+s
+h A6 A7
+l B1 B2 B3 B4 B5 B6 B7
+s
+h B4 B5 B6 B7
+l B0
+s

@@ -1,0 +1,32 @@
+analyzer  A7 A6 A5 A4 A3 A2 A1 A0    B7 B6 B5 B4 B3 B2 B1 B0  Y7 Y6 Y5 Y4 Y3 Y2 Y1 Y0 
+ # X0 X1 X2 X3 X4 X5 X6 X7
+
+h VDD  SEL
+l VSS
+
+
+
+# 1111 1111 - 0000 1111 = 1111 0000
+h A0 A1 A2 A3 A4 A5 A6 A7 
+h B0 B1 B2 B3
+l B4 B5 B6 B7
+s
+s
+
+# 1111 1111 - 1111 0000 = 0000 1111
+h B4 B5 B6 B7
+l B0 B1 B2 B3
+s
+s
+
+# Check small number - larger number = underflow
+# 0000 0001 - 0000 0011 = 1111 1110
+l A1 A2 A3 A4 A5 A6 A7
+h A0
+
+l B2 B3 B4 B5 B6 B7
+h B0 B1
+s
+
+
+

@@ -1,0 +1,59 @@
+magic
+tech scmos
+timestamp 1711922858
+<< nwell >>
+rect 8 92 12 96
+<< psubstratepcontact >>
+rect 8 40 12 44
+<< nsubstratencontact >>
+rect 8 92 12 96
+<< metal1 >>
+rect 8 356 12 360
+rect 220 357 224 361
+rect 220 348 224 352
+rect 8 248 12 252
+rect 220 249 224 253
+rect 220 240 224 244
+rect 8 140 12 144
+rect 220 141 224 145
+rect 220 132 224 136
+rect 8 32 12 36
+rect 220 33 224 37
+rect 220 24 224 28
+<< m2contact >>
+rect 20 24 24 28
+rect 56 16 60 20
+use DFlipFlop  DFlipFlop_0
+timestamp 1711920764
+transform 1 0 6 0 1 40
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_1
+timestamp 1711920764
+transform 1 0 6 0 1 148
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_2
+timestamp 1711920764
+transform 1 0 6 0 1 256
+box -6 -40 222 68
+use DFlipFlop  DFlipFlop_3
+timestamp 1711920764
+transform 1 0 6 0 1 364
+box -6 -40 222 68
+<< labels >>
+rlabel m2contact 22 26 22 26 1 RST
+rlabel m2contact 58 18 58 18 1 CLK
+rlabel psubstratepcontact 10 42 10 42 1 VSS
+rlabel nsubstratencontact 10 94 10 94 1 VDD
+rlabel metal1 10 34 10 34 1 D0
+rlabel metal1 222 35 222 35 1 Q0
+rlabel metal1 222 26 222 26 1 Q0b
+rlabel metal1 10 142 10 142 1 D1
+rlabel metal1 10 250 10 250 1 D2
+rlabel metal1 222 134 222 134 1 Q1b
+rlabel metal1 222 143 222 143 1 Q1
+rlabel metal1 222 251 222 251 1 Q2
+rlabel metal1 222 242 222 242 1 Q2b
+rlabel metal1 10 358 10 358 1 D3
+rlabel metal1 222 350 222 350 1 Q3b
+rlabel metal1 222 359 222 359 1 Q3
+<< end >>

@@ -1,0 +1,206 @@
+| units: 30 tech: scmos format: MIT
+n RST DFlipFlop_0/NAND3_0/a_9_8# DFlipFlop_0/NAND3_0/a_17_8# 2 4 159 8
+p RST DFlipFlop_0/NAND3_3/B VDD 2 8 159 40
+n DFlipFlop_0/D VSS DFlipFlop_0/NAND3_0/a_9_8# 2 4 151 8
+p DFlipFlop_0/NAND3_4/A VDD DFlipFlop_0/NAND3_3/B 2 8 171 40
+p DFlipFlop_0/D VDD DFlipFlop_0/NAND3_3/B 2 8 151 40
+n DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_0/a_17_8# DFlipFlop_0/NAND3_3/B 2 4 171 8
+n CLK DFlipFlop_0/NAND3_1/a_9_8# DFlipFlop_0/NAND3_1/a_17_8# 2 4 195 8
+p CLK DFlipFlop_0/NAND3_4/A VDD 2 8 195 40
+n DFlipFlop_0/NAND3_3/B VSS DFlipFlop_0/NAND3_1/a_9_8# 2 4 187 8
+p DFlipFlop_0/NAND3_5/B VDD DFlipFlop_0/NAND3_4/A 2 8 207 40
+p DFlipFlop_0/NAND3_3/B VDD DFlipFlop_0/NAND3_4/A 2 8 187 40
+n DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_1/a_17_8# DFlipFlop_0/NAND3_4/A 2 4 207 8
+n RST DFlipFlop_0/NAND3_2/a_9_8# DFlipFlop_0/NAND3_2/a_17_8# 2 4 231 8
+p RST DFlipFlop_0/NAND3_5/B VDD 2 8 231 40
+n CLK VSS DFlipFlop_0/NAND3_2/a_9_8# 2 4 223 8
+p DFlipFlop_0/NAND3_3/Y VDD DFlipFlop_0/NAND3_5/B 2 8 243 40
+p CLK VDD DFlipFlop_0/NAND3_5/B 2 8 223 40
+n DFlipFlop_0/NAND3_3/Y DFlipFlop_0/NAND3_2/a_17_8# DFlipFlop_0/NAND3_5/B 2 4 243 8
+n DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_3/a_9_8# DFlipFlop_0/NAND3_3/a_17_8# 2 4 267 8
+p DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_3/Y VDD 2 8 267 40
+n DFlipFlop_0/NAND3_5/B VSS DFlipFlop_0/NAND3_3/a_9_8# 2 4 259 8
+p VDD VDD DFlipFlop_0/NAND3_3/Y 2 8 279 40
+p DFlipFlop_0/NAND3_5/B VDD DFlipFlop_0/NAND3_3/Y 2 8 259 40
+n VDD DFlipFlop_0/NAND3_3/a_17_8# DFlipFlop_0/NAND3_3/Y 2 4 279 8
+n RST DFlipFlop_0/NAND3_4/a_9_8# DFlipFlop_0/NAND3_4/a_17_8# 2 4 303 8
+p RST Qb VDD 2 8 303 40
+n DFlipFlop_0/NAND3_4/A VSS DFlipFlop_0/NAND3_4/a_9_8# 2 4 295 8
+p Q VDD Qb 2 8 315 40
+p DFlipFlop_0/NAND3_4/A VDD Qb 2 8 295 40
+n Q DFlipFlop_0/NAND3_4/a_17_8# Qb 2 4 315 8
+n DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_5/a_9_8# DFlipFlop_0/NAND3_5/a_17_8# 2 4 339 8
+p DFlipFlop_0/NAND3_5/B Q VDD 2 8 339 40
+n Qb VSS DFlipFlop_0/NAND3_5/a_9_8# 2 4 331 8
+p VDD VDD Q 2 8 351 40
+p Qb VDD Q 2 8 331 40
+n VDD DFlipFlop_0/NAND3_5/a_17_8# Q 2 4 351 8
+n mux_0/OR2_0/B mux_0/OR2_0/INV_0/A VSS 2 4 119 8
+p mux_0/OR2_0/B mux_0/OR2_0/NOR2_0/a_9_32# mux_0/OR2_0/INV_0/A 2 16 119 32
+n mux_0/OR2_0/A VSS mux_0/OR2_0/INV_0/A 2 4 111 8
+p mux_0/OR2_0/A VDD mux_0/OR2_0/NOR2_0/a_9_32# 2 16 111 32
+n mux_0/OR2_0/INV_0/A VSS DFlipFlop_0/D 2 4 135 8
+p mux_0/OR2_0/INV_0/A VDD DFlipFlop_0/D 2 8 135 40
+p mux_0/INV_0/Y VDD mux_0/AND2_0/INV_0/A 2 4 24 44
+n mux_0/INV_0/Y VSS mux_0/AND2_0/NAND2_0/a_10_8# 2 4 24 8
+n Q mux_0/AND2_0/NAND2_0/a_10_8# mux_0/AND2_0/INV_0/A 2 4 34 8
+p Q mux_0/AND2_0/INV_0/A VDD 2 4 34 44
+n mux_0/AND2_0/INV_0/A VSS mux_0/OR2_0/B 2 4 51 8
+p mux_0/AND2_0/INV_0/A VDD mux_0/OR2_0/B 2 8 51 40
+p en VDD mux_0/AND2_1/INV_0/A 2 4 68 44
+n en VSS mux_0/AND2_1/NAND2_0/a_10_8# 2 4 68 8
+n D mux_0/AND2_1/NAND2_0/a_10_8# mux_0/AND2_1/INV_0/A 2 4 78 8
+p D mux_0/AND2_1/INV_0/A VDD 2 4 78 44
+n mux_0/AND2_1/INV_0/A VSS mux_0/OR2_0/A 2 4 95 8
+p mux_0/AND2_1/INV_0/A VDD mux_0/OR2_0/A 2 8 95 40
+n en VSS mux_0/INV_0/Y 2 4 7 8
+p en VDD mux_0/INV_0/Y 2 8 7 40
+C DFlipFlop_0/NAND3_4/A RST 2.72
+C DFlipFlop_0/NAND3_5/B VDD 2.62
+C VDD Q 3.23
+C DFlipFlop_0/NAND3_4/A VSS 2.33
+C CLK RST 2.09
+R mux_0/OR2_0/A 63
+= mux_0/OR2_0/A mux_0/OR2_0/NOR2_0/A
+= mux_0/OR2_0/A mux_0/AND2_1/Y
+= mux_0/OR2_0/A mux_0/m1_86_16#
+= mux_0/OR2_0/A mux_0/AND2_1/INV_0/Y
+C mux_0/AND2_1/INV_0/A GND 2.02
+R mux_0/AND2_1/INV_0/A 65
+= mux_0/AND2_1/INV_0/A mux_0/AND2_1/NAND2_0/Y
+= mux_0/AND2_1/INV_0/A mux_0/AND2_1/m1_29_16#
+C D GND 3.67
+R D 58
+= D m2_73_n24#
+= D mux_0/B
+= D mux_0/AND2_1/B
+= D mux_0/AND2_1/NAND2_0/B
+C en GND 4.86
+R en 119
+= en mux_0/S
+= en mux_0/INV_0/A
+= en mux_0/AND2_1/A
+= en mux_0/AND2_1/NAND2_0/A
+C mux_0/OR2_0/B GND 3.77
+R mux_0/OR2_0/B 66
+= mux_0/OR2_0/B mux_0/OR2_0/NOR2_0/B
+= mux_0/OR2_0/B mux_0/AND2_0/Y
+= mux_0/OR2_0/B mux_0/m1_38_n16#
+= mux_0/OR2_0/B mux_0/AND2_0/INV_0/Y
+C mux_0/AND2_0/INV_0/A GND 2.02
+R mux_0/AND2_0/INV_0/A 65
+= mux_0/AND2_0/INV_0/A mux_0/AND2_0/NAND2_0/Y
+= mux_0/AND2_0/INV_0/A mux_0/AND2_0/m1_29_16#
+C Q GND 10.40
+R Q 143
+= Q DFlipFlop_0/Q
+= Q DFlipFlop_0/NAND3_5/Y
+= Q DFlipFlop_0/NAND3_4/C
+= Q mux_0/A
+= Q m1_0_n16#
+= Q m1_29_n48#
+= Q mux_0/AND2_0/B
+= Q mux_0/AND2_0/NAND2_0/B
+C mux_0/INV_0/Y GND 2.06
+R mux_0/INV_0/Y 64
+= mux_0/INV_0/Y mux_0/m1_n2_26#
+= mux_0/INV_0/Y mux_0/AND2_0/A
+= mux_0/INV_0/Y mux_0/AND2_0/NAND2_0/A
+C DFlipFlop_0/D GND 2.19
+R DFlipFlop_0/D 64
+= DFlipFlop_0/D m1_142_24#
+= DFlipFlop_0/D DFlipFlop_0/NAND3_0/A
+= DFlipFlop_0/D mux_0/OR2_0/Y
+= DFlipFlop_0/D mux_0/m1_122_16#
+= DFlipFlop_0/D mux_0/OR2_0/INV_0/Y
+C VSS GND 10.10
+R VSS 280
+= VSS m2_330_n48#
+= VSS mux_0/VSS
+= VSS DFlipFlop_0/VSS
+= VSS DFlipFlop_0/NAND3_0/VSS
+= VSS DFlipFlop_0/NAND3_5/VSS
+= VSS DFlipFlop_0/NAND3_1/VSS
+= VSS DFlipFlop_0/NAND3_2/VSS
+= VSS DFlipFlop_0/NAND3_3/VSS
+= VSS DFlipFlop_0/NAND3_4/VSS
+= VSS DFlipFlop_0/m1_186_0#
+= VSS mux_0/AND2_0/VSS
+= VSS mux_0/AND2_0/NAND2_0/VSS
+= VSS mux_0/AND2_0/INV_0/VSS
+= VSS mux_0/AND2_1/VSS
+= VSS mux_0/AND2_1/NAND2_0/VSS
+= VSS mux_0/AND2_1/INV_0/VSS
+= VSS mux_0/INV_0/VSS
+= VSS mux_0/OR2_0/VSS
+= VSS mux_0/OR2_0/INV_0/VSS
+= VSS mux_0/OR2_0/NOR2_0/VSS
+R mux_0/OR2_0/INV_0/A 68
+= mux_0/OR2_0/INV_0/A mux_0/OR2_0/NOR2_0/Y
+= mux_0/OR2_0/INV_0/A mux_0/OR2_0/m1_10_28#
+C Qb GND 2.86
+R Qb 75
+= Qb DFlipFlop_0/Qb
+= Qb DFlipFlop_0/NAND3_4/Y
+= Qb DFlipFlop_0/NAND3_5/A
+C VDD GND 95.73
+R VDD 9476
+= VDD m2_346_n48#
+= VDD mux_0/VDD
+= VDD mux_0/AND2_0/VDD
+= VDD mux_0/AND2_0/NAND2_0/VDD
+= VDD mux_0/AND2_0/INV_0/VDD
+= VDD mux_0/INV_0/VDD
+= VDD mux_0/OR2_0/VDD
+= VDD mux_0/AND2_1/VDD
+= VDD mux_0/AND2_1/NAND2_0/VDD
+= VDD mux_0/AND2_1/INV_0/VDD
+= VDD mux_0/w_34_59#
+= VDD mux_0/OR2_0/INV_0/VDD
+= VDD mux_0/OR2_0/NOR2_0/VDD
+= VDD DFlipFlop_0/VDD
+= VDD w_132_59#
+= VDD DFlipFlop_0/NAND3_4/VDD
+= VDD DFlipFlop_0/NAND3_3/C
+= VDD DFlipFlop_0/m1_130_20#
+= VDD DFlipFlop_0/NAND3_5/VDD
+= VDD DFlipFlop_0/NAND3_5/C
+= VDD DFlipFlop_0/m1_202_20#
+= VDD DFlipFlop_0/NAND3_0/VDD
+= VDD DFlipFlop_0/NAND3_3/VDD
+= VDD DFlipFlop_0/NAND3_1/VDD
+= VDD DFlipFlop_0/NAND3_2/VDD
+= VDD DFlipFlop_0/w_n6_34#
+C DFlipFlop_0/NAND3_5/B GND 8.91
+R DFlipFlop_0/NAND3_5/B 201
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_3/A
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_2/Y
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/NAND3_1/C
+= DFlipFlop_0/NAND3_5/B DFlipFlop_0/m1_58_n40#
+C DFlipFlop_0/NAND3_3/Y GND 3.79
+R DFlipFlop_0/NAND3_3/Y 77
+= DFlipFlop_0/NAND3_3/Y DFlipFlop_0/NAND3_2/C
+= DFlipFlop_0/NAND3_3/Y DFlipFlop_0/m1_94_n24#
+C RST GND 8.18
+R RST 182
+= RST m2_158_n48#
+= RST DFlipFlop_0/RST
+= RST DFlipFlop_0/NAND3_4/B
+= RST DFlipFlop_0/NAND3_0/B
+= RST DFlipFlop_0/NAND3_2/B
+C CLK GND 4.86
+R CLK 120
+= CLK m2_194_n48#
+= CLK DFlipFlop_0/CLK
+= CLK DFlipFlop_0/NAND3_1/B
+= CLK DFlipFlop_0/NAND3_2/A
+C DFlipFlop_0/NAND3_4/A GND 6.89
+R DFlipFlop_0/NAND3_4/A 139
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_1/Y
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/NAND3_0/C
+= DFlipFlop_0/NAND3_4/A DFlipFlop_0/m1_22_n8#
+C DFlipFlop_0/NAND3_3/B GND 6.01
+R DFlipFlop_0/NAND3_3/B 138
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_1/A
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/NAND3_0/Y
+= DFlipFlop_0/NAND3_3/B DFlipFlop_0/m1_30_n32#

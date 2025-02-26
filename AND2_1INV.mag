@@ -1,0 +1,28 @@
+magic
+tech scmos
+timestamp 1711565272
+<< nwell >>
+rect 6 52 10 56
+<< polycontact >>
+rect 33 26 37 30
+rect 6 16 10 20
+<< metal1 >>
+rect 6 52 10 56
+rect 18 26 23 30
+rect 58 24 62 28
+rect 6 0 10 4
+use AND2  AND2_0
+timestamp 1711564045
+transform 1 0 14 0 1 0
+box 0 0 54 62
+use INV  INV_0
+timestamp 1711561836
+transform 1 0 4 0 1 0
+box -4 0 20 59
+<< labels >>
+rlabel polycontact 8 18 8 18 1 A
+rlabel polycontact 35 28 35 28 1 B
+rlabel metal1 60 26 60 26 1 Y
+rlabel metal1 8 54 8 54 1 VDD
+rlabel metal1 8 2 8 2 1 VSS
+<< end >>

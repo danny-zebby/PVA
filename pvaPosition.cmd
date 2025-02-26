@@ -1,0 +1,1459 @@
+analyzer RST CLK FWD BWD A B P0 P1 P2 P3 P4 P5 P6 P7
+vector pos P0 P1 P2 P3 P4 P5 P6 P7
+h VDD
+l VSS
+l CLK
+l RST
+l A B
+s
+h RST
+s
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+# Frequency change
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l B
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+l A
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s

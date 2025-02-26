@@ -1,0 +1,3139 @@
+| units: 30 tech: scmos format: MIT
+n RST Reg8_0/DFlipFlop_0/NAND3_0/a_9_8# Reg8_0/DFlipFlop_0/NAND3_0/a_17_8# 2 4 21 48
+p RST Reg8_0/DFlipFlop_0/NAND3_3/B VDD 2 8 21 80
+n A0 VSS Reg8_0/DFlipFlop_0/NAND3_0/a_9_8# 2 4 13 48
+p Reg8_0/DFlipFlop_0/NAND3_4/A VDD Reg8_0/DFlipFlop_0/NAND3_3/B 2 8 33 80
+p A0 VDD Reg8_0/DFlipFlop_0/NAND3_3/B 2 8 13 80
+n Reg8_0/DFlipFlop_0/NAND3_4/A Reg8_0/DFlipFlop_0/NAND3_0/a_17_8# Reg8_0/DFlipFlop_0/NAND3_3/B 2 4 33 48
+n EN Reg8_0/DFlipFlop_0/NAND3_1/a_9_8# Reg8_0/DFlipFlop_0/NAND3_1/a_17_8# 2 4 57 48
+p EN Reg8_0/DFlipFlop_0/NAND3_4/A VDD 2 8 57 80
+n Reg8_0/DFlipFlop_0/NAND3_3/B VSS Reg8_0/DFlipFlop_0/NAND3_1/a_9_8# 2 4 49 48
+p Reg8_0/DFlipFlop_0/NAND3_5/B VDD Reg8_0/DFlipFlop_0/NAND3_4/A 2 8 69 80
+p Reg8_0/DFlipFlop_0/NAND3_3/B VDD Reg8_0/DFlipFlop_0/NAND3_4/A 2 8 49 80
+n Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/NAND3_1/a_17_8# Reg8_0/DFlipFlop_0/NAND3_4/A 2 4 69 48
+n RST Reg8_0/DFlipFlop_0/NAND3_2/a_9_8# Reg8_0/DFlipFlop_0/NAND3_2/a_17_8# 2 4 93 48
+p RST Reg8_0/DFlipFlop_0/NAND3_5/B VDD 2 8 93 80
+n EN VSS Reg8_0/DFlipFlop_0/NAND3_2/a_9_8# 2 4 85 48
+p Reg8_0/DFlipFlop_0/NAND3_3/Y VDD Reg8_0/DFlipFlop_0/NAND3_5/B 2 8 105 80
+p EN VDD Reg8_0/DFlipFlop_0/NAND3_5/B 2 8 85 80
+n Reg8_0/DFlipFlop_0/NAND3_3/Y Reg8_0/DFlipFlop_0/NAND3_2/a_17_8# Reg8_0/DFlipFlop_0/NAND3_5/B 2 4 105 48
+n Reg8_0/DFlipFlop_0/NAND3_3/B Reg8_0/DFlipFlop_0/NAND3_3/a_9_8# Reg8_0/DFlipFlop_0/NAND3_3/a_17_8# 2 4 129 48
+p Reg8_0/DFlipFlop_0/NAND3_3/B Reg8_0/DFlipFlop_0/NAND3_3/Y VDD 2 8 129 80
+n Reg8_0/DFlipFlop_0/NAND3_5/B VSS Reg8_0/DFlipFlop_0/NAND3_3/a_9_8# 2 4 121 48
+p VDD VDD Reg8_0/DFlipFlop_0/NAND3_3/Y 2 8 141 80
+p Reg8_0/DFlipFlop_0/NAND3_5/B VDD Reg8_0/DFlipFlop_0/NAND3_3/Y 2 8 121 80
+n VDD Reg8_0/DFlipFlop_0/NAND3_3/a_17_8# Reg8_0/DFlipFlop_0/NAND3_3/Y 2 4 141 48
+n RST Reg8_0/DFlipFlop_0/NAND3_4/a_9_8# Reg8_0/DFlipFlop_0/NAND3_4/a_17_8# 2 4 165 48
+p RST Reg8_0/Q0b VDD 2 8 165 80
+n Reg8_0/DFlipFlop_0/NAND3_4/A VSS Reg8_0/DFlipFlop_0/NAND3_4/a_9_8# 2 4 157 48
+p X0 VDD Reg8_0/Q0b 2 8 177 80
+p Reg8_0/DFlipFlop_0/NAND3_4/A VDD Reg8_0/Q0b 2 8 157 80
+n X0 Reg8_0/DFlipFlop_0/NAND3_4/a_17_8# Reg8_0/Q0b 2 4 177 48
+n Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/NAND3_5/a_9_8# Reg8_0/DFlipFlop_0/NAND3_5/a_17_8# 2 4 201 48
+p Reg8_0/DFlipFlop_0/NAND3_5/B X0 VDD 2 8 201 80
+n Reg8_0/Q0b VSS Reg8_0/DFlipFlop_0/NAND3_5/a_9_8# 2 4 193 48
+p VDD VDD X0 2 8 213 80
+p Reg8_0/Q0b VDD X0 2 8 193 80
+n VDD Reg8_0/DFlipFlop_0/NAND3_5/a_17_8# X0 2 4 213 48
+n RST Reg8_0/DFlipFlop_1/NAND3_0/a_9_8# Reg8_0/DFlipFlop_1/NAND3_0/a_17_8# 2 4 21 156
+p RST Reg8_0/DFlipFlop_1/NAND3_3/B VDD 2 8 21 188
+n A1 VSS Reg8_0/DFlipFlop_1/NAND3_0/a_9_8# 2 4 13 156
+p Reg8_0/DFlipFlop_1/NAND3_4/A VDD Reg8_0/DFlipFlop_1/NAND3_3/B 2 8 33 188
+p A1 VDD Reg8_0/DFlipFlop_1/NAND3_3/B 2 8 13 188
+n Reg8_0/DFlipFlop_1/NAND3_4/A Reg8_0/DFlipFlop_1/NAND3_0/a_17_8# Reg8_0/DFlipFlop_1/NAND3_3/B 2 4 33 156
+n EN Reg8_0/DFlipFlop_1/NAND3_1/a_9_8# Reg8_0/DFlipFlop_1/NAND3_1/a_17_8# 2 4 57 156
+p EN Reg8_0/DFlipFlop_1/NAND3_4/A VDD 2 8 57 188
+n Reg8_0/DFlipFlop_1/NAND3_3/B VSS Reg8_0/DFlipFlop_1/NAND3_1/a_9_8# 2 4 49 156
+p Reg8_0/DFlipFlop_1/NAND3_5/B VDD Reg8_0/DFlipFlop_1/NAND3_4/A 2 8 69 188
+p Reg8_0/DFlipFlop_1/NAND3_3/B VDD Reg8_0/DFlipFlop_1/NAND3_4/A 2 8 49 188
+n Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/NAND3_1/a_17_8# Reg8_0/DFlipFlop_1/NAND3_4/A 2 4 69 156
+n RST Reg8_0/DFlipFlop_1/NAND3_2/a_9_8# Reg8_0/DFlipFlop_1/NAND3_2/a_17_8# 2 4 93 156
+p RST Reg8_0/DFlipFlop_1/NAND3_5/B VDD 2 8 93 188
+n EN VSS Reg8_0/DFlipFlop_1/NAND3_2/a_9_8# 2 4 85 156
+p Reg8_0/DFlipFlop_1/NAND3_3/Y VDD Reg8_0/DFlipFlop_1/NAND3_5/B 2 8 105 188
+p EN VDD Reg8_0/DFlipFlop_1/NAND3_5/B 2 8 85 188
+n Reg8_0/DFlipFlop_1/NAND3_3/Y Reg8_0/DFlipFlop_1/NAND3_2/a_17_8# Reg8_0/DFlipFlop_1/NAND3_5/B 2 4 105 156
+n Reg8_0/DFlipFlop_1/NAND3_3/B Reg8_0/DFlipFlop_1/NAND3_3/a_9_8# Reg8_0/DFlipFlop_1/NAND3_3/a_17_8# 2 4 129 156
+p Reg8_0/DFlipFlop_1/NAND3_3/B Reg8_0/DFlipFlop_1/NAND3_3/Y VDD 2 8 129 188
+n Reg8_0/DFlipFlop_1/NAND3_5/B VSS Reg8_0/DFlipFlop_1/NAND3_3/a_9_8# 2 4 121 156
+p VDD VDD Reg8_0/DFlipFlop_1/NAND3_3/Y 2 8 141 188
+p Reg8_0/DFlipFlop_1/NAND3_5/B VDD Reg8_0/DFlipFlop_1/NAND3_3/Y 2 8 121 188
+n VDD Reg8_0/DFlipFlop_1/NAND3_3/a_17_8# Reg8_0/DFlipFlop_1/NAND3_3/Y 2 4 141 156
+n RST Reg8_0/DFlipFlop_1/NAND3_4/a_9_8# Reg8_0/DFlipFlop_1/NAND3_4/a_17_8# 2 4 165 156
+p RST Reg8_0/Q1b VDD 2 8 165 188
+n Reg8_0/DFlipFlop_1/NAND3_4/A VSS Reg8_0/DFlipFlop_1/NAND3_4/a_9_8# 2 4 157 156
+p X1 VDD Reg8_0/Q1b 2 8 177 188
+p Reg8_0/DFlipFlop_1/NAND3_4/A VDD Reg8_0/Q1b 2 8 157 188
+n X1 Reg8_0/DFlipFlop_1/NAND3_4/a_17_8# Reg8_0/Q1b 2 4 177 156
+n Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/NAND3_5/a_9_8# Reg8_0/DFlipFlop_1/NAND3_5/a_17_8# 2 4 201 156
+p Reg8_0/DFlipFlop_1/NAND3_5/B X1 VDD 2 8 201 188
+n Reg8_0/Q1b VSS Reg8_0/DFlipFlop_1/NAND3_5/a_9_8# 2 4 193 156
+p VDD VDD X1 2 8 213 188
+p Reg8_0/Q1b VDD X1 2 8 193 188
+n VDD Reg8_0/DFlipFlop_1/NAND3_5/a_17_8# X1 2 4 213 156
+n RST Reg8_0/DFlipFlop_2/NAND3_0/a_9_8# Reg8_0/DFlipFlop_2/NAND3_0/a_17_8# 2 4 21 264
+p RST Reg8_0/DFlipFlop_2/NAND3_3/B VDD 2 8 21 296
+n A2 VSS Reg8_0/DFlipFlop_2/NAND3_0/a_9_8# 2 4 13 264
+p Reg8_0/DFlipFlop_2/NAND3_4/A VDD Reg8_0/DFlipFlop_2/NAND3_3/B 2 8 33 296
+p A2 VDD Reg8_0/DFlipFlop_2/NAND3_3/B 2 8 13 296
+n Reg8_0/DFlipFlop_2/NAND3_4/A Reg8_0/DFlipFlop_2/NAND3_0/a_17_8# Reg8_0/DFlipFlop_2/NAND3_3/B 2 4 33 264
+n EN Reg8_0/DFlipFlop_2/NAND3_1/a_9_8# Reg8_0/DFlipFlop_2/NAND3_1/a_17_8# 2 4 57 264
+p EN Reg8_0/DFlipFlop_2/NAND3_4/A VDD 2 8 57 296
+n Reg8_0/DFlipFlop_2/NAND3_3/B VSS Reg8_0/DFlipFlop_2/NAND3_1/a_9_8# 2 4 49 264
+p Reg8_0/DFlipFlop_2/NAND3_5/B VDD Reg8_0/DFlipFlop_2/NAND3_4/A 2 8 69 296
+p Reg8_0/DFlipFlop_2/NAND3_3/B VDD Reg8_0/DFlipFlop_2/NAND3_4/A 2 8 49 296
+n Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/NAND3_1/a_17_8# Reg8_0/DFlipFlop_2/NAND3_4/A 2 4 69 264
+n RST Reg8_0/DFlipFlop_2/NAND3_2/a_9_8# Reg8_0/DFlipFlop_2/NAND3_2/a_17_8# 2 4 93 264
+p RST Reg8_0/DFlipFlop_2/NAND3_5/B VDD 2 8 93 296
+n EN VSS Reg8_0/DFlipFlop_2/NAND3_2/a_9_8# 2 4 85 264
+p Reg8_0/DFlipFlop_2/NAND3_3/Y VDD Reg8_0/DFlipFlop_2/NAND3_5/B 2 8 105 296
+p EN VDD Reg8_0/DFlipFlop_2/NAND3_5/B 2 8 85 296
+n Reg8_0/DFlipFlop_2/NAND3_3/Y Reg8_0/DFlipFlop_2/NAND3_2/a_17_8# Reg8_0/DFlipFlop_2/NAND3_5/B 2 4 105 264
+n Reg8_0/DFlipFlop_2/NAND3_3/B Reg8_0/DFlipFlop_2/NAND3_3/a_9_8# Reg8_0/DFlipFlop_2/NAND3_3/a_17_8# 2 4 129 264
+p Reg8_0/DFlipFlop_2/NAND3_3/B Reg8_0/DFlipFlop_2/NAND3_3/Y VDD 2 8 129 296
+n Reg8_0/DFlipFlop_2/NAND3_5/B VSS Reg8_0/DFlipFlop_2/NAND3_3/a_9_8# 2 4 121 264
+p VDD VDD Reg8_0/DFlipFlop_2/NAND3_3/Y 2 8 141 296
+p Reg8_0/DFlipFlop_2/NAND3_5/B VDD Reg8_0/DFlipFlop_2/NAND3_3/Y 2 8 121 296
+n VDD Reg8_0/DFlipFlop_2/NAND3_3/a_17_8# Reg8_0/DFlipFlop_2/NAND3_3/Y 2 4 141 264
+n RST Reg8_0/DFlipFlop_2/NAND3_4/a_9_8# Reg8_0/DFlipFlop_2/NAND3_4/a_17_8# 2 4 165 264
+p RST Reg8_0/Q2b VDD 2 8 165 296
+n Reg8_0/DFlipFlop_2/NAND3_4/A VSS Reg8_0/DFlipFlop_2/NAND3_4/a_9_8# 2 4 157 264
+p X2 VDD Reg8_0/Q2b 2 8 177 296
+p Reg8_0/DFlipFlop_2/NAND3_4/A VDD Reg8_0/Q2b 2 8 157 296
+n X2 Reg8_0/DFlipFlop_2/NAND3_4/a_17_8# Reg8_0/Q2b 2 4 177 264
+n Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/NAND3_5/a_9_8# Reg8_0/DFlipFlop_2/NAND3_5/a_17_8# 2 4 201 264
+p Reg8_0/DFlipFlop_2/NAND3_5/B X2 VDD 2 8 201 296
+n Reg8_0/Q2b VSS Reg8_0/DFlipFlop_2/NAND3_5/a_9_8# 2 4 193 264
+p VDD VDD X2 2 8 213 296
+p Reg8_0/Q2b VDD X2 2 8 193 296
+n VDD Reg8_0/DFlipFlop_2/NAND3_5/a_17_8# X2 2 4 213 264
+n RST Reg8_0/DFlipFlop_3/NAND3_0/a_9_8# Reg8_0/DFlipFlop_3/NAND3_0/a_17_8# 2 4 21 372
+p RST Reg8_0/DFlipFlop_3/NAND3_3/B VDD 2 8 21 404
+n A3 VSS Reg8_0/DFlipFlop_3/NAND3_0/a_9_8# 2 4 13 372
+p Reg8_0/DFlipFlop_3/NAND3_4/A VDD Reg8_0/DFlipFlop_3/NAND3_3/B 2 8 33 404
+p A3 VDD Reg8_0/DFlipFlop_3/NAND3_3/B 2 8 13 404
+n Reg8_0/DFlipFlop_3/NAND3_4/A Reg8_0/DFlipFlop_3/NAND3_0/a_17_8# Reg8_0/DFlipFlop_3/NAND3_3/B 2 4 33 372
+n EN Reg8_0/DFlipFlop_3/NAND3_1/a_9_8# Reg8_0/DFlipFlop_3/NAND3_1/a_17_8# 2 4 57 372
+p EN Reg8_0/DFlipFlop_3/NAND3_4/A VDD 2 8 57 404
+n Reg8_0/DFlipFlop_3/NAND3_3/B VSS Reg8_0/DFlipFlop_3/NAND3_1/a_9_8# 2 4 49 372
+p Reg8_0/DFlipFlop_3/NAND3_5/B VDD Reg8_0/DFlipFlop_3/NAND3_4/A 2 8 69 404
+p Reg8_0/DFlipFlop_3/NAND3_3/B VDD Reg8_0/DFlipFlop_3/NAND3_4/A 2 8 49 404
+n Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/NAND3_1/a_17_8# Reg8_0/DFlipFlop_3/NAND3_4/A 2 4 69 372
+n RST Reg8_0/DFlipFlop_3/NAND3_2/a_9_8# Reg8_0/DFlipFlop_3/NAND3_2/a_17_8# 2 4 93 372
+p RST Reg8_0/DFlipFlop_3/NAND3_5/B VDD 2 8 93 404
+n EN VSS Reg8_0/DFlipFlop_3/NAND3_2/a_9_8# 2 4 85 372
+p Reg8_0/DFlipFlop_3/NAND3_3/Y VDD Reg8_0/DFlipFlop_3/NAND3_5/B 2 8 105 404
+p EN VDD Reg8_0/DFlipFlop_3/NAND3_5/B 2 8 85 404
+n Reg8_0/DFlipFlop_3/NAND3_3/Y Reg8_0/DFlipFlop_3/NAND3_2/a_17_8# Reg8_0/DFlipFlop_3/NAND3_5/B 2 4 105 372
+n Reg8_0/DFlipFlop_3/NAND3_3/B Reg8_0/DFlipFlop_3/NAND3_3/a_9_8# Reg8_0/DFlipFlop_3/NAND3_3/a_17_8# 2 4 129 372
+p Reg8_0/DFlipFlop_3/NAND3_3/B Reg8_0/DFlipFlop_3/NAND3_3/Y VDD 2 8 129 404
+n Reg8_0/DFlipFlop_3/NAND3_5/B VSS Reg8_0/DFlipFlop_3/NAND3_3/a_9_8# 2 4 121 372
+p VDD VDD Reg8_0/DFlipFlop_3/NAND3_3/Y 2 8 141 404
+p Reg8_0/DFlipFlop_3/NAND3_5/B VDD Reg8_0/DFlipFlop_3/NAND3_3/Y 2 8 121 404
+n VDD Reg8_0/DFlipFlop_3/NAND3_3/a_17_8# Reg8_0/DFlipFlop_3/NAND3_3/Y 2 4 141 372
+n RST Reg8_0/DFlipFlop_3/NAND3_4/a_9_8# Reg8_0/DFlipFlop_3/NAND3_4/a_17_8# 2 4 165 372
+p RST Reg8_0/Q3b VDD 2 8 165 404
+n Reg8_0/DFlipFlop_3/NAND3_4/A VSS Reg8_0/DFlipFlop_3/NAND3_4/a_9_8# 2 4 157 372
+p X3 VDD Reg8_0/Q3b 2 8 177 404
+p Reg8_0/DFlipFlop_3/NAND3_4/A VDD Reg8_0/Q3b 2 8 157 404
+n X3 Reg8_0/DFlipFlop_3/NAND3_4/a_17_8# Reg8_0/Q3b 2 4 177 372
+n Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/NAND3_5/a_9_8# Reg8_0/DFlipFlop_3/NAND3_5/a_17_8# 2 4 201 372
+p Reg8_0/DFlipFlop_3/NAND3_5/B X3 VDD 2 8 201 404
+n Reg8_0/Q3b VSS Reg8_0/DFlipFlop_3/NAND3_5/a_9_8# 2 4 193 372
+p VDD VDD X3 2 8 213 404
+p Reg8_0/Q3b VDD X3 2 8 193 404
+n VDD Reg8_0/DFlipFlop_3/NAND3_5/a_17_8# X3 2 4 213 372
+n RST Reg8_0/DFlipFlop_4/NAND3_0/a_9_8# Reg8_0/DFlipFlop_4/NAND3_0/a_17_8# 2 4 21 480
+p RST Reg8_0/DFlipFlop_4/NAND3_3/B VDD 2 8 21 512
+n A4 VSS Reg8_0/DFlipFlop_4/NAND3_0/a_9_8# 2 4 13 480
+p Reg8_0/DFlipFlop_4/NAND3_4/A VDD Reg8_0/DFlipFlop_4/NAND3_3/B 2 8 33 512
+p A4 VDD Reg8_0/DFlipFlop_4/NAND3_3/B 2 8 13 512
+n Reg8_0/DFlipFlop_4/NAND3_4/A Reg8_0/DFlipFlop_4/NAND3_0/a_17_8# Reg8_0/DFlipFlop_4/NAND3_3/B 2 4 33 480
+n EN Reg8_0/DFlipFlop_4/NAND3_1/a_9_8# Reg8_0/DFlipFlop_4/NAND3_1/a_17_8# 2 4 57 480
+p EN Reg8_0/DFlipFlop_4/NAND3_4/A VDD 2 8 57 512
+n Reg8_0/DFlipFlop_4/NAND3_3/B VSS Reg8_0/DFlipFlop_4/NAND3_1/a_9_8# 2 4 49 480
+p Reg8_0/DFlipFlop_4/NAND3_5/B VDD Reg8_0/DFlipFlop_4/NAND3_4/A 2 8 69 512
+p Reg8_0/DFlipFlop_4/NAND3_3/B VDD Reg8_0/DFlipFlop_4/NAND3_4/A 2 8 49 512
+n Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/NAND3_1/a_17_8# Reg8_0/DFlipFlop_4/NAND3_4/A 2 4 69 480
+n RST Reg8_0/DFlipFlop_4/NAND3_2/a_9_8# Reg8_0/DFlipFlop_4/NAND3_2/a_17_8# 2 4 93 480
+p RST Reg8_0/DFlipFlop_4/NAND3_5/B VDD 2 8 93 512
+n EN VSS Reg8_0/DFlipFlop_4/NAND3_2/a_9_8# 2 4 85 480
+p Reg8_0/DFlipFlop_4/NAND3_3/Y VDD Reg8_0/DFlipFlop_4/NAND3_5/B 2 8 105 512
+p EN VDD Reg8_0/DFlipFlop_4/NAND3_5/B 2 8 85 512
+n Reg8_0/DFlipFlop_4/NAND3_3/Y Reg8_0/DFlipFlop_4/NAND3_2/a_17_8# Reg8_0/DFlipFlop_4/NAND3_5/B 2 4 105 480
+n Reg8_0/DFlipFlop_4/NAND3_3/B Reg8_0/DFlipFlop_4/NAND3_3/a_9_8# Reg8_0/DFlipFlop_4/NAND3_3/a_17_8# 2 4 129 480
+p Reg8_0/DFlipFlop_4/NAND3_3/B Reg8_0/DFlipFlop_4/NAND3_3/Y VDD 2 8 129 512
+n Reg8_0/DFlipFlop_4/NAND3_5/B VSS Reg8_0/DFlipFlop_4/NAND3_3/a_9_8# 2 4 121 480
+p VDD VDD Reg8_0/DFlipFlop_4/NAND3_3/Y 2 8 141 512
+p Reg8_0/DFlipFlop_4/NAND3_5/B VDD Reg8_0/DFlipFlop_4/NAND3_3/Y 2 8 121 512
+n VDD Reg8_0/DFlipFlop_4/NAND3_3/a_17_8# Reg8_0/DFlipFlop_4/NAND3_3/Y 2 4 141 480
+n RST Reg8_0/DFlipFlop_4/NAND3_4/a_9_8# Reg8_0/DFlipFlop_4/NAND3_4/a_17_8# 2 4 165 480
+p RST Reg8_0/Q4b VDD 2 8 165 512
+n Reg8_0/DFlipFlop_4/NAND3_4/A VSS Reg8_0/DFlipFlop_4/NAND3_4/a_9_8# 2 4 157 480
+p X4 VDD Reg8_0/Q4b 2 8 177 512
+p Reg8_0/DFlipFlop_4/NAND3_4/A VDD Reg8_0/Q4b 2 8 157 512
+n X4 Reg8_0/DFlipFlop_4/NAND3_4/a_17_8# Reg8_0/Q4b 2 4 177 480
+n Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/NAND3_5/a_9_8# Reg8_0/DFlipFlop_4/NAND3_5/a_17_8# 2 4 201 480
+p Reg8_0/DFlipFlop_4/NAND3_5/B X4 VDD 2 8 201 512
+n Reg8_0/Q4b VSS Reg8_0/DFlipFlop_4/NAND3_5/a_9_8# 2 4 193 480
+p VDD VDD X4 2 8 213 512
+p Reg8_0/Q4b VDD X4 2 8 193 512
+n VDD Reg8_0/DFlipFlop_4/NAND3_5/a_17_8# X4 2 4 213 480
+n RST Reg8_0/DFlipFlop_5/NAND3_0/a_9_8# Reg8_0/DFlipFlop_5/NAND3_0/a_17_8# 2 4 21 588
+p RST Reg8_0/DFlipFlop_5/NAND3_3/B VDD 2 8 21 620
+n A5 VSS Reg8_0/DFlipFlop_5/NAND3_0/a_9_8# 2 4 13 588
+p Reg8_0/DFlipFlop_5/NAND3_4/A VDD Reg8_0/DFlipFlop_5/NAND3_3/B 2 8 33 620
+p A5 VDD Reg8_0/DFlipFlop_5/NAND3_3/B 2 8 13 620
+n Reg8_0/DFlipFlop_5/NAND3_4/A Reg8_0/DFlipFlop_5/NAND3_0/a_17_8# Reg8_0/DFlipFlop_5/NAND3_3/B 2 4 33 588
+n EN Reg8_0/DFlipFlop_5/NAND3_1/a_9_8# Reg8_0/DFlipFlop_5/NAND3_1/a_17_8# 2 4 57 588
+p EN Reg8_0/DFlipFlop_5/NAND3_4/A VDD 2 8 57 620
+n Reg8_0/DFlipFlop_5/NAND3_3/B VSS Reg8_0/DFlipFlop_5/NAND3_1/a_9_8# 2 4 49 588
+p Reg8_0/DFlipFlop_5/NAND3_5/B VDD Reg8_0/DFlipFlop_5/NAND3_4/A 2 8 69 620
+p Reg8_0/DFlipFlop_5/NAND3_3/B VDD Reg8_0/DFlipFlop_5/NAND3_4/A 2 8 49 620
+n Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/NAND3_1/a_17_8# Reg8_0/DFlipFlop_5/NAND3_4/A 2 4 69 588
+n RST Reg8_0/DFlipFlop_5/NAND3_2/a_9_8# Reg8_0/DFlipFlop_5/NAND3_2/a_17_8# 2 4 93 588
+p RST Reg8_0/DFlipFlop_5/NAND3_5/B VDD 2 8 93 620
+n EN VSS Reg8_0/DFlipFlop_5/NAND3_2/a_9_8# 2 4 85 588
+p Reg8_0/DFlipFlop_5/NAND3_3/Y VDD Reg8_0/DFlipFlop_5/NAND3_5/B 2 8 105 620
+p EN VDD Reg8_0/DFlipFlop_5/NAND3_5/B 2 8 85 620
+n Reg8_0/DFlipFlop_5/NAND3_3/Y Reg8_0/DFlipFlop_5/NAND3_2/a_17_8# Reg8_0/DFlipFlop_5/NAND3_5/B 2 4 105 588
+n Reg8_0/DFlipFlop_5/NAND3_3/B Reg8_0/DFlipFlop_5/NAND3_3/a_9_8# Reg8_0/DFlipFlop_5/NAND3_3/a_17_8# 2 4 129 588
+p Reg8_0/DFlipFlop_5/NAND3_3/B Reg8_0/DFlipFlop_5/NAND3_3/Y VDD 2 8 129 620
+n Reg8_0/DFlipFlop_5/NAND3_5/B VSS Reg8_0/DFlipFlop_5/NAND3_3/a_9_8# 2 4 121 588
+p VDD VDD Reg8_0/DFlipFlop_5/NAND3_3/Y 2 8 141 620
+p Reg8_0/DFlipFlop_5/NAND3_5/B VDD Reg8_0/DFlipFlop_5/NAND3_3/Y 2 8 121 620
+n VDD Reg8_0/DFlipFlop_5/NAND3_3/a_17_8# Reg8_0/DFlipFlop_5/NAND3_3/Y 2 4 141 588
+n RST Reg8_0/DFlipFlop_5/NAND3_4/a_9_8# Reg8_0/DFlipFlop_5/NAND3_4/a_17_8# 2 4 165 588
+p RST Reg8_0/Q5b VDD 2 8 165 620
+n Reg8_0/DFlipFlop_5/NAND3_4/A VSS Reg8_0/DFlipFlop_5/NAND3_4/a_9_8# 2 4 157 588
+p X5 VDD Reg8_0/Q5b 2 8 177 620
+p Reg8_0/DFlipFlop_5/NAND3_4/A VDD Reg8_0/Q5b 2 8 157 620
+n X5 Reg8_0/DFlipFlop_5/NAND3_4/a_17_8# Reg8_0/Q5b 2 4 177 588
+n Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/NAND3_5/a_9_8# Reg8_0/DFlipFlop_5/NAND3_5/a_17_8# 2 4 201 588
+p Reg8_0/DFlipFlop_5/NAND3_5/B X5 VDD 2 8 201 620
+n Reg8_0/Q5b VSS Reg8_0/DFlipFlop_5/NAND3_5/a_9_8# 2 4 193 588
+p VDD VDD X5 2 8 213 620
+p Reg8_0/Q5b VDD X5 2 8 193 620
+n VDD Reg8_0/DFlipFlop_5/NAND3_5/a_17_8# X5 2 4 213 588
+n RST Reg8_0/DFlipFlop_6/NAND3_0/a_9_8# Reg8_0/DFlipFlop_6/NAND3_0/a_17_8# 2 4 21 696
+p RST Reg8_0/DFlipFlop_6/NAND3_3/B VDD 2 8 21 728
+n A6 VSS Reg8_0/DFlipFlop_6/NAND3_0/a_9_8# 2 4 13 696
+p Reg8_0/DFlipFlop_6/NAND3_4/A VDD Reg8_0/DFlipFlop_6/NAND3_3/B 2 8 33 728
+p A6 VDD Reg8_0/DFlipFlop_6/NAND3_3/B 2 8 13 728
+n Reg8_0/DFlipFlop_6/NAND3_4/A Reg8_0/DFlipFlop_6/NAND3_0/a_17_8# Reg8_0/DFlipFlop_6/NAND3_3/B 2 4 33 696
+n EN Reg8_0/DFlipFlop_6/NAND3_1/a_9_8# Reg8_0/DFlipFlop_6/NAND3_1/a_17_8# 2 4 57 696
+p EN Reg8_0/DFlipFlop_6/NAND3_4/A VDD 2 8 57 728
+n Reg8_0/DFlipFlop_6/NAND3_3/B VSS Reg8_0/DFlipFlop_6/NAND3_1/a_9_8# 2 4 49 696
+p Reg8_0/DFlipFlop_6/NAND3_5/B VDD Reg8_0/DFlipFlop_6/NAND3_4/A 2 8 69 728
+p Reg8_0/DFlipFlop_6/NAND3_3/B VDD Reg8_0/DFlipFlop_6/NAND3_4/A 2 8 49 728
+n Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/NAND3_1/a_17_8# Reg8_0/DFlipFlop_6/NAND3_4/A 2 4 69 696
+n RST Reg8_0/DFlipFlop_6/NAND3_2/a_9_8# Reg8_0/DFlipFlop_6/NAND3_2/a_17_8# 2 4 93 696
+p RST Reg8_0/DFlipFlop_6/NAND3_5/B VDD 2 8 93 728
+n EN VSS Reg8_0/DFlipFlop_6/NAND3_2/a_9_8# 2 4 85 696
+p Reg8_0/DFlipFlop_6/NAND3_3/Y VDD Reg8_0/DFlipFlop_6/NAND3_5/B 2 8 105 728
+p EN VDD Reg8_0/DFlipFlop_6/NAND3_5/B 2 8 85 728
+n Reg8_0/DFlipFlop_6/NAND3_3/Y Reg8_0/DFlipFlop_6/NAND3_2/a_17_8# Reg8_0/DFlipFlop_6/NAND3_5/B 2 4 105 696
+n Reg8_0/DFlipFlop_6/NAND3_3/B Reg8_0/DFlipFlop_6/NAND3_3/a_9_8# Reg8_0/DFlipFlop_6/NAND3_3/a_17_8# 2 4 129 696
+p Reg8_0/DFlipFlop_6/NAND3_3/B Reg8_0/DFlipFlop_6/NAND3_3/Y VDD 2 8 129 728
+n Reg8_0/DFlipFlop_6/NAND3_5/B VSS Reg8_0/DFlipFlop_6/NAND3_3/a_9_8# 2 4 121 696
+p VDD VDD Reg8_0/DFlipFlop_6/NAND3_3/Y 2 8 141 728
+p Reg8_0/DFlipFlop_6/NAND3_5/B VDD Reg8_0/DFlipFlop_6/NAND3_3/Y 2 8 121 728
+n VDD Reg8_0/DFlipFlop_6/NAND3_3/a_17_8# Reg8_0/DFlipFlop_6/NAND3_3/Y 2 4 141 696
+n RST Reg8_0/DFlipFlop_6/NAND3_4/a_9_8# Reg8_0/DFlipFlop_6/NAND3_4/a_17_8# 2 4 165 696
+p RST Reg8_0/Q6b VDD 2 8 165 728
+n Reg8_0/DFlipFlop_6/NAND3_4/A VSS Reg8_0/DFlipFlop_6/NAND3_4/a_9_8# 2 4 157 696
+p X6 VDD Reg8_0/Q6b 2 8 177 728
+p Reg8_0/DFlipFlop_6/NAND3_4/A VDD Reg8_0/Q6b 2 8 157 728
+n X6 Reg8_0/DFlipFlop_6/NAND3_4/a_17_8# Reg8_0/Q6b 2 4 177 696
+n Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/NAND3_5/a_9_8# Reg8_0/DFlipFlop_6/NAND3_5/a_17_8# 2 4 201 696
+p Reg8_0/DFlipFlop_6/NAND3_5/B X6 VDD 2 8 201 728
+n Reg8_0/Q6b VSS Reg8_0/DFlipFlop_6/NAND3_5/a_9_8# 2 4 193 696
+p VDD VDD X6 2 8 213 728
+p Reg8_0/Q6b VDD X6 2 8 193 728
+n VDD Reg8_0/DFlipFlop_6/NAND3_5/a_17_8# X6 2 4 213 696
+n RST Reg8_0/DFlipFlop_7/NAND3_0/a_9_8# Reg8_0/DFlipFlop_7/NAND3_0/a_17_8# 2 4 21 804
+p RST Reg8_0/DFlipFlop_7/NAND3_3/B VDD 2 8 21 836
+n A7 VSS Reg8_0/DFlipFlop_7/NAND3_0/a_9_8# 2 4 13 804
+p Reg8_0/DFlipFlop_7/NAND3_4/A VDD Reg8_0/DFlipFlop_7/NAND3_3/B 2 8 33 836
+p A7 VDD Reg8_0/DFlipFlop_7/NAND3_3/B 2 8 13 836
+n Reg8_0/DFlipFlop_7/NAND3_4/A Reg8_0/DFlipFlop_7/NAND3_0/a_17_8# Reg8_0/DFlipFlop_7/NAND3_3/B 2 4 33 804
+n EN Reg8_0/DFlipFlop_7/NAND3_1/a_9_8# Reg8_0/DFlipFlop_7/NAND3_1/a_17_8# 2 4 57 804
+p EN Reg8_0/DFlipFlop_7/NAND3_4/A VDD 2 8 57 836
+n Reg8_0/DFlipFlop_7/NAND3_3/B VSS Reg8_0/DFlipFlop_7/NAND3_1/a_9_8# 2 4 49 804
+p Reg8_0/DFlipFlop_7/NAND3_5/B VDD Reg8_0/DFlipFlop_7/NAND3_4/A 2 8 69 836
+p Reg8_0/DFlipFlop_7/NAND3_3/B VDD Reg8_0/DFlipFlop_7/NAND3_4/A 2 8 49 836
+n Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/NAND3_1/a_17_8# Reg8_0/DFlipFlop_7/NAND3_4/A 2 4 69 804
+n RST Reg8_0/DFlipFlop_7/NAND3_2/a_9_8# Reg8_0/DFlipFlop_7/NAND3_2/a_17_8# 2 4 93 804
+p RST Reg8_0/DFlipFlop_7/NAND3_5/B VDD 2 8 93 836
+n EN VSS Reg8_0/DFlipFlop_7/NAND3_2/a_9_8# 2 4 85 804
+p Reg8_0/DFlipFlop_7/NAND3_3/Y VDD Reg8_0/DFlipFlop_7/NAND3_5/B 2 8 105 836
+p EN VDD Reg8_0/DFlipFlop_7/NAND3_5/B 2 8 85 836
+n Reg8_0/DFlipFlop_7/NAND3_3/Y Reg8_0/DFlipFlop_7/NAND3_2/a_17_8# Reg8_0/DFlipFlop_7/NAND3_5/B 2 4 105 804
+n Reg8_0/DFlipFlop_7/NAND3_3/B Reg8_0/DFlipFlop_7/NAND3_3/a_9_8# Reg8_0/DFlipFlop_7/NAND3_3/a_17_8# 2 4 129 804
+p Reg8_0/DFlipFlop_7/NAND3_3/B Reg8_0/DFlipFlop_7/NAND3_3/Y VDD 2 8 129 836
+n Reg8_0/DFlipFlop_7/NAND3_5/B VSS Reg8_0/DFlipFlop_7/NAND3_3/a_9_8# 2 4 121 804
+p VDD VDD Reg8_0/DFlipFlop_7/NAND3_3/Y 2 8 141 836
+p Reg8_0/DFlipFlop_7/NAND3_5/B VDD Reg8_0/DFlipFlop_7/NAND3_3/Y 2 8 121 836
+n VDD Reg8_0/DFlipFlop_7/NAND3_3/a_17_8# Reg8_0/DFlipFlop_7/NAND3_3/Y 2 4 141 804
+n RST Reg8_0/DFlipFlop_7/NAND3_4/a_9_8# Reg8_0/DFlipFlop_7/NAND3_4/a_17_8# 2 4 165 804
+p RST Reg8_0/Q7b VDD 2 8 165 836
+n Reg8_0/DFlipFlop_7/NAND3_4/A VSS Reg8_0/DFlipFlop_7/NAND3_4/a_9_8# 2 4 157 804
+p X7 VDD Reg8_0/Q7b 2 8 177 836
+p Reg8_0/DFlipFlop_7/NAND3_4/A VDD Reg8_0/Q7b 2 8 157 836
+n X7 Reg8_0/DFlipFlop_7/NAND3_4/a_17_8# Reg8_0/Q7b 2 4 177 804
+n Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/NAND3_5/a_9_8# Reg8_0/DFlipFlop_7/NAND3_5/a_17_8# 2 4 201 804
+p Reg8_0/DFlipFlop_7/NAND3_5/B X7 VDD 2 8 201 836
+n Reg8_0/Q7b VSS Reg8_0/DFlipFlop_7/NAND3_5/a_9_8# 2 4 193 804
+p VDD VDD X7 2 8 213 836
+p Reg8_0/Q7b VDD X7 2 8 193 836
+n VDD Reg8_0/DFlipFlop_7/NAND3_5/a_17_8# X7 2 4 213 804
+n RST Reg8_0/DFlipFlop_8/NAND3_0/a_9_8# Reg8_0/DFlipFlop_8/NAND3_0/a_17_8# 2 4 21 912
+p RST Reg8_0/DFlipFlop_8/NAND3_3/B VDD 2 8 21 944
+n Reg8_0/D8 VSS Reg8_0/DFlipFlop_8/NAND3_0/a_9_8# 2 4 13 912
+p Reg8_0/DFlipFlop_8/NAND3_4/A VDD Reg8_0/DFlipFlop_8/NAND3_3/B 2 8 33 944
+p Reg8_0/D8 VDD Reg8_0/DFlipFlop_8/NAND3_3/B 2 8 13 944
+n Reg8_0/DFlipFlop_8/NAND3_4/A Reg8_0/DFlipFlop_8/NAND3_0/a_17_8# Reg8_0/DFlipFlop_8/NAND3_3/B 2 4 33 912
+n EN Reg8_0/DFlipFlop_8/NAND3_1/a_9_8# Reg8_0/DFlipFlop_8/NAND3_1/a_17_8# 2 4 57 912
+p EN Reg8_0/DFlipFlop_8/NAND3_4/A VDD 2 8 57 944
+n Reg8_0/DFlipFlop_8/NAND3_3/B VSS Reg8_0/DFlipFlop_8/NAND3_1/a_9_8# 2 4 49 912
+p Reg8_0/DFlipFlop_8/NAND3_5/B VDD Reg8_0/DFlipFlop_8/NAND3_4/A 2 8 69 944
+p Reg8_0/DFlipFlop_8/NAND3_3/B VDD Reg8_0/DFlipFlop_8/NAND3_4/A 2 8 49 944
+n Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/NAND3_1/a_17_8# Reg8_0/DFlipFlop_8/NAND3_4/A 2 4 69 912
+n RST Reg8_0/DFlipFlop_8/NAND3_2/a_9_8# Reg8_0/DFlipFlop_8/NAND3_2/a_17_8# 2 4 93 912
+p RST Reg8_0/DFlipFlop_8/NAND3_5/B VDD 2 8 93 944
+n EN VSS Reg8_0/DFlipFlop_8/NAND3_2/a_9_8# 2 4 85 912
+p Reg8_0/DFlipFlop_8/NAND3_3/Y VDD Reg8_0/DFlipFlop_8/NAND3_5/B 2 8 105 944
+p EN VDD Reg8_0/DFlipFlop_8/NAND3_5/B 2 8 85 944
+n Reg8_0/DFlipFlop_8/NAND3_3/Y Reg8_0/DFlipFlop_8/NAND3_2/a_17_8# Reg8_0/DFlipFlop_8/NAND3_5/B 2 4 105 912
+n Reg8_0/DFlipFlop_8/NAND3_3/B Reg8_0/DFlipFlop_8/NAND3_3/a_9_8# Reg8_0/DFlipFlop_8/NAND3_3/a_17_8# 2 4 129 912
+p Reg8_0/DFlipFlop_8/NAND3_3/B Reg8_0/DFlipFlop_8/NAND3_3/Y VDD 2 8 129 944
+n Reg8_0/DFlipFlop_8/NAND3_5/B VSS Reg8_0/DFlipFlop_8/NAND3_3/a_9_8# 2 4 121 912
+p VDD VDD Reg8_0/DFlipFlop_8/NAND3_3/Y 2 8 141 944
+p Reg8_0/DFlipFlop_8/NAND3_5/B VDD Reg8_0/DFlipFlop_8/NAND3_3/Y 2 8 121 944
+n VDD Reg8_0/DFlipFlop_8/NAND3_3/a_17_8# Reg8_0/DFlipFlop_8/NAND3_3/Y 2 4 141 912
+n RST Reg8_0/DFlipFlop_8/NAND3_4/a_9_8# Reg8_0/DFlipFlop_8/NAND3_4/a_17_8# 2 4 165 912
+p RST Reg8_0/Q8b VDD 2 8 165 944
+n Reg8_0/DFlipFlop_8/NAND3_4/A VSS Reg8_0/DFlipFlop_8/NAND3_4/a_9_8# 2 4 157 912
+p Reg8_0/Q8 VDD Reg8_0/Q8b 2 8 177 944
+p Reg8_0/DFlipFlop_8/NAND3_4/A VDD Reg8_0/Q8b 2 8 157 944
+n Reg8_0/Q8 Reg8_0/DFlipFlop_8/NAND3_4/a_17_8# Reg8_0/Q8b 2 4 177 912
+n Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/NAND3_5/a_9_8# Reg8_0/DFlipFlop_8/NAND3_5/a_17_8# 2 4 201 912
+p Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/Q8 VDD 2 8 201 944
+n Reg8_0/Q8b VSS Reg8_0/DFlipFlop_8/NAND3_5/a_9_8# 2 4 193 912
+p VDD VDD Reg8_0/Q8 2 8 213 944
+p Reg8_0/Q8b VDD Reg8_0/Q8 2 8 193 944
+n VDD Reg8_0/DFlipFlop_8/NAND3_5/a_17_8# Reg8_0/Q8 2 4 213 912
+n RST Reg8_1/DFlipFlop_0/NAND3_0/a_9_8# Reg8_1/DFlipFlop_0/NAND3_0/a_17_8# 2 4 337 49
+p RST Reg8_1/DFlipFlop_0/NAND3_3/B VDD 2 8 337 81
+n X0 VSS Reg8_1/DFlipFlop_0/NAND3_0/a_9_8# 2 4 329 49
+p Reg8_1/DFlipFlop_0/NAND3_4/A VDD Reg8_1/DFlipFlop_0/NAND3_3/B 2 8 349 81
+p X0 VDD Reg8_1/DFlipFlop_0/NAND3_3/B 2 8 329 81
+n Reg8_1/DFlipFlop_0/NAND3_4/A Reg8_1/DFlipFlop_0/NAND3_0/a_17_8# Reg8_1/DFlipFlop_0/NAND3_3/B 2 4 349 49
+n EN Reg8_1/DFlipFlop_0/NAND3_1/a_9_8# Reg8_1/DFlipFlop_0/NAND3_1/a_17_8# 2 4 373 49
+p EN Reg8_1/DFlipFlop_0/NAND3_4/A VDD 2 8 373 81
+n Reg8_1/DFlipFlop_0/NAND3_3/B VSS Reg8_1/DFlipFlop_0/NAND3_1/a_9_8# 2 4 365 49
+p Reg8_1/DFlipFlop_0/NAND3_5/B VDD Reg8_1/DFlipFlop_0/NAND3_4/A 2 8 385 81
+p Reg8_1/DFlipFlop_0/NAND3_3/B VDD Reg8_1/DFlipFlop_0/NAND3_4/A 2 8 365 81
+n Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/NAND3_1/a_17_8# Reg8_1/DFlipFlop_0/NAND3_4/A 2 4 385 49
+n RST Reg8_1/DFlipFlop_0/NAND3_2/a_9_8# Reg8_1/DFlipFlop_0/NAND3_2/a_17_8# 2 4 409 49
+p RST Reg8_1/DFlipFlop_0/NAND3_5/B VDD 2 8 409 81
+n EN VSS Reg8_1/DFlipFlop_0/NAND3_2/a_9_8# 2 4 401 49
+p Reg8_1/DFlipFlop_0/NAND3_3/Y VDD Reg8_1/DFlipFlop_0/NAND3_5/B 2 8 421 81
+p EN VDD Reg8_1/DFlipFlop_0/NAND3_5/B 2 8 401 81
+n Reg8_1/DFlipFlop_0/NAND3_3/Y Reg8_1/DFlipFlop_0/NAND3_2/a_17_8# Reg8_1/DFlipFlop_0/NAND3_5/B 2 4 421 49
+n Reg8_1/DFlipFlop_0/NAND3_3/B Reg8_1/DFlipFlop_0/NAND3_3/a_9_8# Reg8_1/DFlipFlop_0/NAND3_3/a_17_8# 2 4 445 49
+p Reg8_1/DFlipFlop_0/NAND3_3/B Reg8_1/DFlipFlop_0/NAND3_3/Y VDD 2 8 445 81
+n Reg8_1/DFlipFlop_0/NAND3_5/B VSS Reg8_1/DFlipFlop_0/NAND3_3/a_9_8# 2 4 437 49
+p VDD VDD Reg8_1/DFlipFlop_0/NAND3_3/Y 2 8 457 81
+p Reg8_1/DFlipFlop_0/NAND3_5/B VDD Reg8_1/DFlipFlop_0/NAND3_3/Y 2 8 437 81
+n VDD Reg8_1/DFlipFlop_0/NAND3_3/a_17_8# Reg8_1/DFlipFlop_0/NAND3_3/Y 2 4 457 49
+n RST Reg8_1/DFlipFlop_0/NAND3_4/a_9_8# Reg8_1/DFlipFlop_0/NAND3_4/a_17_8# 2 4 481 49
+p RST Reg8_1/Q0b VDD 2 8 481 81
+n Reg8_1/DFlipFlop_0/NAND3_4/A VSS Reg8_1/DFlipFlop_0/NAND3_4/a_9_8# 2 4 473 49
+p SUB8_0/B0 VDD Reg8_1/Q0b 2 8 493 81
+p Reg8_1/DFlipFlop_0/NAND3_4/A VDD Reg8_1/Q0b 2 8 473 81
+n SUB8_0/B0 Reg8_1/DFlipFlop_0/NAND3_4/a_17_8# Reg8_1/Q0b 2 4 493 49
+n Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/NAND3_5/a_9_8# Reg8_1/DFlipFlop_0/NAND3_5/a_17_8# 2 4 517 49
+p Reg8_1/DFlipFlop_0/NAND3_5/B SUB8_0/B0 VDD 2 8 517 81
+n Reg8_1/Q0b VSS Reg8_1/DFlipFlop_0/NAND3_5/a_9_8# 2 4 509 49
+p VDD VDD SUB8_0/B0 2 8 529 81
+p Reg8_1/Q0b VDD SUB8_0/B0 2 8 509 81
+n VDD Reg8_1/DFlipFlop_0/NAND3_5/a_17_8# SUB8_0/B0 2 4 529 49
+n RST Reg8_1/DFlipFlop_1/NAND3_0/a_9_8# Reg8_1/DFlipFlop_1/NAND3_0/a_17_8# 2 4 337 157
+p RST Reg8_1/DFlipFlop_1/NAND3_3/B VDD 2 8 337 189
+n X1 VSS Reg8_1/DFlipFlop_1/NAND3_0/a_9_8# 2 4 329 157
+p Reg8_1/DFlipFlop_1/NAND3_4/A VDD Reg8_1/DFlipFlop_1/NAND3_3/B 2 8 349 189
+p X1 VDD Reg8_1/DFlipFlop_1/NAND3_3/B 2 8 329 189
+n Reg8_1/DFlipFlop_1/NAND3_4/A Reg8_1/DFlipFlop_1/NAND3_0/a_17_8# Reg8_1/DFlipFlop_1/NAND3_3/B 2 4 349 157
+n EN Reg8_1/DFlipFlop_1/NAND3_1/a_9_8# Reg8_1/DFlipFlop_1/NAND3_1/a_17_8# 2 4 373 157
+p EN Reg8_1/DFlipFlop_1/NAND3_4/A VDD 2 8 373 189
+n Reg8_1/DFlipFlop_1/NAND3_3/B VSS Reg8_1/DFlipFlop_1/NAND3_1/a_9_8# 2 4 365 157
+p Reg8_1/DFlipFlop_1/NAND3_5/B VDD Reg8_1/DFlipFlop_1/NAND3_4/A 2 8 385 189
+p Reg8_1/DFlipFlop_1/NAND3_3/B VDD Reg8_1/DFlipFlop_1/NAND3_4/A 2 8 365 189
+n Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/NAND3_1/a_17_8# Reg8_1/DFlipFlop_1/NAND3_4/A 2 4 385 157
+n RST Reg8_1/DFlipFlop_1/NAND3_2/a_9_8# Reg8_1/DFlipFlop_1/NAND3_2/a_17_8# 2 4 409 157
+p RST Reg8_1/DFlipFlop_1/NAND3_5/B VDD 2 8 409 189
+n EN VSS Reg8_1/DFlipFlop_1/NAND3_2/a_9_8# 2 4 401 157
+p Reg8_1/DFlipFlop_1/NAND3_3/Y VDD Reg8_1/DFlipFlop_1/NAND3_5/B 2 8 421 189
+p EN VDD Reg8_1/DFlipFlop_1/NAND3_5/B 2 8 401 189
+n Reg8_1/DFlipFlop_1/NAND3_3/Y Reg8_1/DFlipFlop_1/NAND3_2/a_17_8# Reg8_1/DFlipFlop_1/NAND3_5/B 2 4 421 157
+n Reg8_1/DFlipFlop_1/NAND3_3/B Reg8_1/DFlipFlop_1/NAND3_3/a_9_8# Reg8_1/DFlipFlop_1/NAND3_3/a_17_8# 2 4 445 157
+p Reg8_1/DFlipFlop_1/NAND3_3/B Reg8_1/DFlipFlop_1/NAND3_3/Y VDD 2 8 445 189
+n Reg8_1/DFlipFlop_1/NAND3_5/B VSS Reg8_1/DFlipFlop_1/NAND3_3/a_9_8# 2 4 437 157
+p VDD VDD Reg8_1/DFlipFlop_1/NAND3_3/Y 2 8 457 189
+p Reg8_1/DFlipFlop_1/NAND3_5/B VDD Reg8_1/DFlipFlop_1/NAND3_3/Y 2 8 437 189
+n VDD Reg8_1/DFlipFlop_1/NAND3_3/a_17_8# Reg8_1/DFlipFlop_1/NAND3_3/Y 2 4 457 157
+n RST Reg8_1/DFlipFlop_1/NAND3_4/a_9_8# Reg8_1/DFlipFlop_1/NAND3_4/a_17_8# 2 4 481 157
+p RST Reg8_1/Q1b VDD 2 8 481 189
+n Reg8_1/DFlipFlop_1/NAND3_4/A VSS Reg8_1/DFlipFlop_1/NAND3_4/a_9_8# 2 4 473 157
+p SUB8_0/B1 VDD Reg8_1/Q1b 2 8 493 189
+p Reg8_1/DFlipFlop_1/NAND3_4/A VDD Reg8_1/Q1b 2 8 473 189
+n SUB8_0/B1 Reg8_1/DFlipFlop_1/NAND3_4/a_17_8# Reg8_1/Q1b 2 4 493 157
+n Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/NAND3_5/a_9_8# Reg8_1/DFlipFlop_1/NAND3_5/a_17_8# 2 4 517 157
+p Reg8_1/DFlipFlop_1/NAND3_5/B SUB8_0/B1 VDD 2 8 517 189
+n Reg8_1/Q1b VSS Reg8_1/DFlipFlop_1/NAND3_5/a_9_8# 2 4 509 157
+p VDD VDD SUB8_0/B1 2 8 529 189
+p Reg8_1/Q1b VDD SUB8_0/B1 2 8 509 189
+n VDD Reg8_1/DFlipFlop_1/NAND3_5/a_17_8# SUB8_0/B1 2 4 529 157
+n RST Reg8_1/DFlipFlop_2/NAND3_0/a_9_8# Reg8_1/DFlipFlop_2/NAND3_0/a_17_8# 2 4 337 265
+p RST Reg8_1/DFlipFlop_2/NAND3_3/B VDD 2 8 337 297
+n X2 VSS Reg8_1/DFlipFlop_2/NAND3_0/a_9_8# 2 4 329 265
+p Reg8_1/DFlipFlop_2/NAND3_4/A VDD Reg8_1/DFlipFlop_2/NAND3_3/B 2 8 349 297
+p X2 VDD Reg8_1/DFlipFlop_2/NAND3_3/B 2 8 329 297
+n Reg8_1/DFlipFlop_2/NAND3_4/A Reg8_1/DFlipFlop_2/NAND3_0/a_17_8# Reg8_1/DFlipFlop_2/NAND3_3/B 2 4 349 265
+n EN Reg8_1/DFlipFlop_2/NAND3_1/a_9_8# Reg8_1/DFlipFlop_2/NAND3_1/a_17_8# 2 4 373 265
+p EN Reg8_1/DFlipFlop_2/NAND3_4/A VDD 2 8 373 297
+n Reg8_1/DFlipFlop_2/NAND3_3/B VSS Reg8_1/DFlipFlop_2/NAND3_1/a_9_8# 2 4 365 265
+p Reg8_1/DFlipFlop_2/NAND3_5/B VDD Reg8_1/DFlipFlop_2/NAND3_4/A 2 8 385 297
+p Reg8_1/DFlipFlop_2/NAND3_3/B VDD Reg8_1/DFlipFlop_2/NAND3_4/A 2 8 365 297
+n Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/NAND3_1/a_17_8# Reg8_1/DFlipFlop_2/NAND3_4/A 2 4 385 265
+n RST Reg8_1/DFlipFlop_2/NAND3_2/a_9_8# Reg8_1/DFlipFlop_2/NAND3_2/a_17_8# 2 4 409 265
+p RST Reg8_1/DFlipFlop_2/NAND3_5/B VDD 2 8 409 297
+n EN VSS Reg8_1/DFlipFlop_2/NAND3_2/a_9_8# 2 4 401 265
+p Reg8_1/DFlipFlop_2/NAND3_3/Y VDD Reg8_1/DFlipFlop_2/NAND3_5/B 2 8 421 297
+p EN VDD Reg8_1/DFlipFlop_2/NAND3_5/B 2 8 401 297
+n Reg8_1/DFlipFlop_2/NAND3_3/Y Reg8_1/DFlipFlop_2/NAND3_2/a_17_8# Reg8_1/DFlipFlop_2/NAND3_5/B 2 4 421 265
+n Reg8_1/DFlipFlop_2/NAND3_3/B Reg8_1/DFlipFlop_2/NAND3_3/a_9_8# Reg8_1/DFlipFlop_2/NAND3_3/a_17_8# 2 4 445 265
+p Reg8_1/DFlipFlop_2/NAND3_3/B Reg8_1/DFlipFlop_2/NAND3_3/Y VDD 2 8 445 297
+n Reg8_1/DFlipFlop_2/NAND3_5/B VSS Reg8_1/DFlipFlop_2/NAND3_3/a_9_8# 2 4 437 265
+p VDD VDD Reg8_1/DFlipFlop_2/NAND3_3/Y 2 8 457 297
+p Reg8_1/DFlipFlop_2/NAND3_5/B VDD Reg8_1/DFlipFlop_2/NAND3_3/Y 2 8 437 297
+n VDD Reg8_1/DFlipFlop_2/NAND3_3/a_17_8# Reg8_1/DFlipFlop_2/NAND3_3/Y 2 4 457 265
+n RST Reg8_1/DFlipFlop_2/NAND3_4/a_9_8# Reg8_1/DFlipFlop_2/NAND3_4/a_17_8# 2 4 481 265
+p RST Reg8_1/Q2b VDD 2 8 481 297
+n Reg8_1/DFlipFlop_2/NAND3_4/A VSS Reg8_1/DFlipFlop_2/NAND3_4/a_9_8# 2 4 473 265
+p SUB8_0/B2 VDD Reg8_1/Q2b 2 8 493 297
+p Reg8_1/DFlipFlop_2/NAND3_4/A VDD Reg8_1/Q2b 2 8 473 297
+n SUB8_0/B2 Reg8_1/DFlipFlop_2/NAND3_4/a_17_8# Reg8_1/Q2b 2 4 493 265
+n Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/NAND3_5/a_9_8# Reg8_1/DFlipFlop_2/NAND3_5/a_17_8# 2 4 517 265
+p Reg8_1/DFlipFlop_2/NAND3_5/B SUB8_0/B2 VDD 2 8 517 297
+n Reg8_1/Q2b VSS Reg8_1/DFlipFlop_2/NAND3_5/a_9_8# 2 4 509 265
+p VDD VDD SUB8_0/B2 2 8 529 297
+p Reg8_1/Q2b VDD SUB8_0/B2 2 8 509 297
+n VDD Reg8_1/DFlipFlop_2/NAND3_5/a_17_8# SUB8_0/B2 2 4 529 265
+n RST Reg8_1/DFlipFlop_3/NAND3_0/a_9_8# Reg8_1/DFlipFlop_3/NAND3_0/a_17_8# 2 4 337 373
+p RST Reg8_1/DFlipFlop_3/NAND3_3/B VDD 2 8 337 405
+n X3 VSS Reg8_1/DFlipFlop_3/NAND3_0/a_9_8# 2 4 329 373
+p Reg8_1/DFlipFlop_3/NAND3_4/A VDD Reg8_1/DFlipFlop_3/NAND3_3/B 2 8 349 405
+p X3 VDD Reg8_1/DFlipFlop_3/NAND3_3/B 2 8 329 405
+n Reg8_1/DFlipFlop_3/NAND3_4/A Reg8_1/DFlipFlop_3/NAND3_0/a_17_8# Reg8_1/DFlipFlop_3/NAND3_3/B 2 4 349 373
+n EN Reg8_1/DFlipFlop_3/NAND3_1/a_9_8# Reg8_1/DFlipFlop_3/NAND3_1/a_17_8# 2 4 373 373
+p EN Reg8_1/DFlipFlop_3/NAND3_4/A VDD 2 8 373 405
+n Reg8_1/DFlipFlop_3/NAND3_3/B VSS Reg8_1/DFlipFlop_3/NAND3_1/a_9_8# 2 4 365 373
+p Reg8_1/DFlipFlop_3/NAND3_5/B VDD Reg8_1/DFlipFlop_3/NAND3_4/A 2 8 385 405
+p Reg8_1/DFlipFlop_3/NAND3_3/B VDD Reg8_1/DFlipFlop_3/NAND3_4/A 2 8 365 405
+n Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/NAND3_1/a_17_8# Reg8_1/DFlipFlop_3/NAND3_4/A 2 4 385 373
+n RST Reg8_1/DFlipFlop_3/NAND3_2/a_9_8# Reg8_1/DFlipFlop_3/NAND3_2/a_17_8# 2 4 409 373
+p RST Reg8_1/DFlipFlop_3/NAND3_5/B VDD 2 8 409 405
+n EN VSS Reg8_1/DFlipFlop_3/NAND3_2/a_9_8# 2 4 401 373
+p Reg8_1/DFlipFlop_3/NAND3_3/Y VDD Reg8_1/DFlipFlop_3/NAND3_5/B 2 8 421 405
+p EN VDD Reg8_1/DFlipFlop_3/NAND3_5/B 2 8 401 405
+n Reg8_1/DFlipFlop_3/NAND3_3/Y Reg8_1/DFlipFlop_3/NAND3_2/a_17_8# Reg8_1/DFlipFlop_3/NAND3_5/B 2 4 421 373
+n Reg8_1/DFlipFlop_3/NAND3_3/B Reg8_1/DFlipFlop_3/NAND3_3/a_9_8# Reg8_1/DFlipFlop_3/NAND3_3/a_17_8# 2 4 445 373
+p Reg8_1/DFlipFlop_3/NAND3_3/B Reg8_1/DFlipFlop_3/NAND3_3/Y VDD 2 8 445 405
+n Reg8_1/DFlipFlop_3/NAND3_5/B VSS Reg8_1/DFlipFlop_3/NAND3_3/a_9_8# 2 4 437 373
+p VDD VDD Reg8_1/DFlipFlop_3/NAND3_3/Y 2 8 457 405
+p Reg8_1/DFlipFlop_3/NAND3_5/B VDD Reg8_1/DFlipFlop_3/NAND3_3/Y 2 8 437 405
+n VDD Reg8_1/DFlipFlop_3/NAND3_3/a_17_8# Reg8_1/DFlipFlop_3/NAND3_3/Y 2 4 457 373
+n RST Reg8_1/DFlipFlop_3/NAND3_4/a_9_8# Reg8_1/DFlipFlop_3/NAND3_4/a_17_8# 2 4 481 373
+p RST Reg8_1/Q3b VDD 2 8 481 405
+n Reg8_1/DFlipFlop_3/NAND3_4/A VSS Reg8_1/DFlipFlop_3/NAND3_4/a_9_8# 2 4 473 373
+p SUB8_0/B3 VDD Reg8_1/Q3b 2 8 493 405
+p Reg8_1/DFlipFlop_3/NAND3_4/A VDD Reg8_1/Q3b 2 8 473 405
+n SUB8_0/B3 Reg8_1/DFlipFlop_3/NAND3_4/a_17_8# Reg8_1/Q3b 2 4 493 373
+n Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/NAND3_5/a_9_8# Reg8_1/DFlipFlop_3/NAND3_5/a_17_8# 2 4 517 373
+p Reg8_1/DFlipFlop_3/NAND3_5/B SUB8_0/B3 VDD 2 8 517 405
+n Reg8_1/Q3b VSS Reg8_1/DFlipFlop_3/NAND3_5/a_9_8# 2 4 509 373
+p VDD VDD SUB8_0/B3 2 8 529 405
+p Reg8_1/Q3b VDD SUB8_0/B3 2 8 509 405
+n VDD Reg8_1/DFlipFlop_3/NAND3_5/a_17_8# SUB8_0/B3 2 4 529 373
+n RST Reg8_1/DFlipFlop_4/NAND3_0/a_9_8# Reg8_1/DFlipFlop_4/NAND3_0/a_17_8# 2 4 337 481
+p RST Reg8_1/DFlipFlop_4/NAND3_3/B VDD 2 8 337 513
+n X4 VSS Reg8_1/DFlipFlop_4/NAND3_0/a_9_8# 2 4 329 481
+p Reg8_1/DFlipFlop_4/NAND3_4/A VDD Reg8_1/DFlipFlop_4/NAND3_3/B 2 8 349 513
+p X4 VDD Reg8_1/DFlipFlop_4/NAND3_3/B 2 8 329 513
+n Reg8_1/DFlipFlop_4/NAND3_4/A Reg8_1/DFlipFlop_4/NAND3_0/a_17_8# Reg8_1/DFlipFlop_4/NAND3_3/B 2 4 349 481
+n EN Reg8_1/DFlipFlop_4/NAND3_1/a_9_8# Reg8_1/DFlipFlop_4/NAND3_1/a_17_8# 2 4 373 481
+p EN Reg8_1/DFlipFlop_4/NAND3_4/A VDD 2 8 373 513
+n Reg8_1/DFlipFlop_4/NAND3_3/B VSS Reg8_1/DFlipFlop_4/NAND3_1/a_9_8# 2 4 365 481
+p Reg8_1/DFlipFlop_4/NAND3_5/B VDD Reg8_1/DFlipFlop_4/NAND3_4/A 2 8 385 513
+p Reg8_1/DFlipFlop_4/NAND3_3/B VDD Reg8_1/DFlipFlop_4/NAND3_4/A 2 8 365 513
+n Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/NAND3_1/a_17_8# Reg8_1/DFlipFlop_4/NAND3_4/A 2 4 385 481
+n RST Reg8_1/DFlipFlop_4/NAND3_2/a_9_8# Reg8_1/DFlipFlop_4/NAND3_2/a_17_8# 2 4 409 481
+p RST Reg8_1/DFlipFlop_4/NAND3_5/B VDD 2 8 409 513
+n EN VSS Reg8_1/DFlipFlop_4/NAND3_2/a_9_8# 2 4 401 481
+p Reg8_1/DFlipFlop_4/NAND3_3/Y VDD Reg8_1/DFlipFlop_4/NAND3_5/B 2 8 421 513
+p EN VDD Reg8_1/DFlipFlop_4/NAND3_5/B 2 8 401 513
+n Reg8_1/DFlipFlop_4/NAND3_3/Y Reg8_1/DFlipFlop_4/NAND3_2/a_17_8# Reg8_1/DFlipFlop_4/NAND3_5/B 2 4 421 481
+n Reg8_1/DFlipFlop_4/NAND3_3/B Reg8_1/DFlipFlop_4/NAND3_3/a_9_8# Reg8_1/DFlipFlop_4/NAND3_3/a_17_8# 2 4 445 481
+p Reg8_1/DFlipFlop_4/NAND3_3/B Reg8_1/DFlipFlop_4/NAND3_3/Y VDD 2 8 445 513
+n Reg8_1/DFlipFlop_4/NAND3_5/B VSS Reg8_1/DFlipFlop_4/NAND3_3/a_9_8# 2 4 437 481
+p VDD VDD Reg8_1/DFlipFlop_4/NAND3_3/Y 2 8 457 513
+p Reg8_1/DFlipFlop_4/NAND3_5/B VDD Reg8_1/DFlipFlop_4/NAND3_3/Y 2 8 437 513
+n VDD Reg8_1/DFlipFlop_4/NAND3_3/a_17_8# Reg8_1/DFlipFlop_4/NAND3_3/Y 2 4 457 481
+n RST Reg8_1/DFlipFlop_4/NAND3_4/a_9_8# Reg8_1/DFlipFlop_4/NAND3_4/a_17_8# 2 4 481 481
+p RST Reg8_1/Q4b VDD 2 8 481 513
+n Reg8_1/DFlipFlop_4/NAND3_4/A VSS Reg8_1/DFlipFlop_4/NAND3_4/a_9_8# 2 4 473 481
+p SUB8_0/B4 VDD Reg8_1/Q4b 2 8 493 513
+p Reg8_1/DFlipFlop_4/NAND3_4/A VDD Reg8_1/Q4b 2 8 473 513
+n SUB8_0/B4 Reg8_1/DFlipFlop_4/NAND3_4/a_17_8# Reg8_1/Q4b 2 4 493 481
+n Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/NAND3_5/a_9_8# Reg8_1/DFlipFlop_4/NAND3_5/a_17_8# 2 4 517 481
+p Reg8_1/DFlipFlop_4/NAND3_5/B SUB8_0/B4 VDD 2 8 517 513
+n Reg8_1/Q4b VSS Reg8_1/DFlipFlop_4/NAND3_5/a_9_8# 2 4 509 481
+p VDD VDD SUB8_0/B4 2 8 529 513
+p Reg8_1/Q4b VDD SUB8_0/B4 2 8 509 513
+n VDD Reg8_1/DFlipFlop_4/NAND3_5/a_17_8# SUB8_0/B4 2 4 529 481
+n RST Reg8_1/DFlipFlop_5/NAND3_0/a_9_8# Reg8_1/DFlipFlop_5/NAND3_0/a_17_8# 2 4 337 589
+p RST Reg8_1/DFlipFlop_5/NAND3_3/B VDD 2 8 337 621
+n X5 VSS Reg8_1/DFlipFlop_5/NAND3_0/a_9_8# 2 4 329 589
+p Reg8_1/DFlipFlop_5/NAND3_4/A VDD Reg8_1/DFlipFlop_5/NAND3_3/B 2 8 349 621
+p X5 VDD Reg8_1/DFlipFlop_5/NAND3_3/B 2 8 329 621
+n Reg8_1/DFlipFlop_5/NAND3_4/A Reg8_1/DFlipFlop_5/NAND3_0/a_17_8# Reg8_1/DFlipFlop_5/NAND3_3/B 2 4 349 589
+n EN Reg8_1/DFlipFlop_5/NAND3_1/a_9_8# Reg8_1/DFlipFlop_5/NAND3_1/a_17_8# 2 4 373 589
+p EN Reg8_1/DFlipFlop_5/NAND3_4/A VDD 2 8 373 621
+n Reg8_1/DFlipFlop_5/NAND3_3/B VSS Reg8_1/DFlipFlop_5/NAND3_1/a_9_8# 2 4 365 589
+p Reg8_1/DFlipFlop_5/NAND3_5/B VDD Reg8_1/DFlipFlop_5/NAND3_4/A 2 8 385 621
+p Reg8_1/DFlipFlop_5/NAND3_3/B VDD Reg8_1/DFlipFlop_5/NAND3_4/A 2 8 365 621
+n Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/NAND3_1/a_17_8# Reg8_1/DFlipFlop_5/NAND3_4/A 2 4 385 589
+n RST Reg8_1/DFlipFlop_5/NAND3_2/a_9_8# Reg8_1/DFlipFlop_5/NAND3_2/a_17_8# 2 4 409 589
+p RST Reg8_1/DFlipFlop_5/NAND3_5/B VDD 2 8 409 621
+n EN VSS Reg8_1/DFlipFlop_5/NAND3_2/a_9_8# 2 4 401 589
+p Reg8_1/DFlipFlop_5/NAND3_3/Y VDD Reg8_1/DFlipFlop_5/NAND3_5/B 2 8 421 621
+p EN VDD Reg8_1/DFlipFlop_5/NAND3_5/B 2 8 401 621
+n Reg8_1/DFlipFlop_5/NAND3_3/Y Reg8_1/DFlipFlop_5/NAND3_2/a_17_8# Reg8_1/DFlipFlop_5/NAND3_5/B 2 4 421 589
+n Reg8_1/DFlipFlop_5/NAND3_3/B Reg8_1/DFlipFlop_5/NAND3_3/a_9_8# Reg8_1/DFlipFlop_5/NAND3_3/a_17_8# 2 4 445 589
+p Reg8_1/DFlipFlop_5/NAND3_3/B Reg8_1/DFlipFlop_5/NAND3_3/Y VDD 2 8 445 621
+n Reg8_1/DFlipFlop_5/NAND3_5/B VSS Reg8_1/DFlipFlop_5/NAND3_3/a_9_8# 2 4 437 589
+p VDD VDD Reg8_1/DFlipFlop_5/NAND3_3/Y 2 8 457 621
+p Reg8_1/DFlipFlop_5/NAND3_5/B VDD Reg8_1/DFlipFlop_5/NAND3_3/Y 2 8 437 621
+n VDD Reg8_1/DFlipFlop_5/NAND3_3/a_17_8# Reg8_1/DFlipFlop_5/NAND3_3/Y 2 4 457 589
+n RST Reg8_1/DFlipFlop_5/NAND3_4/a_9_8# Reg8_1/DFlipFlop_5/NAND3_4/a_17_8# 2 4 481 589
+p RST Reg8_1/Q5b VDD 2 8 481 621
+n Reg8_1/DFlipFlop_5/NAND3_4/A VSS Reg8_1/DFlipFlop_5/NAND3_4/a_9_8# 2 4 473 589
+p SUB8_0/B5 VDD Reg8_1/Q5b 2 8 493 621
+p Reg8_1/DFlipFlop_5/NAND3_4/A VDD Reg8_1/Q5b 2 8 473 621
+n SUB8_0/B5 Reg8_1/DFlipFlop_5/NAND3_4/a_17_8# Reg8_1/Q5b 2 4 493 589
+n Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/NAND3_5/a_9_8# Reg8_1/DFlipFlop_5/NAND3_5/a_17_8# 2 4 517 589
+p Reg8_1/DFlipFlop_5/NAND3_5/B SUB8_0/B5 VDD 2 8 517 621
+n Reg8_1/Q5b VSS Reg8_1/DFlipFlop_5/NAND3_5/a_9_8# 2 4 509 589
+p VDD VDD SUB8_0/B5 2 8 529 621
+p Reg8_1/Q5b VDD SUB8_0/B5 2 8 509 621
+n VDD Reg8_1/DFlipFlop_5/NAND3_5/a_17_8# SUB8_0/B5 2 4 529 589
+n RST Reg8_1/DFlipFlop_6/NAND3_0/a_9_8# Reg8_1/DFlipFlop_6/NAND3_0/a_17_8# 2 4 337 697
+p RST Reg8_1/DFlipFlop_6/NAND3_3/B VDD 2 8 337 729
+n X6 VSS Reg8_1/DFlipFlop_6/NAND3_0/a_9_8# 2 4 329 697
+p Reg8_1/DFlipFlop_6/NAND3_4/A VDD Reg8_1/DFlipFlop_6/NAND3_3/B 2 8 349 729
+p X6 VDD Reg8_1/DFlipFlop_6/NAND3_3/B 2 8 329 729
+n Reg8_1/DFlipFlop_6/NAND3_4/A Reg8_1/DFlipFlop_6/NAND3_0/a_17_8# Reg8_1/DFlipFlop_6/NAND3_3/B 2 4 349 697
+n EN Reg8_1/DFlipFlop_6/NAND3_1/a_9_8# Reg8_1/DFlipFlop_6/NAND3_1/a_17_8# 2 4 373 697
+p EN Reg8_1/DFlipFlop_6/NAND3_4/A VDD 2 8 373 729
+n Reg8_1/DFlipFlop_6/NAND3_3/B VSS Reg8_1/DFlipFlop_6/NAND3_1/a_9_8# 2 4 365 697
+p Reg8_1/DFlipFlop_6/NAND3_5/B VDD Reg8_1/DFlipFlop_6/NAND3_4/A 2 8 385 729
+p Reg8_1/DFlipFlop_6/NAND3_3/B VDD Reg8_1/DFlipFlop_6/NAND3_4/A 2 8 365 729
+n Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/NAND3_1/a_17_8# Reg8_1/DFlipFlop_6/NAND3_4/A 2 4 385 697
+n RST Reg8_1/DFlipFlop_6/NAND3_2/a_9_8# Reg8_1/DFlipFlop_6/NAND3_2/a_17_8# 2 4 409 697
+p RST Reg8_1/DFlipFlop_6/NAND3_5/B VDD 2 8 409 729
+n EN VSS Reg8_1/DFlipFlop_6/NAND3_2/a_9_8# 2 4 401 697
+p Reg8_1/DFlipFlop_6/NAND3_3/Y VDD Reg8_1/DFlipFlop_6/NAND3_5/B 2 8 421 729
+p EN VDD Reg8_1/DFlipFlop_6/NAND3_5/B 2 8 401 729
+n Reg8_1/DFlipFlop_6/NAND3_3/Y Reg8_1/DFlipFlop_6/NAND3_2/a_17_8# Reg8_1/DFlipFlop_6/NAND3_5/B 2 4 421 697
+n Reg8_1/DFlipFlop_6/NAND3_3/B Reg8_1/DFlipFlop_6/NAND3_3/a_9_8# Reg8_1/DFlipFlop_6/NAND3_3/a_17_8# 2 4 445 697
+p Reg8_1/DFlipFlop_6/NAND3_3/B Reg8_1/DFlipFlop_6/NAND3_3/Y VDD 2 8 445 729
+n Reg8_1/DFlipFlop_6/NAND3_5/B VSS Reg8_1/DFlipFlop_6/NAND3_3/a_9_8# 2 4 437 697
+p VDD VDD Reg8_1/DFlipFlop_6/NAND3_3/Y 2 8 457 729
+p Reg8_1/DFlipFlop_6/NAND3_5/B VDD Reg8_1/DFlipFlop_6/NAND3_3/Y 2 8 437 729
+n VDD Reg8_1/DFlipFlop_6/NAND3_3/a_17_8# Reg8_1/DFlipFlop_6/NAND3_3/Y 2 4 457 697
+n RST Reg8_1/DFlipFlop_6/NAND3_4/a_9_8# Reg8_1/DFlipFlop_6/NAND3_4/a_17_8# 2 4 481 697
+p RST Reg8_1/Q6b VDD 2 8 481 729
+n Reg8_1/DFlipFlop_6/NAND3_4/A VSS Reg8_1/DFlipFlop_6/NAND3_4/a_9_8# 2 4 473 697
+p SUB8_0/B6 VDD Reg8_1/Q6b 2 8 493 729
+p Reg8_1/DFlipFlop_6/NAND3_4/A VDD Reg8_1/Q6b 2 8 473 729
+n SUB8_0/B6 Reg8_1/DFlipFlop_6/NAND3_4/a_17_8# Reg8_1/Q6b 2 4 493 697
+n Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/NAND3_5/a_9_8# Reg8_1/DFlipFlop_6/NAND3_5/a_17_8# 2 4 517 697
+p Reg8_1/DFlipFlop_6/NAND3_5/B SUB8_0/B6 VDD 2 8 517 729
+n Reg8_1/Q6b VSS Reg8_1/DFlipFlop_6/NAND3_5/a_9_8# 2 4 509 697
+p VDD VDD SUB8_0/B6 2 8 529 729
+p Reg8_1/Q6b VDD SUB8_0/B6 2 8 509 729
+n VDD Reg8_1/DFlipFlop_6/NAND3_5/a_17_8# SUB8_0/B6 2 4 529 697
+n RST Reg8_1/DFlipFlop_7/NAND3_0/a_9_8# Reg8_1/DFlipFlop_7/NAND3_0/a_17_8# 2 4 337 805
+p RST Reg8_1/DFlipFlop_7/NAND3_3/B VDD 2 8 337 837
+n X7 VSS Reg8_1/DFlipFlop_7/NAND3_0/a_9_8# 2 4 329 805
+p Reg8_1/DFlipFlop_7/NAND3_4/A VDD Reg8_1/DFlipFlop_7/NAND3_3/B 2 8 349 837
+p X7 VDD Reg8_1/DFlipFlop_7/NAND3_3/B 2 8 329 837
+n Reg8_1/DFlipFlop_7/NAND3_4/A Reg8_1/DFlipFlop_7/NAND3_0/a_17_8# Reg8_1/DFlipFlop_7/NAND3_3/B 2 4 349 805
+n EN Reg8_1/DFlipFlop_7/NAND3_1/a_9_8# Reg8_1/DFlipFlop_7/NAND3_1/a_17_8# 2 4 373 805
+p EN Reg8_1/DFlipFlop_7/NAND3_4/A VDD 2 8 373 837
+n Reg8_1/DFlipFlop_7/NAND3_3/B VSS Reg8_1/DFlipFlop_7/NAND3_1/a_9_8# 2 4 365 805
+p Reg8_1/DFlipFlop_7/NAND3_5/B VDD Reg8_1/DFlipFlop_7/NAND3_4/A 2 8 385 837
+p Reg8_1/DFlipFlop_7/NAND3_3/B VDD Reg8_1/DFlipFlop_7/NAND3_4/A 2 8 365 837
+n Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/NAND3_1/a_17_8# Reg8_1/DFlipFlop_7/NAND3_4/A 2 4 385 805
+n RST Reg8_1/DFlipFlop_7/NAND3_2/a_9_8# Reg8_1/DFlipFlop_7/NAND3_2/a_17_8# 2 4 409 805
+p RST Reg8_1/DFlipFlop_7/NAND3_5/B VDD 2 8 409 837
+n EN VSS Reg8_1/DFlipFlop_7/NAND3_2/a_9_8# 2 4 401 805
+p Reg8_1/DFlipFlop_7/NAND3_3/Y VDD Reg8_1/DFlipFlop_7/NAND3_5/B 2 8 421 837
+p EN VDD Reg8_1/DFlipFlop_7/NAND3_5/B 2 8 401 837
+n Reg8_1/DFlipFlop_7/NAND3_3/Y Reg8_1/DFlipFlop_7/NAND3_2/a_17_8# Reg8_1/DFlipFlop_7/NAND3_5/B 2 4 421 805
+n Reg8_1/DFlipFlop_7/NAND3_3/B Reg8_1/DFlipFlop_7/NAND3_3/a_9_8# Reg8_1/DFlipFlop_7/NAND3_3/a_17_8# 2 4 445 805
+p Reg8_1/DFlipFlop_7/NAND3_3/B Reg8_1/DFlipFlop_7/NAND3_3/Y VDD 2 8 445 837
+n Reg8_1/DFlipFlop_7/NAND3_5/B VSS Reg8_1/DFlipFlop_7/NAND3_3/a_9_8# 2 4 437 805
+p VDD VDD Reg8_1/DFlipFlop_7/NAND3_3/Y 2 8 457 837
+p Reg8_1/DFlipFlop_7/NAND3_5/B VDD Reg8_1/DFlipFlop_7/NAND3_3/Y 2 8 437 837
+n VDD Reg8_1/DFlipFlop_7/NAND3_3/a_17_8# Reg8_1/DFlipFlop_7/NAND3_3/Y 2 4 457 805
+n RST Reg8_1/DFlipFlop_7/NAND3_4/a_9_8# Reg8_1/DFlipFlop_7/NAND3_4/a_17_8# 2 4 481 805
+p RST Reg8_1/Q7b VDD 2 8 481 837
+n Reg8_1/DFlipFlop_7/NAND3_4/A VSS Reg8_1/DFlipFlop_7/NAND3_4/a_9_8# 2 4 473 805
+p SUB8_0/B7 VDD Reg8_1/Q7b 2 8 493 837
+p Reg8_1/DFlipFlop_7/NAND3_4/A VDD Reg8_1/Q7b 2 8 473 837
+n SUB8_0/B7 Reg8_1/DFlipFlop_7/NAND3_4/a_17_8# Reg8_1/Q7b 2 4 493 805
+n Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/NAND3_5/a_9_8# Reg8_1/DFlipFlop_7/NAND3_5/a_17_8# 2 4 517 805
+p Reg8_1/DFlipFlop_7/NAND3_5/B SUB8_0/B7 VDD 2 8 517 837
+n Reg8_1/Q7b VSS Reg8_1/DFlipFlop_7/NAND3_5/a_9_8# 2 4 509 805
+p VDD VDD SUB8_0/B7 2 8 529 837
+p Reg8_1/Q7b VDD SUB8_0/B7 2 8 509 837
+n VDD Reg8_1/DFlipFlop_7/NAND3_5/a_17_8# SUB8_0/B7 2 4 529 805
+n RST Reg8_1/DFlipFlop_8/NAND3_0/a_9_8# Reg8_1/DFlipFlop_8/NAND3_0/a_17_8# 2 4 337 913
+p RST Reg8_1/DFlipFlop_8/NAND3_3/B VDD 2 8 337 945
+n Reg8_1/D8 VSS Reg8_1/DFlipFlop_8/NAND3_0/a_9_8# 2 4 329 913
+p Reg8_1/DFlipFlop_8/NAND3_4/A VDD Reg8_1/DFlipFlop_8/NAND3_3/B 2 8 349 945
+p Reg8_1/D8 VDD Reg8_1/DFlipFlop_8/NAND3_3/B 2 8 329 945
+n Reg8_1/DFlipFlop_8/NAND3_4/A Reg8_1/DFlipFlop_8/NAND3_0/a_17_8# Reg8_1/DFlipFlop_8/NAND3_3/B 2 4 349 913
+n EN Reg8_1/DFlipFlop_8/NAND3_1/a_9_8# Reg8_1/DFlipFlop_8/NAND3_1/a_17_8# 2 4 373 913
+p EN Reg8_1/DFlipFlop_8/NAND3_4/A VDD 2 8 373 945
+n Reg8_1/DFlipFlop_8/NAND3_3/B VSS Reg8_1/DFlipFlop_8/NAND3_1/a_9_8# 2 4 365 913
+p Reg8_1/DFlipFlop_8/NAND3_5/B VDD Reg8_1/DFlipFlop_8/NAND3_4/A 2 8 385 945
+p Reg8_1/DFlipFlop_8/NAND3_3/B VDD Reg8_1/DFlipFlop_8/NAND3_4/A 2 8 365 945
+n Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/NAND3_1/a_17_8# Reg8_1/DFlipFlop_8/NAND3_4/A 2 4 385 913
+n RST Reg8_1/DFlipFlop_8/NAND3_2/a_9_8# Reg8_1/DFlipFlop_8/NAND3_2/a_17_8# 2 4 409 913
+p RST Reg8_1/DFlipFlop_8/NAND3_5/B VDD 2 8 409 945
+n EN VSS Reg8_1/DFlipFlop_8/NAND3_2/a_9_8# 2 4 401 913
+p Reg8_1/DFlipFlop_8/NAND3_3/Y VDD Reg8_1/DFlipFlop_8/NAND3_5/B 2 8 421 945
+p EN VDD Reg8_1/DFlipFlop_8/NAND3_5/B 2 8 401 945
+n Reg8_1/DFlipFlop_8/NAND3_3/Y Reg8_1/DFlipFlop_8/NAND3_2/a_17_8# Reg8_1/DFlipFlop_8/NAND3_5/B 2 4 421 913
+n Reg8_1/DFlipFlop_8/NAND3_3/B Reg8_1/DFlipFlop_8/NAND3_3/a_9_8# Reg8_1/DFlipFlop_8/NAND3_3/a_17_8# 2 4 445 913
+p Reg8_1/DFlipFlop_8/NAND3_3/B Reg8_1/DFlipFlop_8/NAND3_3/Y VDD 2 8 445 945
+n Reg8_1/DFlipFlop_8/NAND3_5/B VSS Reg8_1/DFlipFlop_8/NAND3_3/a_9_8# 2 4 437 913
+p VDD VDD Reg8_1/DFlipFlop_8/NAND3_3/Y 2 8 457 945
+p Reg8_1/DFlipFlop_8/NAND3_5/B VDD Reg8_1/DFlipFlop_8/NAND3_3/Y 2 8 437 945
+n VDD Reg8_1/DFlipFlop_8/NAND3_3/a_17_8# Reg8_1/DFlipFlop_8/NAND3_3/Y 2 4 457 913
+n RST Reg8_1/DFlipFlop_8/NAND3_4/a_9_8# Reg8_1/DFlipFlop_8/NAND3_4/a_17_8# 2 4 481 913
+p RST Reg8_1/Q8b VDD 2 8 481 945
+n Reg8_1/DFlipFlop_8/NAND3_4/A VSS Reg8_1/DFlipFlop_8/NAND3_4/a_9_8# 2 4 473 913
+p Reg8_1/Q8 VDD Reg8_1/Q8b 2 8 493 945
+p Reg8_1/DFlipFlop_8/NAND3_4/A VDD Reg8_1/Q8b 2 8 473 945
+n Reg8_1/Q8 Reg8_1/DFlipFlop_8/NAND3_4/a_17_8# Reg8_1/Q8b 2 4 493 913
+n Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/NAND3_5/a_9_8# Reg8_1/DFlipFlop_8/NAND3_5/a_17_8# 2 4 517 913
+p Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/Q8 VDD 2 8 517 945
+n Reg8_1/Q8b VSS Reg8_1/DFlipFlop_8/NAND3_5/a_9_8# 2 4 509 913
+p VDD VDD Reg8_1/Q8 2 8 529 945
+p Reg8_1/Q8b VDD Reg8_1/Q8 2 8 509 945
+n VDD Reg8_1/DFlipFlop_8/NAND3_5/a_17_8# Reg8_1/Q8 2 4 529 913
+p SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_3/NAND2_0/A 2 4 742 779
+n SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 743
+n VDD SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_3/NAND2_0/A 2 4 752 743
+p VDD SUB8_0/XOR2_3/NAND2_0/A VDD 2 4 752 779
+n SUB8_0/B7 VSS SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y 2 4 725 743
+p SUB8_0/B7 VDD SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y 2 8 725 775
+p SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_3/NAND2_0/B 2 4 786 779
+n SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 743
+n SUB8_0/B7 SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_3/NAND2_0/B 2 4 796 743
+p SUB8_0/B7 SUB8_0/XOR2_3/NAND2_0/B VDD 2 4 796 779
+n VDD VSS SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y 2 4 769 743
+p VDD VDD SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y 2 8 769 775
+p SUB8_0/XOR2_3/NAND2_0/A VDD SUB8_0/X7 2 4 814 779
+n SUB8_0/XOR2_3/NAND2_0/A VSS SUB8_0/XOR2_3/NAND2_0/a_10_8# 2 4 814 743
+n SUB8_0/XOR2_3/NAND2_0/B SUB8_0/XOR2_3/NAND2_0/a_10_8# SUB8_0/X7 2 4 824 743
+p SUB8_0/XOR2_3/NAND2_0/B SUB8_0/X7 VDD 2 4 824 779
+p SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_4/NAND2_0/A 2 4 742 435
+n SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 399
+n VDD SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_4/NAND2_0/A 2 4 752 399
+p VDD SUB8_0/XOR2_4/NAND2_0/A VDD 2 4 752 435
+n SUB8_0/B3 VSS SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y 2 4 725 399
+p SUB8_0/B3 VDD SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y 2 8 725 431
+p SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_4/NAND2_0/B 2 4 786 435
+n SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 399
+n SUB8_0/B3 SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_4/NAND2_0/B 2 4 796 399
+p SUB8_0/B3 SUB8_0/XOR2_4/NAND2_0/B VDD 2 4 796 435
+n VDD VSS SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y 2 4 769 399
+p VDD VDD SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y 2 8 769 431
+p SUB8_0/XOR2_4/NAND2_0/A VDD SUB8_0/X3 2 4 814 435
+n SUB8_0/XOR2_4/NAND2_0/A VSS SUB8_0/XOR2_4/NAND2_0/a_10_8# 2 4 814 399
+n SUB8_0/XOR2_4/NAND2_0/B SUB8_0/XOR2_4/NAND2_0/a_10_8# SUB8_0/X3 2 4 824 399
+p SUB8_0/XOR2_4/NAND2_0/B SUB8_0/X3 VDD 2 4 824 435
+p SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_5/NAND2_0/A 2 4 742 349
+n SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 313
+n VDD SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_5/NAND2_0/A 2 4 752 313
+p VDD SUB8_0/XOR2_5/NAND2_0/A VDD 2 4 752 349
+n SUB8_0/B2 VSS SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y 2 4 725 313
+p SUB8_0/B2 VDD SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y 2 8 725 345
+p SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_5/NAND2_0/B 2 4 786 349
+n SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 313
+n SUB8_0/B2 SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_5/NAND2_0/B 2 4 796 313
+p SUB8_0/B2 SUB8_0/XOR2_5/NAND2_0/B VDD 2 4 796 349
+n VDD VSS SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y 2 4 769 313
+p VDD VDD SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y 2 8 769 345
+p SUB8_0/XOR2_5/NAND2_0/A VDD SUB8_0/X2 2 4 814 349
+n SUB8_0/XOR2_5/NAND2_0/A VSS SUB8_0/XOR2_5/NAND2_0/a_10_8# 2 4 814 313
+n SUB8_0/XOR2_5/NAND2_0/B SUB8_0/XOR2_5/NAND2_0/a_10_8# SUB8_0/X2 2 4 824 313
+p SUB8_0/XOR2_5/NAND2_0/B SUB8_0/X2 VDD 2 4 824 349
+p SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_6/NAND2_0/A 2 4 742 263
+n SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 227
+n VDD SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_6/NAND2_0/A 2 4 752 227
+p VDD SUB8_0/XOR2_6/NAND2_0/A VDD 2 4 752 263
+n SUB8_0/B1 VSS SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y 2 4 725 227
+p SUB8_0/B1 VDD SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y 2 8 725 259
+p SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_6/NAND2_0/B 2 4 786 263
+n SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 227
+n SUB8_0/B1 SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_6/NAND2_0/B 2 4 796 227
+p SUB8_0/B1 SUB8_0/XOR2_6/NAND2_0/B VDD 2 4 796 263
+n VDD VSS SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y 2 4 769 227
+p VDD VDD SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y 2 8 769 259
+p SUB8_0/XOR2_6/NAND2_0/A VDD SUB8_0/X1 2 4 814 263
+n SUB8_0/XOR2_6/NAND2_0/A VSS SUB8_0/XOR2_6/NAND2_0/a_10_8# 2 4 814 227
+n SUB8_0/XOR2_6/NAND2_0/B SUB8_0/XOR2_6/NAND2_0/a_10_8# SUB8_0/X1 2 4 824 227
+p SUB8_0/XOR2_6/NAND2_0/B SUB8_0/X1 VDD 2 4 824 263
+p SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_7/NAND2_0/A 2 4 1073 68
+n SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 1073 32
+n VSS SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_7/NAND2_0/A 2 4 1083 32
+p VSS SUB8_0/XOR2_7/NAND2_0/A VDD 2 4 1083 68
+n VDD VSS SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y 2 4 1056 32
+p VDD VDD SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y 2 8 1056 64
+p SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_7/NAND2_0/B 2 4 1117 68
+n SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 1117 32
+n VDD SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_7/NAND2_0/B 2 4 1127 32
+p VDD SUB8_0/XOR2_7/NAND2_0/B VDD 2 4 1127 68
+n VSS VSS SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y 2 4 1100 32
+p VSS VDD SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y 2 8 1100 64
+p SUB8_0/XOR2_7/NAND2_0/A VDD SUB8_0/XOR2_7/Y 2 4 1145 68
+n SUB8_0/XOR2_7/NAND2_0/A VSS SUB8_0/XOR2_7/NAND2_0/a_10_8# 2 4 1145 32
+n SUB8_0/XOR2_7/NAND2_0/B SUB8_0/XOR2_7/NAND2_0/a_10_8# SUB8_0/XOR2_7/Y 2 4 1155 32
+p SUB8_0/XOR2_7/NAND2_0/B SUB8_0/XOR2_7/Y VDD 2 4 1155 68
+p SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_8/NAND2_0/A 2 4 742 177
+n SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 141
+n VDD SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_8/NAND2_0/A 2 4 752 141
+p VDD SUB8_0/XOR2_8/NAND2_0/A VDD 2 4 752 177
+n SUB8_0/B0 VSS SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y 2 4 725 141
+p SUB8_0/B0 VDD SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y 2 8 725 173
+p SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_8/NAND2_0/B 2 4 786 177
+n SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 141
+n SUB8_0/B0 SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_8/NAND2_0/B 2 4 796 141
+p SUB8_0/B0 SUB8_0/XOR2_8/NAND2_0/B VDD 2 4 796 177
+n VDD VSS SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y 2 4 769 141
+p VDD VDD SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y 2 8 769 173
+p SUB8_0/XOR2_8/NAND2_0/A VDD SUB8_0/X0 2 4 814 177
+n SUB8_0/XOR2_8/NAND2_0/A VSS SUB8_0/XOR2_8/NAND2_0/a_10_8# 2 4 814 141
+n SUB8_0/XOR2_8/NAND2_0/B SUB8_0/XOR2_8/NAND2_0/a_10_8# SUB8_0/X0 2 4 824 141
+p SUB8_0/XOR2_8/NAND2_0/B SUB8_0/X0 VDD 2 4 824 177
+n SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_1/C 2 4 1203 149
+p SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_1/C 2 8 1203 181
+n SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A 2 4 1074 149
+n SUB8_0/XOR2_7/Y VSS SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8# 2 4 1130 149
+p SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A 2 4 1138 185
+p X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 185
+p X0 SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_41_44# 2 4 1090 185
+p SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 185
+n X0 SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_41_8# 2 4 1090 149
+p SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A 2 4 1074 185
+p X0 SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_108_44# 2 4 1157 185
+p SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 185
+p SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_115_44# 2 4 1164 185
+n SUB8_0/X0 VSS SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_8# 2 4 1066 149
+n SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 149
+n X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 149
+n SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A 2 4 1138 149
+n SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 149
+p SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 185
+n SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 149
+n SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_115_8# 2 4 1164 149
+p SUB8_0/XOR2_7/Y VDD SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_44# 2 4 1130 185
+p X0 VDD SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_44# 2 4 1114 185
+n X0 VSS SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8# 2 4 1114 149
+p SUB8_0/X0 VDD SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_44# 2 4 1066 185
+n X0 SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_108_8# 2 4 1157 149
+n SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A VSS Y0 2 4 1187 149
+p SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A VDD Y0 2 8 1187 181
+n SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_2/C 2 4 1203 241
+p SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_2/C 2 8 1203 273
+n SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A 2 4 1074 241
+n SUB8_0/8BitAdder_0/FullAdder_1/C VSS SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_8# 2 4 1130 241
+p SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A 2 4 1138 277
+p X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 277
+p X1 SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_41_44# 2 4 1090 277
+p SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 277
+n X1 SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_41_8# 2 4 1090 241
+p SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A 2 4 1074 277
+p X1 SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_108_44# 2 4 1157 277
+p SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 277
+p SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_115_44# 2 4 1164 277
+n SUB8_0/X1 VSS SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_8# 2 4 1066 241
+n SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 241
+n X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 241
+n SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A 2 4 1138 241
+n SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 241
+p SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 277
+n SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 241
+n SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_115_8# 2 4 1164 241
+p SUB8_0/8BitAdder_0/FullAdder_1/C VDD SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_44# 2 4 1130 277
+p X1 VDD SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_44# 2 4 1114 277
+n X1 VSS SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_8# 2 4 1114 241
+p SUB8_0/X1 VDD SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_44# 2 4 1066 277
+n X1 SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_108_8# 2 4 1157 241
+n SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A VSS Y1 2 4 1187 241
+p SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A VDD Y1 2 8 1187 273
+n SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_3/C 2 4 1203 333
+p SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_3/C 2 8 1203 365
+n SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A 2 4 1074 333
+n SUB8_0/8BitAdder_0/FullAdder_2/C VSS SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_8# 2 4 1130 333
+p SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A 2 4 1138 369
+p X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 369
+p X2 SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_41_44# 2 4 1090 369
+p SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 369
+n X2 SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_41_8# 2 4 1090 333
+p SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A 2 4 1074 369
+p X2 SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_108_44# 2 4 1157 369
+p SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 369
+p SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_115_44# 2 4 1164 369
+n SUB8_0/X2 VSS SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_8# 2 4 1066 333
+n SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 333
+n X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 333
+n SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A 2 4 1138 333
+n SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 333
+p SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 369
+n SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 333
+n SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_115_8# 2 4 1164 333
+p SUB8_0/8BitAdder_0/FullAdder_2/C VDD SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_44# 2 4 1130 369
+p X2 VDD SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_44# 2 4 1114 369
+n X2 VSS SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_8# 2 4 1114 333
+p SUB8_0/X2 VDD SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_44# 2 4 1066 369
+n X2 SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_108_8# 2 4 1157 333
+n SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A VSS Y2 2 4 1187 333
+p SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A VDD Y2 2 8 1187 365
+n SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_4/C 2 4 1203 425
+p SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_4/C 2 8 1203 457
+n SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A 2 4 1074 425
+n SUB8_0/8BitAdder_0/FullAdder_3/C VSS SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_8# 2 4 1130 425
+p SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A 2 4 1138 461
+p X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 461
+p X3 SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_41_44# 2 4 1090 461
+p SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 461
+n X3 SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_41_8# 2 4 1090 425
+p SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A 2 4 1074 461
+p X3 SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_108_44# 2 4 1157 461
+p SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 461
+p SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_115_44# 2 4 1164 461
+n SUB8_0/X3 VSS SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_8# 2 4 1066 425
+n SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 425
+n X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 425
+n SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A 2 4 1138 425
+n SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 425
+p SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 461
+n SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 425
+n SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_115_8# 2 4 1164 425
+p SUB8_0/8BitAdder_0/FullAdder_3/C VDD SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_44# 2 4 1130 461
+p X3 VDD SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_44# 2 4 1114 461
+n X3 VSS SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_8# 2 4 1114 425
+p SUB8_0/X3 VDD SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_44# 2 4 1066 461
+n X3 SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_108_8# 2 4 1157 425
+n SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A VSS Y3 2 4 1187 425
+p SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A VDD Y3 2 8 1187 457
+n SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_5/C 2 4 1203 517
+p SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_5/C 2 8 1203 549
+n SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A 2 4 1074 517
+n SUB8_0/8BitAdder_0/FullAdder_4/C VSS SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_8# 2 4 1130 517
+p SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A 2 4 1138 553
+p X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 553
+p X4 SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_41_44# 2 4 1090 553
+p SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 553
+n X4 SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_41_8# 2 4 1090 517
+p SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A 2 4 1074 553
+p X4 SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_108_44# 2 4 1157 553
+p SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 553
+p SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_115_44# 2 4 1164 553
+n SUB8_0/X4 VSS SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_8# 2 4 1066 517
+n SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 517
+n X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 517
+n SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A 2 4 1138 517
+n SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 517
+p SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 553
+n SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 517
+n SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_115_8# 2 4 1164 517
+p SUB8_0/8BitAdder_0/FullAdder_4/C VDD SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_44# 2 4 1130 553
+p X4 VDD SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_44# 2 4 1114 553
+n X4 VSS SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_8# 2 4 1114 517
+p SUB8_0/X4 VDD SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_44# 2 4 1066 553
+n X4 SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_108_8# 2 4 1157 517
+n SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A VSS Y4 2 4 1187 517
+p SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A VDD Y4 2 8 1187 549
+n SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_6/C 2 4 1203 609
+p SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_6/C 2 8 1203 641
+n SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A 2 4 1074 609
+n SUB8_0/8BitAdder_0/FullAdder_5/C VSS SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_8# 2 4 1130 609
+p SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A 2 4 1138 645
+p X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 645
+p X5 SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_41_44# 2 4 1090 645
+p SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 645
+n X5 SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_41_8# 2 4 1090 609
+p SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A 2 4 1074 645
+p X5 SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_108_44# 2 4 1157 645
+p SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 645
+p SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_115_44# 2 4 1164 645
+n SUB8_0/X5 VSS SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_8# 2 4 1066 609
+n SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 609
+n X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 609
+n SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A 2 4 1138 609
+n SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 609
+p SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 645
+n SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 609
+n SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_115_8# 2 4 1164 609
+p SUB8_0/8BitAdder_0/FullAdder_5/C VDD SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_44# 2 4 1130 645
+p X5 VDD SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_44# 2 4 1114 645
+n X5 VSS SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_8# 2 4 1114 609
+p SUB8_0/X5 VDD SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_44# 2 4 1066 645
+n X5 SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_108_8# 2 4 1157 609
+n SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A VSS Y5 2 4 1187 609
+p SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A VDD Y5 2 8 1187 641
+n SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A VSS SUB8_0/8BitAdder_0/FullAdder_7/C 2 4 1203 701
+p SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A VDD SUB8_0/8BitAdder_0/FullAdder_7/C 2 8 1203 733
+n SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A 2 4 1074 701
+n SUB8_0/8BitAdder_0/FullAdder_6/C VSS SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_8# 2 4 1130 701
+p SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A 2 4 1138 737
+p X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 737
+p X6 SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_41_44# 2 4 1090 737
+p SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 737
+n X6 SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_41_8# 2 4 1090 701
+p SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A 2 4 1074 737
+p X6 SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_108_44# 2 4 1157 737
+p SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 737
+p SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_115_44# 2 4 1164 737
+n SUB8_0/X6 VSS SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_8# 2 4 1066 701
+n SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 701
+n X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 701
+n SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A 2 4 1138 701
+n SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 701
+p SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 737
+n SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 701
+n SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_115_8# 2 4 1164 701
+p SUB8_0/8BitAdder_0/FullAdder_6/C VDD SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_44# 2 4 1130 737
+p X6 VDD SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_44# 2 4 1114 737
+n X6 VSS SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_8# 2 4 1114 701
+p SUB8_0/X6 VDD SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_44# 2 4 1066 737
+n X6 SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_108_8# 2 4 1157 701
+n SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A VSS Y6 2 4 1187 701
+p SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A VDD Y6 2 8 1187 733
+n SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A VSS SUB8_0/8BitAdder_0/Cout 2 4 1203 793
+p SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A VDD SUB8_0/8BitAdder_0/Cout 2 8 1203 825
+n SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_8# SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A 2 4 1074 793
+n SUB8_0/8BitAdder_0/FullAdder_7/C VSS SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_8# 2 4 1130 793
+p SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_44# SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A 2 4 1138 829
+p X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_44# VDD 2 4 1058 829
+p X7 SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_41_44# 2 4 1090 829
+p SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_44# VDD 2 4 1122 829
+n X7 SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_41_8# 2 4 1090 793
+p SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_44# SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A 2 4 1074 829
+p X7 SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_108_44# 2 4 1157 829
+p SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_41_44# VDD 2 4 1098 829
+p SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_108_44# SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_115_44# 2 4 1164 829
+n SUB8_0/X7 VSS SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_8# 2 4 1066 793
+n SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_8# VSS 2 4 1122 793
+n X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_8# VSS 2 4 1058 793
+n SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_8# SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A 2 4 1138 793
+n SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_115_8# VSS 2 4 1171 793
+p SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_115_44# VDD 2 4 1171 829
+n SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_41_8# VSS 2 4 1098 793
+n SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_108_8# SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_115_8# 2 4 1164 793
+p SUB8_0/8BitAdder_0/FullAdder_7/C VDD SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_44# 2 4 1130 829
+p X7 VDD SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_44# 2 4 1114 829
+n X7 VSS SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_8# 2 4 1114 793
+p SUB8_0/X7 VDD SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_44# 2 4 1066 829
+n X7 SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_108_8# 2 4 1157 793
+n SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A VSS Y7 2 4 1187 793
+p SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A VDD Y7 2 8 1187 825
+p SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_0/NAND2_0/A 2 4 742 693
+n SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 657
+n VDD SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_0/NAND2_0/A 2 4 752 657
+p VDD SUB8_0/XOR2_0/NAND2_0/A VDD 2 4 752 693
+n SUB8_0/B6 VSS SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y 2 4 725 657
+p SUB8_0/B6 VDD SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y 2 8 725 689
+p SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_0/NAND2_0/B 2 4 786 693
+n SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 657
+n SUB8_0/B6 SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_0/NAND2_0/B 2 4 796 657
+p SUB8_0/B6 SUB8_0/XOR2_0/NAND2_0/B VDD 2 4 796 693
+n VDD VSS SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y 2 4 769 657
+p VDD VDD SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y 2 8 769 689
+p SUB8_0/XOR2_0/NAND2_0/A VDD SUB8_0/X6 2 4 814 693
+n SUB8_0/XOR2_0/NAND2_0/A VSS SUB8_0/XOR2_0/NAND2_0/a_10_8# 2 4 814 657
+n SUB8_0/XOR2_0/NAND2_0/B SUB8_0/XOR2_0/NAND2_0/a_10_8# SUB8_0/X6 2 4 824 657
+p SUB8_0/XOR2_0/NAND2_0/B SUB8_0/X6 VDD 2 4 824 693
+p SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_1/NAND2_0/A 2 4 742 521
+n SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 485
+n VDD SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_1/NAND2_0/A 2 4 752 485
+p VDD SUB8_0/XOR2_1/NAND2_0/A VDD 2 4 752 521
+n SUB8_0/B4 VSS SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 4 725 485
+p SUB8_0/B4 VDD SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y 2 8 725 517
+p SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_1/NAND2_0/B 2 4 786 521
+n SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 485
+n SUB8_0/B4 SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_1/NAND2_0/B 2 4 796 485
+p SUB8_0/B4 SUB8_0/XOR2_1/NAND2_0/B VDD 2 4 796 521
+n VDD VSS SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 4 769 485
+p VDD VDD SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y 2 8 769 517
+p SUB8_0/XOR2_1/NAND2_0/A VDD SUB8_0/X4 2 4 814 521
+n SUB8_0/XOR2_1/NAND2_0/A VSS SUB8_0/XOR2_1/NAND2_0/a_10_8# 2 4 814 485
+n SUB8_0/XOR2_1/NAND2_0/B SUB8_0/XOR2_1/NAND2_0/a_10_8# SUB8_0/X4 2 4 824 485
+p SUB8_0/XOR2_1/NAND2_0/B SUB8_0/X4 VDD 2 4 824 521
+p SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y VDD SUB8_0/XOR2_2/NAND2_0/A 2 4 742 607
+n SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y VSS SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/a_10_8# 2 4 742 571
+n VDD SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/a_10_8# SUB8_0/XOR2_2/NAND2_0/A 2 4 752 571
+p VDD SUB8_0/XOR2_2/NAND2_0/A VDD 2 4 752 607
+n SUB8_0/B5 VSS SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y 2 4 725 571
+p SUB8_0/B5 VDD SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y 2 8 725 603
+p SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y VDD SUB8_0/XOR2_2/NAND2_0/B 2 4 786 607
+n SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y VSS SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/a_10_8# 2 4 786 571
+n SUB8_0/B5 SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/a_10_8# SUB8_0/XOR2_2/NAND2_0/B 2 4 796 571
+p SUB8_0/B5 SUB8_0/XOR2_2/NAND2_0/B VDD 2 4 796 607
+n VDD VSS SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y 2 4 769 571
+p VDD VDD SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y 2 8 769 603
+p SUB8_0/XOR2_2/NAND2_0/A VDD SUB8_0/X5 2 4 814 607
+n SUB8_0/XOR2_2/NAND2_0/A VSS SUB8_0/XOR2_2/NAND2_0/a_10_8# 2 4 814 571
+n SUB8_0/XOR2_2/NAND2_0/B SUB8_0/XOR2_2/NAND2_0/a_10_8# SUB8_0/X5 2 4 824 571
+p SUB8_0/XOR2_2/NAND2_0/B SUB8_0/X5 VDD 2 4 824 607
+C SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/X6 3.43
+C X3 X4 26.65
+C SUB8_0/X1 SUB8_0/X2 5.35
+C VDD SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A 4.02
+C Reg8_1/DFlipFlop_4/NAND3_4/A VSS 2.33
+C EN VSS 7.58
+C Y5 Y6 8.26
+C SUB8_0/B3 SUB8_0/B4 13.69
+C SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/C 3.00
+C VDD X6 5.29
+C VDD SUB8_0/X4 2.85
+C VDD SUB8_0/8BitAdder_0/FullAdder_1/C 2.12
+C VSS X2 4.75
+C VSS SUB8_0/X0 2.61
+C X0 X1 24.54
+C X6 X7 28.61
+C SUB8_0/X4 SUB8_0/X5 6.91
+C VDD SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A 4.02
+C Reg8_1/DFlipFlop_6/NAND3_4/A VSS 2.33
+C A0 A1 6.84
+C Reg8_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C Reg8_1/DFlipFlop_1/NAND3_5/B VDD 2.62
+C SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/C 3.00
+C VDD X0 4.62
+C Reg8_1/DFlipFlop_8/NAND3_4/A VSS 2.33
+C RST Reg8_1/DFlipFlop_2/NAND3_4/A 2.72
+C A2 A3 8.21
+C VDD SUB8_0/8BitAdder_0/FullAdder_6/C 2.15
+C SUB8_0/XOR2_3/NAND2_0/A VDD 3.01
+C Reg8_1/DFlipFlop_3/NAND3_5/B VDD 2.62
+C Reg8_0/DFlipFlop_1/NAND3_4/A VSS 2.33
+C X2 SUB8_0/X2 5.17
+C VDD SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A 4.02
+C SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/XOR2_7/Y 2.91
+C VSS SUB8_0/B6 3.07
+C A3 A4 8.90
+C RST Reg8_1/DFlipFlop_4/NAND3_4/A 2.72
+C RST EN 41.44
+C SUB8_0/B4 SUB8_0/B5 14.14
+C Reg8_1/DFlipFlop_5/NAND3_5/B VDD 2.62
+C VDD X5 5.29
+C VDD SUB8_0/X3 2.90
+C VSS X1 4.75
+C Reg8_0/DFlipFlop_3/NAND3_4/A VSS 2.33
+C SUB8_0/B2 SUB8_0/B1 12.80
+C X5 SUB8_0/X5 4.33
+C RST Reg8_1/DFlipFlop_6/NAND3_4/A 2.72
+C A4 A5 9.59
+C SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/C 2.96
+C SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/X2 3.43
+C SUB8_0/XOR2_4/NAND2_0/A VDD 3.01
+C Reg8_0/DFlipFlop_0/NAND3_4/A RST 2.72
+C VDD VSS 41.81
+C Reg8_1/DFlipFlop_7/NAND3_5/B VDD 2.62
+C Reg8_0/DFlipFlop_5/NAND3_4/A VSS 2.33
+C Reg8_0/DFlipFlop_0/NAND3_5/B VDD 2.62
+C SUB8_0/B0 VSS 3.12
+C VSS X7 4.65
+C RST Reg8_1/DFlipFlop_8/NAND3_4/A 2.72
+C A5 A6 10.27
+C Y1 Y2 3.57
+C Reg8_0/DFlipFlop_8/NAND3_5/B VDD 2.62
+C VDD SUB8_0/8BitAdder_0/FullAdder_5/C 2.15
+C SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/X5 3.43
+C SUB8_0/B7 SUB8_0/B6 15.09
+C Reg8_0/DFlipFlop_7/NAND3_4/A VSS 2.33
+C X2 X3 25.96
+C SUB8_0/X0 SUB8_0/X1 4.71
+C VDD SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A 4.02
+C RST Reg8_0/DFlipFlop_1/NAND3_4/A 2.72
+C SUB8_0/B3 VDD 5.84
+C A1 A2 7.52
+C A6 A7 10.91
+C Y4 Y5 7.09
+C Reg8_0/DFlipFlop_2/NAND3_5/B VDD 2.62
+C SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/C 3.00
+C VDD X4 5.29
+C VDD SUB8_0/X2 2.65
+C Reg8_0/Q8 VDD 2.22
+C RST Reg8_0/DFlipFlop_3/NAND3_4/A 2.72
+C X5 X6 28.03
+C SUB8_0/X3 SUB8_0/X4 6.36
+C SUB8_0/B7 VDD 6.21
+C SUB8_0/B6 SUB8_0/B5 14.58
+C Reg8_0/DFlipFlop_4/NAND3_5/B VDD 2.62
+C RST VDD 27.41
+C VDD SUB8_0/XOR2_1/NAND2_0/A 3.01
+C SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/C 3.00
+C RST Reg8_0/DFlipFlop_5/NAND3_4/A 2.72
+C VSS X6 4.78
+C Reg8_1/DFlipFlop_1/NAND3_4/A VSS 2.33
+C SUB8_0/X6 SUB8_0/X7 7.98
+C VDD SUB8_0/8BitAdder_0/FullAdder_4/C 2.15
+C Reg8_0/DFlipFlop_6/NAND3_5/B VDD 2.62
+C X1 SUB8_0/X1 4.69
+C RST Reg8_0/DFlipFlop_7/NAND3_4/A 2.72
+C SUB8_0/B2 VDD 5.91
+C VDD SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A 4.02
+C VDD SUB8_0/B5 6.02
+C X0 VSS 4.92
+C Reg8_1/DFlipFlop_3/NAND3_4/A VSS 2.33
+C VDD X3 5.26
+C VDD SUB8_0/X1 2.67
+C X4 SUB8_0/X4 4.97
+C SUB8_0/XOR2_5/NAND2_0/A VDD 3.01
+C Reg8_1/DFlipFlop_5/NAND3_4/A VSS 2.33
+C VDD SUB8_0/XOR2_2/NAND2_0/A 3.01
+C VDD SUB8_0/X7 2.73
+C VSS X5 4.81
+C Reg8_1/DFlipFlop_7/NAND3_4/A VSS 2.33
+C X7 SUB8_0/X7 4.42
+C VDD SUB8_0/B4 5.93
+C RST Reg8_1/DFlipFlop_1/NAND3_4/A 2.72
+C Y0 Y1 2.40
+C VDD SUB8_0/8BitAdder_0/FullAdder_3/C 2.15
+C SUB8_0/B1 VDD 5.77
+C SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/X4 3.43
+C Reg8_0/DFlipFlop_8/NAND3_4/A VSS 2.33
+C SUB8_0/B1 SUB8_0/B0 11.55
+C Reg8_1/DFlipFlop_2/NAND3_5/B VDD 2.62
+C X1 X2 25.27
+C VDD SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A 4.02
+C VDD SUB8_0/XOR2_0/NAND2_0/A 3.01
+C RST Reg8_1/DFlipFlop_3/NAND3_4/A 2.72
+C EN VDD 20.93
+C Y3 Y4 5.91
+C SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/C 3.00
+C VDD X2 5.29
+C VDD SUB8_0/X0 2.18
+C SUB8_0/XOR2_6/NAND2_0/A VDD 3.01
+C Reg8_1/DFlipFlop_4/NAND3_5/B VDD 2.62
+C SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/X7 3.43
+C Reg8_0/DFlipFlop_2/NAND3_4/A VSS 2.33
+C X4 X5 27.34
+C SUB8_0/X2 SUB8_0/X3 5.91
+C SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/X1 3.43
+C SUB8_0/B3 VSS 3.07
+C RST Reg8_1/DFlipFlop_5/NAND3_4/A 2.72
+C Y6 Y7 9.43
+C Reg8_1/DFlipFlop_0/NAND3_5/B VDD 2.62
+C Reg8_1/DFlipFlop_6/NAND3_5/B VDD 2.62
+C SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/C 3.00
+C Reg8_0/DFlipFlop_4/NAND3_4/A VSS 2.33
+C VDD SUB8_0/X6 2.75
+C VSS X4 4.76
+C SUB8_0/X5 SUB8_0/X6 7.46
+C RST Reg8_1/DFlipFlop_7/NAND3_4/A 2.72
+C VDD SUB8_0/8BitAdder_0/FullAdder_2/C 2.15
+C SUB8_0/B7 VSS 3.33
+C Reg8_1/DFlipFlop_8/NAND3_5/B VDD 2.62
+C Reg8_1/DFlipFlop_0/NAND3_4/A VSS 2.33
+C RST Reg8_0/DFlipFlop_8/NAND3_4/A 2.72
+C Reg8_0/DFlipFlop_6/NAND3_4/A VSS 2.33
+C VDD SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A 4.02
+C VDD SUB8_0/B6 6.11
+C RST VSS 8.47
+C SUB8_0/XOR2_7/Y SUB8_0/X0 3.43
+C Reg8_0/DFlipFlop_1/NAND3_5/B VDD 2.62
+C VDD X1 5.29
+C RST Reg8_0/DFlipFlop_2/NAND3_4/A 2.72
+C X3 SUB8_0/X3 4.37
+C SUB8_0/B2 VSS 3.07
+C VSS SUB8_0/B5 3.07
+C Reg8_1/Q8 VDD 2.22
+C Reg8_0/DFlipFlop_3/NAND3_5/B VDD 2.62
+C SUB8_0/B0 VDD 5.56
+C VDD X7 5.29
+C VDD SUB8_0/X5 2.80
+C VSS X3 4.72
+C RST Reg8_0/DFlipFlop_4/NAND3_4/A 2.72
+C X0 SUB8_0/X0 4.60
+C X6 SUB8_0/X6 4.33
+C SUB8_0/B3 SUB8_0/B2 13.24
+C Reg8_0/DFlipFlop_5/NAND3_5/B VDD 2.62
+C SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/X3 3.43
+C RST Reg8_1/DFlipFlop_0/NAND3_4/A 2.72
+C RST Reg8_0/DFlipFlop_6/NAND3_4/A 2.72
+C VDD SUB8_0/XOR2_8/NAND2_0/A 2.14
+C Reg8_1/DFlipFlop_2/NAND3_4/A VSS 2.33
+C VSS SUB8_0/B4 3.07
+C Y2 Y3 4.74
+C Reg8_0/DFlipFlop_7/NAND3_5/B VDD 2.62
+C VDD SUB8_0/8BitAdder_0/FullAdder_7/C 2.15
+C SUB8_0/B1 VSS 3.07
+C SUB8_0/XOR2_2/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_2/NAND2_0/B 67
+= SUB8_0/XOR2_2/NAND2_0/B SUB8_0/XOR2_2/NAND2_1INV_1/Y
+= SUB8_0/XOR2_2/NAND2_0/B SUB8_0/XOR2_2/m1_86_n8#
+= SUB8_0/XOR2_2/NAND2_0/B SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B5 GND 24.82
+R SUB8_0/B5 227
+= SUB8_0/B5 Reg8_1/Q5
+= SUB8_0/B5 Reg8_1/DFlipFlop_5/Q
+= SUB8_0/B5 Reg8_1/DFlipFlop_5/NAND3_5/Y
+= SUB8_0/B5 Reg8_1/DFlipFlop_5/NAND3_4/C
+= SUB8_0/B5 m1_540_574#
+= SUB8_0/B5 SUB8_0/XOR2_2/A
+= SUB8_0/B5 SUB8_0/XOR2_2/NAND2_1INV_0/A
+= SUB8_0/B5 SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/A
+= SUB8_0/B5 SUB8_0/XOR2_2/NAND2_1INV_1/B
+= SUB8_0/B5 SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_2/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_2/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_2/NAND2_0/A 68
+= SUB8_0/XOR2_2/NAND2_0/A SUB8_0/XOR2_2/NAND2_1INV_0/Y
+= SUB8_0/XOR2_2/NAND2_0/A SUB8_0/XOR2_2/m1_42_n24#
+= SUB8_0/XOR2_2/NAND2_0/A SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_2/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_1/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_1/NAND2_0/B 67
+= SUB8_0/XOR2_1/NAND2_0/B SUB8_0/XOR2_1/NAND2_1INV_1/Y
+= SUB8_0/XOR2_1/NAND2_0/B SUB8_0/XOR2_1/m1_86_n8#
+= SUB8_0/XOR2_1/NAND2_0/B SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B4 GND 24.71
+R SUB8_0/B4 227
+= SUB8_0/B4 Reg8_1/Q4
+= SUB8_0/B4 Reg8_1/DFlipFlop_4/Q
+= SUB8_0/B4 Reg8_1/DFlipFlop_4/NAND3_5/Y
+= SUB8_0/B4 Reg8_1/DFlipFlop_4/NAND3_4/C
+= SUB8_0/B4 m1_540_466#
+= SUB8_0/B4 SUB8_0/XOR2_1/A
+= SUB8_0/B4 SUB8_0/XOR2_1/NAND2_1INV_0/A
+= SUB8_0/B4 SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/A
+= SUB8_0/B4 SUB8_0/XOR2_1/NAND2_1INV_1/B
+= SUB8_0/B4 SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_1/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_1/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_1/NAND2_0/A 68
+= SUB8_0/XOR2_1/NAND2_0/A SUB8_0/XOR2_1/NAND2_1INV_0/Y
+= SUB8_0/XOR2_1/NAND2_0/A SUB8_0/XOR2_1/m1_42_n24#
+= SUB8_0/XOR2_1/NAND2_0/A SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_1/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_0/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_0/NAND2_0/B 67
+= SUB8_0/XOR2_0/NAND2_0/B SUB8_0/XOR2_0/NAND2_1INV_1/Y
+= SUB8_0/XOR2_0/NAND2_0/B SUB8_0/XOR2_0/m1_86_n8#
+= SUB8_0/XOR2_0/NAND2_0/B SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B6 GND 24.92
+R SUB8_0/B6 227
+= SUB8_0/B6 Reg8_1/Q6
+= SUB8_0/B6 Reg8_1/DFlipFlop_6/Q
+= SUB8_0/B6 Reg8_1/DFlipFlop_6/NAND3_5/Y
+= SUB8_0/B6 Reg8_1/DFlipFlop_6/NAND3_4/C
+= SUB8_0/B6 m1_540_682#
+= SUB8_0/B6 SUB8_0/XOR2_0/A
+= SUB8_0/B6 SUB8_0/XOR2_0/NAND2_1INV_0/A
+= SUB8_0/B6 SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/A
+= SUB8_0/B6 SUB8_0/XOR2_0/NAND2_1INV_1/B
+= SUB8_0/B6 SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_0/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_0/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_0/NAND2_0/A 68
+= SUB8_0/XOR2_0/NAND2_0/A SUB8_0/XOR2_0/NAND2_1INV_0/Y
+= SUB8_0/XOR2_0/NAND2_0/A SUB8_0/XOR2_0/m1_42_n24#
+= SUB8_0/XOR2_0/NAND2_0/A SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_0/NAND2_1INV_0/m1_18_25#
+C SUB8_0/X7 GND 20.57
+R SUB8_0/X7 267
+= SUB8_0/X7 SUB8_0/XOR2_3/Y
+= SUB8_0/X7 SUB8_0/XOR2_3/NAND2_0/Y
+= SUB8_0/X7 SUB8_0/8BitAdder_0/B7
+= SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/B
+= SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/B
+= SUB8_0/X7 SUB8_0/8BitAdder_0/FullAdder_7/m1_112_n16#
+C Y7 GND 9.46
+R Y7 24
+= Y7 SUB8_0/Y7
+= Y7 SUB8_0/8BitAdder_0/S7
+= Y7 SUB8_0/8BitAdder_0/FullAdder_7/S
+= Y7 SUB8_0/8BitAdder_0/FullAdder_7/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_7/INV_0/A SUB8_0/8BitAdder_0/FullAdder_7/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_7/INV_1/A SUB8_0/8BitAdder_0/FullAdder_7/m1_131_n32#
+C X7 GND 46.27
+R X7 422
+= X7 Reg8_1/D7
+= X7 Reg8_1/DFlipFlop_7/D
+= X7 Reg8_1/DFlipFlop_7/NAND3_0/A
+= X7 Reg8_0/Q7
+= X7 Reg8_0/DFlipFlop_7/Q
+= X7 Reg8_0/DFlipFlop_7/NAND3_5/Y
+= X7 Reg8_0/DFlipFlop_7/NAND3_4/C
+= X7 SUB8_0/A7
+= X7 SUB8_0/8BitAdder_0/A7
+= X7 SUB8_0/8BitAdder_0/FullAdder_7/A
+= X7 SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/A
+= SUB8_0/8BitAdder_0/Cout SUB8_0/8BitAdder_0/FullAdder_7/Cout
+= SUB8_0/8BitAdder_0/Cout SUB8_0/8BitAdder_0/FullAdder_7/INV_1/Y
+C SUB8_0/X6 GND 20.60
+R SUB8_0/X6 266
+= SUB8_0/X6 SUB8_0/XOR2_0/Y
+= SUB8_0/X6 SUB8_0/XOR2_0/NAND2_0/Y
+= SUB8_0/X6 SUB8_0/8BitAdder_0/B6
+= SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/B
+= SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/B
+= SUB8_0/X6 SUB8_0/8BitAdder_0/FullAdder_6/m1_112_n16#
+C Y6 GND 8.78
+R Y6 22
+= Y6 SUB8_0/Y6
+= Y6 SUB8_0/8BitAdder_0/S6
+= Y6 SUB8_0/8BitAdder_0/FullAdder_6/S
+= Y6 SUB8_0/8BitAdder_0/FullAdder_6/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_6/INV_0/A SUB8_0/8BitAdder_0/FullAdder_6/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_6/INV_1/A SUB8_0/8BitAdder_0/FullAdder_6/m1_131_n32#
+C X6 GND 45.06
+R X6 420
+= X6 Reg8_1/D6
+= X6 Reg8_1/DFlipFlop_6/D
+= X6 Reg8_1/DFlipFlop_6/NAND3_0/A
+= X6 Reg8_0/Q6
+= X6 Reg8_0/DFlipFlop_6/Q
+= X6 Reg8_0/DFlipFlop_6/NAND3_5/Y
+= X6 Reg8_0/DFlipFlop_6/NAND3_4/C
+= X6 SUB8_0/A6
+= X6 SUB8_0/8BitAdder_0/A6
+= X6 SUB8_0/8BitAdder_0/FullAdder_6/A
+= X6 SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_7/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_7/C 192
+= SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_6/Cout
+= SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/m1_123_620#
+= SUB8_0/8BitAdder_0/FullAdder_7/C SUB8_0/8BitAdder_0/FullAdder_6/INV_1/Y
+C SUB8_0/X5 GND 20.43
+R SUB8_0/X5 266
+= SUB8_0/X5 SUB8_0/XOR2_2/Y
+= SUB8_0/X5 SUB8_0/XOR2_2/NAND2_0/Y
+= SUB8_0/X5 SUB8_0/8BitAdder_0/B5
+= SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/B
+= SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/B
+= SUB8_0/X5 SUB8_0/8BitAdder_0/FullAdder_5/m1_112_n16#
+C Y5 GND 8.11
+R Y5 21
+= Y5 SUB8_0/Y5
+= Y5 SUB8_0/8BitAdder_0/S5
+= Y5 SUB8_0/8BitAdder_0/FullAdder_5/S
+= Y5 SUB8_0/8BitAdder_0/FullAdder_5/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_5/INV_0/A SUB8_0/8BitAdder_0/FullAdder_5/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_5/INV_1/A SUB8_0/8BitAdder_0/FullAdder_5/m1_131_n32#
+C X5 GND 44.84
+R X5 420
+= X5 Reg8_1/D5
+= X5 Reg8_1/DFlipFlop_5/D
+= X5 Reg8_1/DFlipFlop_5/NAND3_0/A
+= X5 Reg8_0/Q5
+= X5 Reg8_0/DFlipFlop_5/Q
+= X5 Reg8_0/DFlipFlop_5/NAND3_5/Y
+= X5 Reg8_0/DFlipFlop_5/NAND3_4/C
+= X5 SUB8_0/A5
+= X5 SUB8_0/8BitAdder_0/A5
+= X5 SUB8_0/8BitAdder_0/FullAdder_5/A
+= X5 SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_6/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_6/C 192
+= SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_5/Cout
+= SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/m1_123_528#
+= SUB8_0/8BitAdder_0/FullAdder_6/C SUB8_0/8BitAdder_0/FullAdder_5/INV_1/Y
+C SUB8_0/X4 GND 20.29
+R SUB8_0/X4 266
+= SUB8_0/X4 SUB8_0/XOR2_1/Y
+= SUB8_0/X4 SUB8_0/XOR2_1/NAND2_0/Y
+= SUB8_0/X4 SUB8_0/8BitAdder_0/B4
+= SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/B
+= SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/B
+= SUB8_0/X4 SUB8_0/8BitAdder_0/FullAdder_4/m1_112_n16#
+C Y4 GND 7.43
+R Y4 19
+= Y4 SUB8_0/Y4
+= Y4 SUB8_0/8BitAdder_0/S4
+= Y4 SUB8_0/8BitAdder_0/FullAdder_4/S
+= Y4 SUB8_0/8BitAdder_0/FullAdder_4/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_4/INV_0/A SUB8_0/8BitAdder_0/FullAdder_4/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_4/INV_1/A SUB8_0/8BitAdder_0/FullAdder_4/m1_131_n32#
+C X4 GND 44.62
+R X4 420
+= X4 Reg8_1/D4
+= X4 Reg8_1/DFlipFlop_4/D
+= X4 Reg8_1/DFlipFlop_4/NAND3_0/A
+= X4 Reg8_0/Q4
+= X4 Reg8_0/DFlipFlop_4/Q
+= X4 Reg8_0/DFlipFlop_4/NAND3_5/Y
+= X4 Reg8_0/DFlipFlop_4/NAND3_4/C
+= X4 SUB8_0/A4
+= X4 SUB8_0/8BitAdder_0/A4
+= X4 SUB8_0/8BitAdder_0/FullAdder_4/A
+= X4 SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_5/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_5/C 192
+= SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_4/Cout
+= SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/m1_123_436#
+= SUB8_0/8BitAdder_0/FullAdder_5/C SUB8_0/8BitAdder_0/FullAdder_4/INV_1/Y
+C SUB8_0/X3 GND 21.05
+R SUB8_0/X3 267
+= SUB8_0/X3 SUB8_0/XOR2_4/Y
+= SUB8_0/X3 SUB8_0/XOR2_4/NAND2_0/Y
+= SUB8_0/X3 SUB8_0/8BitAdder_0/B3
+= SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/B
+= SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/B
+= SUB8_0/X3 SUB8_0/8BitAdder_0/FullAdder_3/m1_112_n16#
+C Y3 GND 6.72
+R Y3 18
+= Y3 SUB8_0/Y3
+= Y3 SUB8_0/8BitAdder_0/S3
+= Y3 SUB8_0/8BitAdder_0/FullAdder_3/S
+= Y3 SUB8_0/8BitAdder_0/FullAdder_3/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_3/INV_0/A SUB8_0/8BitAdder_0/FullAdder_3/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_3/INV_1/A SUB8_0/8BitAdder_0/FullAdder_3/m1_131_n32#
+C X3 GND 44.36
+R X3 419
+= X3 Reg8_1/D3
+= X3 Reg8_1/DFlipFlop_3/D
+= X3 Reg8_1/DFlipFlop_3/NAND3_0/A
+= X3 Reg8_0/Q3
+= X3 Reg8_0/DFlipFlop_3/Q
+= X3 Reg8_0/DFlipFlop_3/NAND3_5/Y
+= X3 Reg8_0/DFlipFlop_3/NAND3_4/C
+= X3 SUB8_0/A3
+= X3 SUB8_0/8BitAdder_0/A3
+= X3 SUB8_0/8BitAdder_0/FullAdder_3/A
+= X3 SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_4/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_4/C 192
+= SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_3/Cout
+= SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/m1_123_344#
+= SUB8_0/8BitAdder_0/FullAdder_4/C SUB8_0/8BitAdder_0/FullAdder_3/INV_1/Y
+C SUB8_0/X2 GND 20.69
+R SUB8_0/X2 266
+= SUB8_0/X2 SUB8_0/XOR2_5/Y
+= SUB8_0/X2 SUB8_0/XOR2_5/NAND2_0/Y
+= SUB8_0/X2 SUB8_0/8BitAdder_0/B2
+= SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/B
+= SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/B
+= SUB8_0/X2 SUB8_0/8BitAdder_0/FullAdder_2/m1_112_n16#
+C Y2 GND 6.07
+R Y2 17
+= Y2 SUB8_0/Y2
+= Y2 SUB8_0/8BitAdder_0/S2
+= Y2 SUB8_0/8BitAdder_0/FullAdder_2/S
+= Y2 SUB8_0/8BitAdder_0/FullAdder_2/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_2/INV_0/A SUB8_0/8BitAdder_0/FullAdder_2/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_2/INV_1/A SUB8_0/8BitAdder_0/FullAdder_2/m1_131_n32#
+C X2 GND 44.17
+R X2 419
+= X2 Reg8_1/D2
+= X2 Reg8_1/DFlipFlop_2/D
+= X2 Reg8_1/DFlipFlop_2/NAND3_0/A
+= X2 Reg8_0/Q2
+= X2 Reg8_0/DFlipFlop_2/Q
+= X2 Reg8_0/DFlipFlop_2/NAND3_5/Y
+= X2 Reg8_0/DFlipFlop_2/NAND3_4/C
+= X2 SUB8_0/A2
+= X2 SUB8_0/8BitAdder_0/A2
+= X2 SUB8_0/8BitAdder_0/FullAdder_2/A
+= X2 SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_3/C GND 9.34
+R SUB8_0/8BitAdder_0/FullAdder_3/C 192
+= SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_2/Cout
+= SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/m1_123_252#
+= SUB8_0/8BitAdder_0/FullAdder_3/C SUB8_0/8BitAdder_0/FullAdder_2/INV_1/Y
+C SUB8_0/X1 GND 20.50
+R SUB8_0/X1 266
+= SUB8_0/X1 SUB8_0/XOR2_6/Y
+= SUB8_0/X1 SUB8_0/XOR2_6/NAND2_0/Y
+= SUB8_0/X1 SUB8_0/8BitAdder_0/B1
+= SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/B
+= SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/B
+= SUB8_0/X1 SUB8_0/8BitAdder_0/FullAdder_1/m1_112_n16#
+C Y1 GND 5.39
+R Y1 15
+= Y1 SUB8_0/Y1
+= Y1 SUB8_0/8BitAdder_0/S1
+= Y1 SUB8_0/8BitAdder_0/FullAdder_1/S
+= Y1 SUB8_0/8BitAdder_0/FullAdder_1/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_8# 18
+R SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_1/INV_0/A SUB8_0/8BitAdder_0/FullAdder_1/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_1/INV_1/A SUB8_0/8BitAdder_0/FullAdder_1/m1_131_n32#
+C SUB8_0/8BitAdder_0/FullAdder_1/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_1/C 192
+= SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_0/Cout
+= SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_0/INV_1/Y
+= SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/m1_123_68#
+= SUB8_0/8BitAdder_0/FullAdder_1/C SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/C
+C X1 GND 43.95
+R X1 419
+= X1 Reg8_1/D1
+= X1 Reg8_1/DFlipFlop_1/D
+= X1 Reg8_1/DFlipFlop_1/NAND3_0/A
+= X1 Reg8_0/Q1
+= X1 Reg8_0/DFlipFlop_1/Q
+= X1 Reg8_0/DFlipFlop_1/NAND3_5/Y
+= X1 Reg8_0/DFlipFlop_1/NAND3_4/C
+= X1 SUB8_0/A1
+= X1 SUB8_0/8BitAdder_0/A1
+= X1 SUB8_0/8BitAdder_0/FullAdder_1/A
+= X1 SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/A
+C SUB8_0/8BitAdder_0/FullAdder_2/C GND 9.38
+R SUB8_0/8BitAdder_0/FullAdder_2/C 192
+= SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/C
+= SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_1/Cout
+= SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/m1_123_160#
+= SUB8_0/8BitAdder_0/FullAdder_2/C SUB8_0/8BitAdder_0/FullAdder_1/INV_1/Y
+C SUB8_0/X0 GND 17.80
+R SUB8_0/X0 263
+= SUB8_0/X0 SUB8_0/XOR2_8/Y
+= SUB8_0/X0 SUB8_0/XOR2_8/NAND2_0/Y
+= SUB8_0/X0 SUB8_0/8BitAdder_0/B0
+= SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/B
+= SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/B
+= SUB8_0/X0 SUB8_0/8BitAdder_0/FullAdder_0/m1_112_n16#
+C Y0 GND 4.72
+R Y0 14
+= Y0 SUB8_0/Y0
+= Y0 SUB8_0/8BitAdder_0/S0
+= Y0 SUB8_0/8BitAdder_0/FullAdder_0/S
+= Y0 SUB8_0/8BitAdder_0/FullAdder_0/INV_0/Y
+R SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8# 18
+C VSS GND 198.00
+R VSS 4322
+= VSS Reg8_1/VSS
+= VSS Reg8_1/DFlipFlop_0/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_0/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_0/m1_186_0#
+= VSS Reg8_1/DFlipFlop_8/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_8/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_8/m1_186_0#
+= VSS Reg8_1/DFlipFlop_7/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_7/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_7/m1_186_0#
+= VSS Reg8_1/DFlipFlop_6/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_6/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_6/m1_186_0#
+= VSS Reg8_1/DFlipFlop_5/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_5/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_5/m1_186_0#
+= VSS Reg8_1/DFlipFlop_4/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_4/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_4/m1_186_0#
+= VSS Reg8_1/DFlipFlop_3/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_3/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_3/m1_186_0#
+= VSS Reg8_1/DFlipFlop_2/VSS
+= VSS Reg8_1/DFlipFlop_1/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_1/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_1/m1_186_0#
+= VSS Reg8_1/DFlipFlop_2/NAND3_0/VSS
+= VSS Reg8_1/DFlipFlop_2/NAND3_5/VSS
+= VSS Reg8_1/DFlipFlop_2/NAND3_1/VSS
+= VSS Reg8_1/DFlipFlop_2/NAND3_2/VSS
+= VSS Reg8_1/DFlipFlop_2/NAND3_3/VSS
+= VSS Reg8_1/DFlipFlop_2/NAND3_4/VSS
+= VSS Reg8_1/DFlipFlop_2/m1_186_0#
+= VSS Reg8_0/VSS
+= VSS Reg8_0/DFlipFlop_0/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_0/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_0/m1_186_0#
+= VSS Reg8_0/DFlipFlop_8/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_8/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_8/m1_186_0#
+= VSS Reg8_0/DFlipFlop_7/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_7/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_7/m1_186_0#
+= VSS Reg8_0/DFlipFlop_6/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_6/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_6/m1_186_0#
+= VSS Reg8_0/DFlipFlop_5/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_5/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_5/m1_186_0#
+= VSS Reg8_0/DFlipFlop_4/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_4/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_4/m1_186_0#
+= VSS Reg8_0/DFlipFlop_3/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_3/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_3/m1_186_0#
+= VSS Reg8_0/DFlipFlop_2/VSS
+= VSS Reg8_0/DFlipFlop_1/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_1/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_1/m1_186_0#
+= VSS Reg8_0/DFlipFlop_2/NAND3_0/VSS
+= VSS Reg8_0/DFlipFlop_2/NAND3_5/VSS
+= VSS Reg8_0/DFlipFlop_2/NAND3_1/VSS
+= VSS Reg8_0/DFlipFlop_2/NAND3_2/VSS
+= VSS Reg8_0/DFlipFlop_2/NAND3_3/VSS
+= VSS Reg8_0/DFlipFlop_2/NAND3_4/VSS
+= VSS Reg8_0/DFlipFlop_2/m1_186_0#
+= VSS SUB8_0/VSS
+= VSS SUB8_0/XOR2_3/VSS
+= VSS SUB8_0/XOR2_3/NAND2_0/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_2/VSS
+= VSS SUB8_0/XOR2_2/NAND2_0/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_1/VSS
+= VSS SUB8_0/XOR2_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_4/VSS
+= VSS SUB8_0/XOR2_4/NAND2_0/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_6/VSS
+= VSS SUB8_0/XOR2_6/NAND2_0/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_5/VSS
+= VSS SUB8_0/XOR2_5/NAND2_0/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_8/VSS
+= VSS SUB8_0/XOR2_8/NAND2_0/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/XOR2_7/B
+= VSS SUB8_0/XOR2_7/NAND2_1INV_0/B
+= VSS SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/B
+= VSS SUB8_0/XOR2_7/NAND2_1INV_1/A
+= VSS SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/A
+= VSS SUB8_0/m1_33_n85#
+= VSS SUB8_0/XOR2_7/VSS
+= VSS SUB8_0/XOR2_7/NAND2_0/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_0/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_1/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/VSS
+= VSS SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/VSS
+= VSS SUB8_0/8BitAdder_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_7/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_7/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_7/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_6/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_6/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_6/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_5/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_5/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_5/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_4/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_4/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_4/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_2/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_2/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_2/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_3/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_3/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_3/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_1/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_1/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_0/INV_0/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_0/INV_1/VSS
+= VSS SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VSS
+R SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_8# 18
+C SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A GND 3.05
+R SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A 89
+= SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/S`
+= SUB8_0/8BitAdder_0/FullAdder_0/INV_0/A SUB8_0/8BitAdder_0/FullAdder_0/m1_131_20#
+R SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_44# 15
+R SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_44# 15
+C SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A GND 7.54
+R SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A 153
+= SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/Cout`
+= SUB8_0/8BitAdder_0/FullAdder_0/INV_1/A SUB8_0/8BitAdder_0/FullAdder_0/m1_131_n32#
+C SUB8_0/XOR2_7/Y GND 8.84
+R SUB8_0/XOR2_7/Y 192
+= SUB8_0/XOR2_7/Y SUB8_0/m1_114_n69#
+= SUB8_0/XOR2_7/Y SUB8_0/XOR2_7/NAND2_0/Y
+= SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/Cin
+= SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/C
+= SUB8_0/XOR2_7/Y SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/C
+C X0 GND 43.80
+R X0 419
+= X0 Reg8_1/D0
+= X0 Reg8_1/DFlipFlop_0/D
+= X0 Reg8_1/DFlipFlop_0/NAND3_0/A
+= X0 Reg8_0/Q0
+= X0 Reg8_0/DFlipFlop_0/Q
+= X0 Reg8_0/DFlipFlop_0/NAND3_5/Y
+= X0 Reg8_0/DFlipFlop_0/NAND3_4/C
+= X0 SUB8_0/A0
+= X0 SUB8_0/8BitAdder_0/A0
+= X0 SUB8_0/8BitAdder_0/FullAdder_0/A
+= X0 SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/A
+C VDD GND 1709.10
+R VDD 208777
+= VDD SUB8_0/SEL
+= VDD SUB8_0/XOR2_3/B
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_0/B
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_2/B
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_1/B
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_4/B
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_5/B
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_8/B
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_6/B
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/B
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/B
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/A
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/A
+= VDD SUB8_0/XOR2_7/A
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/A
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/A
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/B
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/B
+= VDD m1_632_185#
+= VDD Reg8_1/VDD
+= VDD Reg8_1/DFlipFlop_8/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_8/m1_130_20#
+= VDD Reg8_1/DFlipFlop_8/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_8/m1_202_20#
+= VDD Reg8_1/DFlipFlop_8/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_8/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_8/w_n6_34#
+= VDD Reg8_1/DFlipFlop_7/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_7/m1_130_20#
+= VDD Reg8_1/DFlipFlop_7/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_7/m1_202_20#
+= VDD Reg8_1/DFlipFlop_7/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_7/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_7/w_n6_34#
+= VDD Reg8_1/DFlipFlop_6/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_6/m1_130_20#
+= VDD Reg8_1/DFlipFlop_6/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_6/m1_202_20#
+= VDD Reg8_1/DFlipFlop_6/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_6/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_6/w_n6_34#
+= VDD Reg8_1/DFlipFlop_5/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_5/m1_130_20#
+= VDD Reg8_1/DFlipFlop_5/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_5/m1_202_20#
+= VDD Reg8_1/DFlipFlop_5/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_5/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_5/w_n6_34#
+= VDD Reg8_1/DFlipFlop_4/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_4/m1_130_20#
+= VDD Reg8_1/DFlipFlop_4/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_4/m1_202_20#
+= VDD Reg8_1/DFlipFlop_4/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_4/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_4/w_n6_34#
+= VDD Reg8_1/DFlipFlop_3/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_3/m1_130_20#
+= VDD Reg8_1/DFlipFlop_3/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_3/m1_202_20#
+= VDD Reg8_1/DFlipFlop_3/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_3/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_3/w_n6_34#
+= VDD Reg8_1/DFlipFlop_2/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_2/m1_130_20#
+= VDD Reg8_1/DFlipFlop_2/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_2/m1_202_20#
+= VDD Reg8_1/DFlipFlop_2/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_2/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_2/w_n6_34#
+= VDD Reg8_1/DFlipFlop_1/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_1/m1_130_20#
+= VDD Reg8_1/DFlipFlop_1/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_1/m1_202_20#
+= VDD Reg8_1/DFlipFlop_1/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_1/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_1/w_n6_34#
+= VDD Reg8_1/DFlipFlop_0/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_4/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_3/C
+= VDD Reg8_1/DFlipFlop_0/m1_130_20#
+= VDD Reg8_1/DFlipFlop_0/NAND3_5/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_5/C
+= VDD Reg8_1/DFlipFlop_0/m1_202_20#
+= VDD Reg8_1/DFlipFlop_0/NAND3_0/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_3/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_1/VDD
+= VDD Reg8_1/DFlipFlop_0/NAND3_2/VDD
+= VDD Reg8_1/DFlipFlop_0/w_n6_34#
+= VDD Reg8_0/VDD
+= VDD Reg8_0/DFlipFlop_8/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_8/m1_130_20#
+= VDD Reg8_0/DFlipFlop_8/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_8/m1_202_20#
+= VDD Reg8_0/DFlipFlop_8/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_8/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_8/w_n6_34#
+= VDD Reg8_0/DFlipFlop_7/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_7/m1_130_20#
+= VDD Reg8_0/DFlipFlop_7/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_7/m1_202_20#
+= VDD Reg8_0/DFlipFlop_7/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_7/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_7/w_n6_34#
+= VDD Reg8_0/DFlipFlop_6/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_6/m1_130_20#
+= VDD Reg8_0/DFlipFlop_6/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_6/m1_202_20#
+= VDD Reg8_0/DFlipFlop_6/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_6/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_6/w_n6_34#
+= VDD Reg8_0/DFlipFlop_5/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_5/m1_130_20#
+= VDD Reg8_0/DFlipFlop_5/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_5/m1_202_20#
+= VDD Reg8_0/DFlipFlop_5/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_5/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_5/w_n6_34#
+= VDD Reg8_0/DFlipFlop_4/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_4/m1_130_20#
+= VDD Reg8_0/DFlipFlop_4/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_4/m1_202_20#
+= VDD Reg8_0/DFlipFlop_4/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_4/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_4/w_n6_34#
+= VDD Reg8_0/DFlipFlop_3/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_3/m1_130_20#
+= VDD Reg8_0/DFlipFlop_3/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_3/m1_202_20#
+= VDD Reg8_0/DFlipFlop_3/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_3/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_3/w_n6_34#
+= VDD Reg8_0/DFlipFlop_2/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_2/m1_130_20#
+= VDD Reg8_0/DFlipFlop_2/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_2/m1_202_20#
+= VDD Reg8_0/DFlipFlop_2/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_2/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_2/w_n6_34#
+= VDD Reg8_0/DFlipFlop_1/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_1/m1_130_20#
+= VDD Reg8_0/DFlipFlop_1/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_1/m1_202_20#
+= VDD Reg8_0/DFlipFlop_1/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_1/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_1/w_n6_34#
+= VDD Reg8_0/DFlipFlop_0/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_4/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_3/C
+= VDD Reg8_0/DFlipFlop_0/m1_130_20#
+= VDD Reg8_0/DFlipFlop_0/NAND3_5/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_5/C
+= VDD Reg8_0/DFlipFlop_0/m1_202_20#
+= VDD Reg8_0/DFlipFlop_0/NAND3_0/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_3/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_1/VDD
+= VDD Reg8_0/DFlipFlop_0/NAND3_2/VDD
+= VDD Reg8_0/DFlipFlop_0/w_n6_34#
+= VDD SUB8_0/VDD
+= VDD SUB8_0/XOR2_3/VDD
+= VDD SUB8_0/XOR2_3/NAND2_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_3/w_6_52#
+= VDD SUB8_0/XOR2_3/w_54_59#
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_3/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/XOR2_2/VDD
+= VDD SUB8_0/XOR2_2/NAND2_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_2/w_6_52#
+= VDD SUB8_0/XOR2_2/w_54_59#
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_2/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_506#
+= VDD SUB8_0/XOR2_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_0/w_6_52#
+= VDD SUB8_0/XOR2_0/w_54_59#
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_0/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_592#
+= VDD SUB8_0/XOR2_1/VDD
+= VDD SUB8_0/XOR2_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_1/w_6_52#
+= VDD SUB8_0/XOR2_1/w_54_59#
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_1/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_420#
+= VDD SUB8_0/XOR2_4/VDD
+= VDD SUB8_0/XOR2_4/NAND2_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_4/w_6_52#
+= VDD SUB8_0/XOR2_4/w_54_59#
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_4/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_334#
+= VDD SUB8_0/XOR2_5/VDD
+= VDD SUB8_0/XOR2_5/NAND2_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_5/w_6_52#
+= VDD SUB8_0/XOR2_5/w_54_59#
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_5/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_248#
+= VDD SUB8_0/XOR2_6/VDD
+= VDD SUB8_0/XOR2_6/NAND2_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_6/w_6_52#
+= VDD SUB8_0/XOR2_6/w_54_59#
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_6/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_162#
+= VDD SUB8_0/XOR2_8/VDD
+= VDD SUB8_0/XOR2_8/NAND2_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_8/w_6_52#
+= VDD SUB8_0/XOR2_8/w_54_59#
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_8/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/w_n213_76#
+= VDD SUB8_0/XOR2_7/VDD
+= VDD SUB8_0/XOR2_7/NAND2_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_0/w_6_51#
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/VDD
+= VDD SUB8_0/XOR2_7/w_6_52#
+= VDD SUB8_0/XOR2_7/w_54_59#
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/VDD
+= VDD SUB8_0/XOR2_7/NAND2_1INV_1/w_6_51#
+= VDD SUB8_0/8BitAdder_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_7/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_7/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_7/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_6/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_6/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_6/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_5/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_5/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_5/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_4/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_4/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_4/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_3/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_3/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_3/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_2/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_2/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_2/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_1/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_1/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_0/INV_0/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_0/INV_1/VDD
+= VDD SUB8_0/8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VDD
+C SUB8_0/XOR2_8/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_8/NAND2_0/B 67
+= SUB8_0/XOR2_8/NAND2_0/B SUB8_0/XOR2_8/NAND2_1INV_1/Y
+= SUB8_0/XOR2_8/NAND2_0/B SUB8_0/XOR2_8/m1_86_n8#
+= SUB8_0/XOR2_8/NAND2_0/B SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B0 GND 20.05
+R SUB8_0/B0 216
+= SUB8_0/B0 Reg8_1/Q0
+= SUB8_0/B0 m1_540_34#
+= SUB8_0/B0 Reg8_1/DFlipFlop_0/Q
+= SUB8_0/B0 Reg8_1/DFlipFlop_0/NAND3_5/Y
+= SUB8_0/B0 Reg8_1/DFlipFlop_0/NAND3_4/C
+= SUB8_0/B0 SUB8_0/XOR2_8/A
+= SUB8_0/B0 SUB8_0/XOR2_8/NAND2_1INV_0/A
+= SUB8_0/B0 SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/A
+= SUB8_0/B0 SUB8_0/XOR2_8/NAND2_1INV_1/B
+= SUB8_0/B0 SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_8/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_8/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_8/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_8/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_8/NAND2_0/A 68
+= SUB8_0/XOR2_8/NAND2_0/A SUB8_0/XOR2_8/NAND2_1INV_0/Y
+= SUB8_0/XOR2_8/NAND2_0/A SUB8_0/XOR2_8/m1_42_n24#
+= SUB8_0/XOR2_8/NAND2_0/A SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_8/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_8/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_8/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_7/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_7/NAND2_0/B 67
+= SUB8_0/XOR2_7/NAND2_0/B SUB8_0/XOR2_7/NAND2_1INV_1/Y
+= SUB8_0/XOR2_7/NAND2_0/B SUB8_0/XOR2_7/m1_86_n8#
+= SUB8_0/XOR2_7/NAND2_0/B SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_7/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_7/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_7/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_7/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_7/NAND2_0/A 68
+= SUB8_0/XOR2_7/NAND2_0/A SUB8_0/XOR2_7/NAND2_1INV_0/Y
+= SUB8_0/XOR2_7/NAND2_0/A SUB8_0/XOR2_7/m1_42_n24#
+= SUB8_0/XOR2_7/NAND2_0/A SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_7/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_7/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_7/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_6/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_6/NAND2_0/B 67
+= SUB8_0/XOR2_6/NAND2_0/B SUB8_0/XOR2_6/NAND2_1INV_1/Y
+= SUB8_0/XOR2_6/NAND2_0/B SUB8_0/XOR2_6/m1_86_n8#
+= SUB8_0/XOR2_6/NAND2_0/B SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B1 GND 25.34
+R SUB8_0/B1 229
+= SUB8_0/B1 Reg8_1/Q1
+= SUB8_0/B1 Reg8_1/DFlipFlop_1/Q
+= SUB8_0/B1 Reg8_1/DFlipFlop_1/NAND3_5/Y
+= SUB8_0/B1 Reg8_1/DFlipFlop_1/NAND3_4/C
+= SUB8_0/B1 m1_540_142#
+= SUB8_0/B1 SUB8_0/XOR2_6/A
+= SUB8_0/B1 SUB8_0/XOR2_6/NAND2_1INV_0/A
+= SUB8_0/B1 SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/A
+= SUB8_0/B1 SUB8_0/XOR2_6/NAND2_1INV_1/B
+= SUB8_0/B1 SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_6/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_6/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_6/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_6/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_6/NAND2_0/A 68
+= SUB8_0/XOR2_6/NAND2_0/A SUB8_0/XOR2_6/NAND2_1INV_0/Y
+= SUB8_0/XOR2_6/NAND2_0/A SUB8_0/XOR2_6/m1_42_n24#
+= SUB8_0/XOR2_6/NAND2_0/A SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_6/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_6/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_6/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_5/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_5/NAND2_0/B 67
+= SUB8_0/XOR2_5/NAND2_0/B SUB8_0/XOR2_5/NAND2_1INV_1/Y
+= SUB8_0/XOR2_5/NAND2_0/B SUB8_0/XOR2_5/m1_86_n8#
+= SUB8_0/XOR2_5/NAND2_0/B SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B2 GND 25.44
+R SUB8_0/B2 229
+= SUB8_0/B2 Reg8_1/Q2
+= SUB8_0/B2 Reg8_1/DFlipFlop_2/Q
+= SUB8_0/B2 Reg8_1/DFlipFlop_2/NAND3_5/Y
+= SUB8_0/B2 Reg8_1/DFlipFlop_2/NAND3_4/C
+= SUB8_0/B2 m1_540_250#
+= SUB8_0/B2 SUB8_0/XOR2_5/A
+= SUB8_0/B2 SUB8_0/XOR2_5/NAND2_1INV_0/A
+= SUB8_0/B2 SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/A
+= SUB8_0/B2 SUB8_0/XOR2_5/NAND2_1INV_1/B
+= SUB8_0/B2 SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_5/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_5/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_5/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_5/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_5/NAND2_0/A 68
+= SUB8_0/XOR2_5/NAND2_0/A SUB8_0/XOR2_5/NAND2_1INV_0/Y
+= SUB8_0/XOR2_5/NAND2_0/A SUB8_0/XOR2_5/m1_42_n24#
+= SUB8_0/XOR2_5/NAND2_0/A SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_5/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_5/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_5/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_4/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_4/NAND2_0/B 67
+= SUB8_0/XOR2_4/NAND2_0/B SUB8_0/XOR2_4/NAND2_1INV_1/Y
+= SUB8_0/XOR2_4/NAND2_0/B SUB8_0/XOR2_4/m1_86_n8#
+= SUB8_0/XOR2_4/NAND2_0/B SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B3 GND 24.61
+R SUB8_0/B3 227
+= SUB8_0/B3 Reg8_1/Q3
+= SUB8_0/B3 Reg8_1/DFlipFlop_3/Q
+= SUB8_0/B3 Reg8_1/DFlipFlop_3/NAND3_5/Y
+= SUB8_0/B3 Reg8_1/DFlipFlop_3/NAND3_4/C
+= SUB8_0/B3 m1_540_358#
+= SUB8_0/B3 SUB8_0/XOR2_4/A
+= SUB8_0/B3 SUB8_0/XOR2_4/NAND2_1INV_0/A
+= SUB8_0/B3 SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/A
+= SUB8_0/B3 SUB8_0/XOR2_4/NAND2_1INV_1/B
+= SUB8_0/B3 SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_4/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_4/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_4/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_4/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_4/NAND2_0/A 68
+= SUB8_0/XOR2_4/NAND2_0/A SUB8_0/XOR2_4/NAND2_1INV_0/Y
+= SUB8_0/XOR2_4/NAND2_0/A SUB8_0/XOR2_4/m1_42_n24#
+= SUB8_0/XOR2_4/NAND2_0/A SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_4/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_4/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_4/NAND2_1INV_0/m1_18_25#
+C SUB8_0/XOR2_3/NAND2_0/B GND 3.19
+R SUB8_0/XOR2_3/NAND2_0/B 67
+= SUB8_0/XOR2_3/NAND2_0/B SUB8_0/XOR2_3/NAND2_1INV_1/Y
+= SUB8_0/XOR2_3/NAND2_0/B SUB8_0/XOR2_3/m1_86_n8#
+= SUB8_0/XOR2_3/NAND2_0/B SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/Y
+C SUB8_0/B7 GND 22.78
+R SUB8_0/B7 216
+= SUB8_0/B7 Reg8_1/Q7
+= SUB8_0/B7 Reg8_1/DFlipFlop_7/Q
+= SUB8_0/B7 Reg8_1/DFlipFlop_7/NAND3_5/Y
+= SUB8_0/B7 Reg8_1/DFlipFlop_7/NAND3_4/C
+= SUB8_0/B7 m1_540_790#
+= SUB8_0/B7 SUB8_0/XOR2_3/A
+= SUB8_0/B7 SUB8_0/XOR2_3/NAND2_1INV_0/A
+= SUB8_0/B7 SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/A
+= SUB8_0/B7 SUB8_0/XOR2_3/NAND2_1INV_1/B
+= SUB8_0/B7 SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/B
+C SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y GND 2.06
+R SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y 63
+= SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_3/NAND2_1INV_1/NAND2_0/A
+= SUB8_0/XOR2_3/NAND2_1INV_1/INV_0/Y SUB8_0/XOR2_3/NAND2_1INV_1/m1_18_25#
+C SUB8_0/XOR2_3/NAND2_0/A GND 4.09
+R SUB8_0/XOR2_3/NAND2_0/A 68
+= SUB8_0/XOR2_3/NAND2_0/A SUB8_0/XOR2_3/NAND2_1INV_0/Y
+= SUB8_0/XOR2_3/NAND2_0/A SUB8_0/XOR2_3/m1_42_n24#
+= SUB8_0/XOR2_3/NAND2_0/A SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/Y
+C SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y GND 2.06
+R SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y 63
+= SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_3/NAND2_1INV_0/NAND2_0/A
+= SUB8_0/XOR2_3/NAND2_1INV_0/INV_0/Y SUB8_0/XOR2_3/NAND2_1INV_0/m1_18_25#
+C Reg8_1/Q8b GND 2.91
+R Reg8_1/Q8b 75
+= Reg8_1/Q8b Reg8_1/DFlipFlop_8/Qb
+= Reg8_1/Q8b Reg8_1/DFlipFlop_8/NAND3_4/Y
+= Reg8_1/Q8b Reg8_1/DFlipFlop_8/NAND3_5/A
+C Reg8_1/Q8 GND 3.68
+R Reg8_1/Q8 77
+= Reg8_1/Q8 Reg8_1/DFlipFlop_8/Q
+= Reg8_1/Q8 Reg8_1/DFlipFlop_8/NAND3_5/Y
+= Reg8_1/Q8 Reg8_1/DFlipFlop_8/NAND3_4/C
+C Reg8_1/DFlipFlop_8/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_8/NAND3_5/B 201
+= Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/NAND3_3/A
+= Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/NAND3_2/Y
+= Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/NAND3_1/C
+= Reg8_1/DFlipFlop_8/NAND3_5/B Reg8_1/DFlipFlop_8/m1_58_n40#
+C Reg8_1/DFlipFlop_8/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_8/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_8/NAND3_3/Y Reg8_1/DFlipFlop_8/NAND3_2/C
+= Reg8_1/DFlipFlop_8/NAND3_3/Y Reg8_1/DFlipFlop_8/m1_94_n24#
+C Reg8_1/DFlipFlop_8/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_8/NAND3_4/A 139
+= Reg8_1/DFlipFlop_8/NAND3_4/A Reg8_1/DFlipFlop_8/NAND3_1/Y
+= Reg8_1/DFlipFlop_8/NAND3_4/A Reg8_1/DFlipFlop_8/NAND3_0/C
+= Reg8_1/DFlipFlop_8/NAND3_4/A Reg8_1/DFlipFlop_8/m1_22_n8#
+C Reg8_1/DFlipFlop_8/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_8/NAND3_3/B 138
+= Reg8_1/DFlipFlop_8/NAND3_3/B Reg8_1/DFlipFlop_8/NAND3_1/A
+= Reg8_1/DFlipFlop_8/NAND3_3/B Reg8_1/DFlipFlop_8/NAND3_0/Y
+= Reg8_1/DFlipFlop_8/NAND3_3/B Reg8_1/DFlipFlop_8/m1_30_n32#
+R Reg8_1/D8 56
+= Reg8_1/D8 m1_317_897#
+= Reg8_1/D8 Reg8_1/DFlipFlop_8/D
+= Reg8_1/D8 Reg8_1/DFlipFlop_8/NAND3_0/A
+C Reg8_1/Q7b GND 2.91
+R Reg8_1/Q7b 75
+= Reg8_1/Q7b Reg8_1/DFlipFlop_7/Qb
+= Reg8_1/Q7b Reg8_1/DFlipFlop_7/NAND3_4/Y
+= Reg8_1/Q7b Reg8_1/DFlipFlop_7/NAND3_5/A
+C Reg8_1/DFlipFlop_7/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_7/NAND3_5/B 201
+= Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/NAND3_3/A
+= Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/NAND3_2/Y
+= Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/NAND3_1/C
+= Reg8_1/DFlipFlop_7/NAND3_5/B Reg8_1/DFlipFlop_7/m1_58_n40#
+C Reg8_1/DFlipFlop_7/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_7/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_7/NAND3_3/Y Reg8_1/DFlipFlop_7/NAND3_2/C
+= Reg8_1/DFlipFlop_7/NAND3_3/Y Reg8_1/DFlipFlop_7/m1_94_n24#
+C Reg8_1/DFlipFlop_7/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_7/NAND3_4/A 139
+= Reg8_1/DFlipFlop_7/NAND3_4/A Reg8_1/DFlipFlop_7/NAND3_1/Y
+= Reg8_1/DFlipFlop_7/NAND3_4/A Reg8_1/DFlipFlop_7/NAND3_0/C
+= Reg8_1/DFlipFlop_7/NAND3_4/A Reg8_1/DFlipFlop_7/m1_22_n8#
+C Reg8_1/DFlipFlop_7/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_7/NAND3_3/B 138
+= Reg8_1/DFlipFlop_7/NAND3_3/B Reg8_1/DFlipFlop_7/NAND3_1/A
+= Reg8_1/DFlipFlop_7/NAND3_3/B Reg8_1/DFlipFlop_7/NAND3_0/Y
+= Reg8_1/DFlipFlop_7/NAND3_3/B Reg8_1/DFlipFlop_7/m1_30_n32#
+C Reg8_1/Q6b GND 2.91
+R Reg8_1/Q6b 75
+= Reg8_1/Q6b Reg8_1/DFlipFlop_6/Qb
+= Reg8_1/Q6b Reg8_1/DFlipFlop_6/NAND3_4/Y
+= Reg8_1/Q6b Reg8_1/DFlipFlop_6/NAND3_5/A
+C Reg8_1/DFlipFlop_6/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_6/NAND3_5/B 201
+= Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/NAND3_3/A
+= Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/NAND3_2/Y
+= Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/NAND3_1/C
+= Reg8_1/DFlipFlop_6/NAND3_5/B Reg8_1/DFlipFlop_6/m1_58_n40#
+C Reg8_1/DFlipFlop_6/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_6/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_6/NAND3_3/Y Reg8_1/DFlipFlop_6/NAND3_2/C
+= Reg8_1/DFlipFlop_6/NAND3_3/Y Reg8_1/DFlipFlop_6/m1_94_n24#
+C Reg8_1/DFlipFlop_6/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_6/NAND3_4/A 139
+= Reg8_1/DFlipFlop_6/NAND3_4/A Reg8_1/DFlipFlop_6/NAND3_1/Y
+= Reg8_1/DFlipFlop_6/NAND3_4/A Reg8_1/DFlipFlop_6/NAND3_0/C
+= Reg8_1/DFlipFlop_6/NAND3_4/A Reg8_1/DFlipFlop_6/m1_22_n8#
+C Reg8_1/DFlipFlop_6/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_6/NAND3_3/B 138
+= Reg8_1/DFlipFlop_6/NAND3_3/B Reg8_1/DFlipFlop_6/NAND3_1/A
+= Reg8_1/DFlipFlop_6/NAND3_3/B Reg8_1/DFlipFlop_6/NAND3_0/Y
+= Reg8_1/DFlipFlop_6/NAND3_3/B Reg8_1/DFlipFlop_6/m1_30_n32#
+C Reg8_1/Q5b GND 2.91
+R Reg8_1/Q5b 75
+= Reg8_1/Q5b Reg8_1/DFlipFlop_5/Qb
+= Reg8_1/Q5b Reg8_1/DFlipFlop_5/NAND3_4/Y
+= Reg8_1/Q5b Reg8_1/DFlipFlop_5/NAND3_5/A
+C Reg8_1/DFlipFlop_5/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_5/NAND3_5/B 201
+= Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/NAND3_3/A
+= Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/NAND3_2/Y
+= Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/NAND3_1/C
+= Reg8_1/DFlipFlop_5/NAND3_5/B Reg8_1/DFlipFlop_5/m1_58_n40#
+C Reg8_1/DFlipFlop_5/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_5/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_5/NAND3_3/Y Reg8_1/DFlipFlop_5/NAND3_2/C
+= Reg8_1/DFlipFlop_5/NAND3_3/Y Reg8_1/DFlipFlop_5/m1_94_n24#
+C Reg8_1/DFlipFlop_5/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_5/NAND3_4/A 139
+= Reg8_1/DFlipFlop_5/NAND3_4/A Reg8_1/DFlipFlop_5/NAND3_1/Y
+= Reg8_1/DFlipFlop_5/NAND3_4/A Reg8_1/DFlipFlop_5/NAND3_0/C
+= Reg8_1/DFlipFlop_5/NAND3_4/A Reg8_1/DFlipFlop_5/m1_22_n8#
+C Reg8_1/DFlipFlop_5/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_5/NAND3_3/B 138
+= Reg8_1/DFlipFlop_5/NAND3_3/B Reg8_1/DFlipFlop_5/NAND3_1/A
+= Reg8_1/DFlipFlop_5/NAND3_3/B Reg8_1/DFlipFlop_5/NAND3_0/Y
+= Reg8_1/DFlipFlop_5/NAND3_3/B Reg8_1/DFlipFlop_5/m1_30_n32#
+C Reg8_1/Q4b GND 2.91
+R Reg8_1/Q4b 75
+= Reg8_1/Q4b Reg8_1/DFlipFlop_4/Qb
+= Reg8_1/Q4b Reg8_1/DFlipFlop_4/NAND3_4/Y
+= Reg8_1/Q4b Reg8_1/DFlipFlop_4/NAND3_5/A
+C Reg8_1/DFlipFlop_4/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_4/NAND3_5/B 201
+= Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/NAND3_3/A
+= Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/NAND3_2/Y
+= Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/NAND3_1/C
+= Reg8_1/DFlipFlop_4/NAND3_5/B Reg8_1/DFlipFlop_4/m1_58_n40#
+C Reg8_1/DFlipFlop_4/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_4/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_4/NAND3_3/Y Reg8_1/DFlipFlop_4/NAND3_2/C
+= Reg8_1/DFlipFlop_4/NAND3_3/Y Reg8_1/DFlipFlop_4/m1_94_n24#
+C Reg8_1/DFlipFlop_4/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_4/NAND3_4/A 139
+= Reg8_1/DFlipFlop_4/NAND3_4/A Reg8_1/DFlipFlop_4/NAND3_1/Y
+= Reg8_1/DFlipFlop_4/NAND3_4/A Reg8_1/DFlipFlop_4/NAND3_0/C
+= Reg8_1/DFlipFlop_4/NAND3_4/A Reg8_1/DFlipFlop_4/m1_22_n8#
+C Reg8_1/DFlipFlop_4/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_4/NAND3_3/B 138
+= Reg8_1/DFlipFlop_4/NAND3_3/B Reg8_1/DFlipFlop_4/NAND3_1/A
+= Reg8_1/DFlipFlop_4/NAND3_3/B Reg8_1/DFlipFlop_4/NAND3_0/Y
+= Reg8_1/DFlipFlop_4/NAND3_3/B Reg8_1/DFlipFlop_4/m1_30_n32#
+C Reg8_1/Q3b GND 2.91
+R Reg8_1/Q3b 75
+= Reg8_1/Q3b Reg8_1/DFlipFlop_3/Qb
+= Reg8_1/Q3b Reg8_1/DFlipFlop_3/NAND3_4/Y
+= Reg8_1/Q3b Reg8_1/DFlipFlop_3/NAND3_5/A
+C Reg8_1/DFlipFlop_3/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_3/NAND3_5/B 201
+= Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/NAND3_3/A
+= Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/NAND3_2/Y
+= Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/NAND3_1/C
+= Reg8_1/DFlipFlop_3/NAND3_5/B Reg8_1/DFlipFlop_3/m1_58_n40#
+C Reg8_1/DFlipFlop_3/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_3/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_3/NAND3_3/Y Reg8_1/DFlipFlop_3/NAND3_2/C
+= Reg8_1/DFlipFlop_3/NAND3_3/Y Reg8_1/DFlipFlop_3/m1_94_n24#
+C Reg8_1/DFlipFlop_3/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_3/NAND3_4/A 139
+= Reg8_1/DFlipFlop_3/NAND3_4/A Reg8_1/DFlipFlop_3/NAND3_1/Y
+= Reg8_1/DFlipFlop_3/NAND3_4/A Reg8_1/DFlipFlop_3/NAND3_0/C
+= Reg8_1/DFlipFlop_3/NAND3_4/A Reg8_1/DFlipFlop_3/m1_22_n8#
+C Reg8_1/DFlipFlop_3/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_3/NAND3_3/B 138
+= Reg8_1/DFlipFlop_3/NAND3_3/B Reg8_1/DFlipFlop_3/NAND3_1/A
+= Reg8_1/DFlipFlop_3/NAND3_3/B Reg8_1/DFlipFlop_3/NAND3_0/Y
+= Reg8_1/DFlipFlop_3/NAND3_3/B Reg8_1/DFlipFlop_3/m1_30_n32#
+C Reg8_1/Q2b GND 2.91
+R Reg8_1/Q2b 75
+= Reg8_1/Q2b Reg8_1/DFlipFlop_2/Qb
+= Reg8_1/Q2b Reg8_1/DFlipFlop_2/NAND3_4/Y
+= Reg8_1/Q2b Reg8_1/DFlipFlop_2/NAND3_5/A
+C Reg8_1/DFlipFlop_2/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_2/NAND3_5/B 201
+= Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/NAND3_3/A
+= Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/NAND3_2/Y
+= Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/NAND3_1/C
+= Reg8_1/DFlipFlop_2/NAND3_5/B Reg8_1/DFlipFlop_2/m1_58_n40#
+C Reg8_1/DFlipFlop_2/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_2/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_2/NAND3_3/Y Reg8_1/DFlipFlop_2/NAND3_2/C
+= Reg8_1/DFlipFlop_2/NAND3_3/Y Reg8_1/DFlipFlop_2/m1_94_n24#
+C Reg8_1/DFlipFlop_2/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_2/NAND3_4/A 139
+= Reg8_1/DFlipFlop_2/NAND3_4/A Reg8_1/DFlipFlop_2/NAND3_1/Y
+= Reg8_1/DFlipFlop_2/NAND3_4/A Reg8_1/DFlipFlop_2/NAND3_0/C
+= Reg8_1/DFlipFlop_2/NAND3_4/A Reg8_1/DFlipFlop_2/m1_22_n8#
+C Reg8_1/DFlipFlop_2/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_2/NAND3_3/B 138
+= Reg8_1/DFlipFlop_2/NAND3_3/B Reg8_1/DFlipFlop_2/NAND3_1/A
+= Reg8_1/DFlipFlop_2/NAND3_3/B Reg8_1/DFlipFlop_2/NAND3_0/Y
+= Reg8_1/DFlipFlop_2/NAND3_3/B Reg8_1/DFlipFlop_2/m1_30_n32#
+C Reg8_1/Q1b GND 2.91
+R Reg8_1/Q1b 75
+= Reg8_1/Q1b Reg8_1/DFlipFlop_1/Qb
+= Reg8_1/Q1b Reg8_1/DFlipFlop_1/NAND3_4/Y
+= Reg8_1/Q1b Reg8_1/DFlipFlop_1/NAND3_5/A
+C Reg8_1/DFlipFlop_1/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_1/NAND3_5/B 201
+= Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/NAND3_3/A
+= Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/NAND3_2/Y
+= Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/NAND3_1/C
+= Reg8_1/DFlipFlop_1/NAND3_5/B Reg8_1/DFlipFlop_1/m1_58_n40#
+C Reg8_1/DFlipFlop_1/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_1/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_1/NAND3_3/Y Reg8_1/DFlipFlop_1/NAND3_2/C
+= Reg8_1/DFlipFlop_1/NAND3_3/Y Reg8_1/DFlipFlop_1/m1_94_n24#
+C Reg8_1/DFlipFlop_1/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_1/NAND3_4/A 139
+= Reg8_1/DFlipFlop_1/NAND3_4/A Reg8_1/DFlipFlop_1/NAND3_1/Y
+= Reg8_1/DFlipFlop_1/NAND3_4/A Reg8_1/DFlipFlop_1/NAND3_0/C
+= Reg8_1/DFlipFlop_1/NAND3_4/A Reg8_1/DFlipFlop_1/m1_22_n8#
+C Reg8_1/DFlipFlop_1/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_1/NAND3_3/B 138
+= Reg8_1/DFlipFlop_1/NAND3_3/B Reg8_1/DFlipFlop_1/NAND3_1/A
+= Reg8_1/DFlipFlop_1/NAND3_3/B Reg8_1/DFlipFlop_1/NAND3_0/Y
+= Reg8_1/DFlipFlop_1/NAND3_3/B Reg8_1/DFlipFlop_1/m1_30_n32#
+C Reg8_1/Q0b GND 2.91
+R Reg8_1/Q0b 75
+= Reg8_1/Q0b Reg8_1/DFlipFlop_0/Qb
+= Reg8_1/Q0b Reg8_1/DFlipFlop_0/NAND3_4/Y
+= Reg8_1/Q0b Reg8_1/DFlipFlop_0/NAND3_5/A
+C Reg8_1/DFlipFlop_0/NAND3_5/B GND 8.91
+R Reg8_1/DFlipFlop_0/NAND3_5/B 201
+= Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/NAND3_3/A
+= Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/NAND3_2/Y
+= Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/NAND3_1/C
+= Reg8_1/DFlipFlop_0/NAND3_5/B Reg8_1/DFlipFlop_0/m1_58_n40#
+C Reg8_1/DFlipFlop_0/NAND3_3/Y GND 3.79
+R Reg8_1/DFlipFlop_0/NAND3_3/Y 77
+= Reg8_1/DFlipFlop_0/NAND3_3/Y Reg8_1/DFlipFlop_0/NAND3_2/C
+= Reg8_1/DFlipFlop_0/NAND3_3/Y Reg8_1/DFlipFlop_0/m1_94_n24#
+C Reg8_1/DFlipFlop_0/NAND3_4/A GND 6.89
+R Reg8_1/DFlipFlop_0/NAND3_4/A 139
+= Reg8_1/DFlipFlop_0/NAND3_4/A Reg8_1/DFlipFlop_0/NAND3_1/Y
+= Reg8_1/DFlipFlop_0/NAND3_4/A Reg8_1/DFlipFlop_0/NAND3_0/C
+= Reg8_1/DFlipFlop_0/NAND3_4/A Reg8_1/DFlipFlop_0/m1_22_n8#
+C Reg8_1/DFlipFlop_0/NAND3_3/B GND 6.01
+R Reg8_1/DFlipFlop_0/NAND3_3/B 138
+= Reg8_1/DFlipFlop_0/NAND3_3/B Reg8_1/DFlipFlop_0/NAND3_1/A
+= Reg8_1/DFlipFlop_0/NAND3_3/B Reg8_1/DFlipFlop_0/NAND3_0/Y
+= Reg8_1/DFlipFlop_0/NAND3_3/B Reg8_1/DFlipFlop_0/m1_30_n32#
+C Reg8_0/Q8b GND 2.91
+R Reg8_0/Q8b 75
+= Reg8_0/Q8b Reg8_0/DFlipFlop_8/Qb
+= Reg8_0/Q8b Reg8_0/DFlipFlop_8/NAND3_4/Y
+= Reg8_0/Q8b Reg8_0/DFlipFlop_8/NAND3_5/A
+C Reg8_0/Q8 GND 3.68
+R Reg8_0/Q8 77
+= Reg8_0/Q8 Reg8_0/DFlipFlop_8/Q
+= Reg8_0/Q8 Reg8_0/DFlipFlop_8/NAND3_5/Y
+= Reg8_0/Q8 Reg8_0/DFlipFlop_8/NAND3_4/C
+C Reg8_0/DFlipFlop_8/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_8/NAND3_5/B 201
+= Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/NAND3_3/A
+= Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/NAND3_2/Y
+= Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/NAND3_1/C
+= Reg8_0/DFlipFlop_8/NAND3_5/B Reg8_0/DFlipFlop_8/m1_58_n40#
+C Reg8_0/DFlipFlop_8/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_8/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_8/NAND3_3/Y Reg8_0/DFlipFlop_8/NAND3_2/C
+= Reg8_0/DFlipFlop_8/NAND3_3/Y Reg8_0/DFlipFlop_8/m1_94_n24#
+C Reg8_0/DFlipFlop_8/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_8/NAND3_4/A 139
+= Reg8_0/DFlipFlop_8/NAND3_4/A Reg8_0/DFlipFlop_8/NAND3_1/Y
+= Reg8_0/DFlipFlop_8/NAND3_4/A Reg8_0/DFlipFlop_8/NAND3_0/C
+= Reg8_0/DFlipFlop_8/NAND3_4/A Reg8_0/DFlipFlop_8/m1_22_n8#
+C Reg8_0/DFlipFlop_8/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_8/NAND3_3/B 138
+= Reg8_0/DFlipFlop_8/NAND3_3/B Reg8_0/DFlipFlop_8/NAND3_1/A
+= Reg8_0/DFlipFlop_8/NAND3_3/B Reg8_0/DFlipFlop_8/NAND3_0/Y
+= Reg8_0/DFlipFlop_8/NAND3_3/B Reg8_0/DFlipFlop_8/m1_30_n32#
+R Reg8_0/D8 56
+= Reg8_0/D8 Reg8_0/DFlipFlop_8/D
+= Reg8_0/D8 Reg8_0/DFlipFlop_8/NAND3_0/A
+C Reg8_0/Q7b GND 2.91
+R Reg8_0/Q7b 75
+= Reg8_0/Q7b Reg8_0/DFlipFlop_7/Qb
+= Reg8_0/Q7b Reg8_0/DFlipFlop_7/NAND3_4/Y
+= Reg8_0/Q7b Reg8_0/DFlipFlop_7/NAND3_5/A
+C Reg8_0/DFlipFlop_7/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_7/NAND3_5/B 201
+= Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/NAND3_3/A
+= Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/NAND3_2/Y
+= Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/NAND3_1/C
+= Reg8_0/DFlipFlop_7/NAND3_5/B Reg8_0/DFlipFlop_7/m1_58_n40#
+C Reg8_0/DFlipFlop_7/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_7/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_7/NAND3_3/Y Reg8_0/DFlipFlop_7/NAND3_2/C
+= Reg8_0/DFlipFlop_7/NAND3_3/Y Reg8_0/DFlipFlop_7/m1_94_n24#
+C Reg8_0/DFlipFlop_7/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_7/NAND3_4/A 139
+= Reg8_0/DFlipFlop_7/NAND3_4/A Reg8_0/DFlipFlop_7/NAND3_1/Y
+= Reg8_0/DFlipFlop_7/NAND3_4/A Reg8_0/DFlipFlop_7/NAND3_0/C
+= Reg8_0/DFlipFlop_7/NAND3_4/A Reg8_0/DFlipFlop_7/m1_22_n8#
+C Reg8_0/DFlipFlop_7/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_7/NAND3_3/B 138
+= Reg8_0/DFlipFlop_7/NAND3_3/B Reg8_0/DFlipFlop_7/NAND3_1/A
+= Reg8_0/DFlipFlop_7/NAND3_3/B Reg8_0/DFlipFlop_7/NAND3_0/Y
+= Reg8_0/DFlipFlop_7/NAND3_3/B Reg8_0/DFlipFlop_7/m1_30_n32#
+C A7 GND 11.54
+R A7 72
+= A7 Reg8_0/D7
+= A7 Reg8_0/DFlipFlop_7/D
+= A7 Reg8_0/DFlipFlop_7/NAND3_0/A
+C Reg8_0/Q6b GND 2.91
+R Reg8_0/Q6b 75
+= Reg8_0/Q6b Reg8_0/DFlipFlop_6/Qb
+= Reg8_0/Q6b Reg8_0/DFlipFlop_6/NAND3_4/Y
+= Reg8_0/Q6b Reg8_0/DFlipFlop_6/NAND3_5/A
+C Reg8_0/DFlipFlop_6/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_6/NAND3_5/B 201
+= Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/NAND3_3/A
+= Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/NAND3_2/Y
+= Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/NAND3_1/C
+= Reg8_0/DFlipFlop_6/NAND3_5/B Reg8_0/DFlipFlop_6/m1_58_n40#
+C Reg8_0/DFlipFlop_6/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_6/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_6/NAND3_3/Y Reg8_0/DFlipFlop_6/NAND3_2/C
+= Reg8_0/DFlipFlop_6/NAND3_3/Y Reg8_0/DFlipFlop_6/m1_94_n24#
+C Reg8_0/DFlipFlop_6/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_6/NAND3_4/A 139
+= Reg8_0/DFlipFlop_6/NAND3_4/A Reg8_0/DFlipFlop_6/NAND3_1/Y
+= Reg8_0/DFlipFlop_6/NAND3_4/A Reg8_0/DFlipFlop_6/NAND3_0/C
+= Reg8_0/DFlipFlop_6/NAND3_4/A Reg8_0/DFlipFlop_6/m1_22_n8#
+C Reg8_0/DFlipFlop_6/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_6/NAND3_3/B 138
+= Reg8_0/DFlipFlop_6/NAND3_3/B Reg8_0/DFlipFlop_6/NAND3_1/A
+= Reg8_0/DFlipFlop_6/NAND3_3/B Reg8_0/DFlipFlop_6/NAND3_0/Y
+= Reg8_0/DFlipFlop_6/NAND3_3/B Reg8_0/DFlipFlop_6/m1_30_n32#
+C A6 GND 11.47
+R A6 72
+= A6 Reg8_0/D6
+= A6 Reg8_0/DFlipFlop_6/D
+= A6 Reg8_0/DFlipFlop_6/NAND3_0/A
+C Reg8_0/Q5b GND 2.91
+R Reg8_0/Q5b 75
+= Reg8_0/Q5b Reg8_0/DFlipFlop_5/Qb
+= Reg8_0/Q5b Reg8_0/DFlipFlop_5/NAND3_4/Y
+= Reg8_0/Q5b Reg8_0/DFlipFlop_5/NAND3_5/A
+C Reg8_0/DFlipFlop_5/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_5/NAND3_5/B 201
+= Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/NAND3_3/A
+= Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/NAND3_2/Y
+= Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/NAND3_1/C
+= Reg8_0/DFlipFlop_5/NAND3_5/B Reg8_0/DFlipFlop_5/m1_58_n40#
+C Reg8_0/DFlipFlop_5/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_5/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_5/NAND3_3/Y Reg8_0/DFlipFlop_5/NAND3_2/C
+= Reg8_0/DFlipFlop_5/NAND3_3/Y Reg8_0/DFlipFlop_5/m1_94_n24#
+C Reg8_0/DFlipFlop_5/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_5/NAND3_4/A 139
+= Reg8_0/DFlipFlop_5/NAND3_4/A Reg8_0/DFlipFlop_5/NAND3_1/Y
+= Reg8_0/DFlipFlop_5/NAND3_4/A Reg8_0/DFlipFlop_5/NAND3_0/C
+= Reg8_0/DFlipFlop_5/NAND3_4/A Reg8_0/DFlipFlop_5/m1_22_n8#
+C Reg8_0/DFlipFlop_5/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_5/NAND3_3/B 138
+= Reg8_0/DFlipFlop_5/NAND3_3/B Reg8_0/DFlipFlop_5/NAND3_1/A
+= Reg8_0/DFlipFlop_5/NAND3_3/B Reg8_0/DFlipFlop_5/NAND3_0/Y
+= Reg8_0/DFlipFlop_5/NAND3_3/B Reg8_0/DFlipFlop_5/m1_30_n32#
+C A5 GND 11.47
+R A5 72
+= A5 Reg8_0/D5
+= A5 Reg8_0/DFlipFlop_5/D
+= A5 Reg8_0/DFlipFlop_5/NAND3_0/A
+C Reg8_0/Q4b GND 2.91
+R Reg8_0/Q4b 75
+= Reg8_0/Q4b Reg8_0/DFlipFlop_4/Qb
+= Reg8_0/Q4b Reg8_0/DFlipFlop_4/NAND3_4/Y
+= Reg8_0/Q4b Reg8_0/DFlipFlop_4/NAND3_5/A
+C Reg8_0/DFlipFlop_4/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_4/NAND3_5/B 201
+= Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/NAND3_3/A
+= Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/NAND3_2/Y
+= Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/NAND3_1/C
+= Reg8_0/DFlipFlop_4/NAND3_5/B Reg8_0/DFlipFlop_4/m1_58_n40#
+C Reg8_0/DFlipFlop_4/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_4/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_4/NAND3_3/Y Reg8_0/DFlipFlop_4/NAND3_2/C
+= Reg8_0/DFlipFlop_4/NAND3_3/Y Reg8_0/DFlipFlop_4/m1_94_n24#
+C Reg8_0/DFlipFlop_4/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_4/NAND3_4/A 139
+= Reg8_0/DFlipFlop_4/NAND3_4/A Reg8_0/DFlipFlop_4/NAND3_1/Y
+= Reg8_0/DFlipFlop_4/NAND3_4/A Reg8_0/DFlipFlop_4/NAND3_0/C
+= Reg8_0/DFlipFlop_4/NAND3_4/A Reg8_0/DFlipFlop_4/m1_22_n8#
+C Reg8_0/DFlipFlop_4/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_4/NAND3_3/B 138
+= Reg8_0/DFlipFlop_4/NAND3_3/B Reg8_0/DFlipFlop_4/NAND3_1/A
+= Reg8_0/DFlipFlop_4/NAND3_3/B Reg8_0/DFlipFlop_4/NAND3_0/Y
+= Reg8_0/DFlipFlop_4/NAND3_3/B Reg8_0/DFlipFlop_4/m1_30_n32#
+C A4 GND 11.47
+R A4 72
+= A4 Reg8_0/D4
+= A4 Reg8_0/DFlipFlop_4/D
+= A4 Reg8_0/DFlipFlop_4/NAND3_0/A
+C Reg8_0/Q3b GND 2.91
+R Reg8_0/Q3b 75
+= Reg8_0/Q3b Reg8_0/DFlipFlop_3/Qb
+= Reg8_0/Q3b Reg8_0/DFlipFlop_3/NAND3_4/Y
+= Reg8_0/Q3b Reg8_0/DFlipFlop_3/NAND3_5/A
+C Reg8_0/DFlipFlop_3/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_3/NAND3_5/B 201
+= Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/NAND3_3/A
+= Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/NAND3_2/Y
+= Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/NAND3_1/C
+= Reg8_0/DFlipFlop_3/NAND3_5/B Reg8_0/DFlipFlop_3/m1_58_n40#
+C Reg8_0/DFlipFlop_3/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_3/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_3/NAND3_3/Y Reg8_0/DFlipFlop_3/NAND3_2/C
+= Reg8_0/DFlipFlop_3/NAND3_3/Y Reg8_0/DFlipFlop_3/m1_94_n24#
+C Reg8_0/DFlipFlop_3/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_3/NAND3_4/A 139
+= Reg8_0/DFlipFlop_3/NAND3_4/A Reg8_0/DFlipFlop_3/NAND3_1/Y
+= Reg8_0/DFlipFlop_3/NAND3_4/A Reg8_0/DFlipFlop_3/NAND3_0/C
+= Reg8_0/DFlipFlop_3/NAND3_4/A Reg8_0/DFlipFlop_3/m1_22_n8#
+C Reg8_0/DFlipFlop_3/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_3/NAND3_3/B 138
+= Reg8_0/DFlipFlop_3/NAND3_3/B Reg8_0/DFlipFlop_3/NAND3_1/A
+= Reg8_0/DFlipFlop_3/NAND3_3/B Reg8_0/DFlipFlop_3/NAND3_0/Y
+= Reg8_0/DFlipFlop_3/NAND3_3/B Reg8_0/DFlipFlop_3/m1_30_n32#
+C A3 GND 11.47
+R A3 72
+= A3 Reg8_0/D3
+= A3 Reg8_0/DFlipFlop_3/D
+= A3 Reg8_0/DFlipFlop_3/NAND3_0/A
+C Reg8_0/Q2b GND 2.91
+R Reg8_0/Q2b 75
+= Reg8_0/Q2b Reg8_0/DFlipFlop_2/Qb
+= Reg8_0/Q2b Reg8_0/DFlipFlop_2/NAND3_4/Y
+= Reg8_0/Q2b Reg8_0/DFlipFlop_2/NAND3_5/A
+C Reg8_0/DFlipFlop_2/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_2/NAND3_5/B 201
+= Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/NAND3_3/A
+= Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/NAND3_2/Y
+= Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/NAND3_1/C
+= Reg8_0/DFlipFlop_2/NAND3_5/B Reg8_0/DFlipFlop_2/m1_58_n40#
+C Reg8_0/DFlipFlop_2/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_2/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_2/NAND3_3/Y Reg8_0/DFlipFlop_2/NAND3_2/C
+= Reg8_0/DFlipFlop_2/NAND3_3/Y Reg8_0/DFlipFlop_2/m1_94_n24#
+C Reg8_0/DFlipFlop_2/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_2/NAND3_4/A 139
+= Reg8_0/DFlipFlop_2/NAND3_4/A Reg8_0/DFlipFlop_2/NAND3_1/Y
+= Reg8_0/DFlipFlop_2/NAND3_4/A Reg8_0/DFlipFlop_2/NAND3_0/C
+= Reg8_0/DFlipFlop_2/NAND3_4/A Reg8_0/DFlipFlop_2/m1_22_n8#
+C Reg8_0/DFlipFlop_2/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_2/NAND3_3/B 138
+= Reg8_0/DFlipFlop_2/NAND3_3/B Reg8_0/DFlipFlop_2/NAND3_1/A
+= Reg8_0/DFlipFlop_2/NAND3_3/B Reg8_0/DFlipFlop_2/NAND3_0/Y
+= Reg8_0/DFlipFlop_2/NAND3_3/B Reg8_0/DFlipFlop_2/m1_30_n32#
+C A2 GND 11.47
+R A2 72
+= A2 Reg8_0/D2
+= A2 Reg8_0/DFlipFlop_2/D
+= A2 Reg8_0/DFlipFlop_2/NAND3_0/A
+C Reg8_0/Q1b GND 2.91
+R Reg8_0/Q1b 75
+= Reg8_0/Q1b Reg8_0/DFlipFlop_1/Qb
+= Reg8_0/Q1b Reg8_0/DFlipFlop_1/NAND3_4/Y
+= Reg8_0/Q1b Reg8_0/DFlipFlop_1/NAND3_5/A
+C Reg8_0/DFlipFlop_1/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_1/NAND3_5/B 201
+= Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/NAND3_3/A
+= Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/NAND3_2/Y
+= Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/NAND3_1/C
+= Reg8_0/DFlipFlop_1/NAND3_5/B Reg8_0/DFlipFlop_1/m1_58_n40#
+C Reg8_0/DFlipFlop_1/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_1/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_1/NAND3_3/Y Reg8_0/DFlipFlop_1/NAND3_2/C
+= Reg8_0/DFlipFlop_1/NAND3_3/Y Reg8_0/DFlipFlop_1/m1_94_n24#
+C RST GND 151.14
+R RST 3367
+= RST Reg8_1/RST
+= RST Reg8_1/DFlipFlop_8/RST
+= RST Reg8_1/DFlipFlop_8/NAND3_4/B
+= RST Reg8_1/DFlipFlop_8/NAND3_0/B
+= RST Reg8_1/DFlipFlop_8/NAND3_2/B
+= RST Reg8_1/DFlipFlop_0/RST
+= RST Reg8_1/DFlipFlop_0/NAND3_4/B
+= RST Reg8_1/DFlipFlop_0/NAND3_0/B
+= RST Reg8_1/DFlipFlop_0/NAND3_2/B
+= RST Reg8_1/DFlipFlop_7/RST
+= RST Reg8_1/DFlipFlop_7/NAND3_4/B
+= RST Reg8_1/DFlipFlop_7/NAND3_0/B
+= RST Reg8_1/DFlipFlop_7/NAND3_2/B
+= RST Reg8_1/DFlipFlop_6/RST
+= RST Reg8_1/DFlipFlop_6/NAND3_4/B
+= RST Reg8_1/DFlipFlop_6/NAND3_0/B
+= RST Reg8_1/DFlipFlop_6/NAND3_2/B
+= RST Reg8_1/DFlipFlop_5/RST
+= RST Reg8_1/DFlipFlop_5/NAND3_4/B
+= RST Reg8_1/DFlipFlop_5/NAND3_0/B
+= RST Reg8_1/DFlipFlop_5/NAND3_2/B
+= RST Reg8_1/DFlipFlop_4/RST
+= RST Reg8_1/DFlipFlop_4/NAND3_4/B
+= RST Reg8_1/DFlipFlop_4/NAND3_0/B
+= RST Reg8_1/DFlipFlop_4/NAND3_2/B
+= RST Reg8_1/DFlipFlop_3/RST
+= RST Reg8_1/DFlipFlop_3/NAND3_4/B
+= RST Reg8_1/DFlipFlop_3/NAND3_0/B
+= RST Reg8_1/DFlipFlop_3/NAND3_2/B
+= RST Reg8_1/DFlipFlop_2/RST
+= RST Reg8_1/DFlipFlop_2/NAND3_4/B
+= RST Reg8_1/DFlipFlop_2/NAND3_0/B
+= RST Reg8_1/DFlipFlop_2/NAND3_2/B
+= RST Reg8_1/DFlipFlop_1/RST
+= RST Reg8_1/DFlipFlop_1/NAND3_4/B
+= RST Reg8_1/DFlipFlop_1/NAND3_0/B
+= RST Reg8_1/DFlipFlop_1/NAND3_2/B
+= RST Reg8_0/RST
+= RST Reg8_0/DFlipFlop_8/RST
+= RST Reg8_0/DFlipFlop_8/NAND3_4/B
+= RST Reg8_0/DFlipFlop_8/NAND3_0/B
+= RST Reg8_0/DFlipFlop_8/NAND3_2/B
+= RST Reg8_0/DFlipFlop_0/RST
+= RST Reg8_0/DFlipFlop_0/NAND3_4/B
+= RST Reg8_0/DFlipFlop_0/NAND3_0/B
+= RST Reg8_0/DFlipFlop_0/NAND3_2/B
+= RST Reg8_0/DFlipFlop_7/RST
+= RST Reg8_0/DFlipFlop_7/NAND3_4/B
+= RST Reg8_0/DFlipFlop_7/NAND3_0/B
+= RST Reg8_0/DFlipFlop_7/NAND3_2/B
+= RST Reg8_0/DFlipFlop_6/RST
+= RST Reg8_0/DFlipFlop_6/NAND3_4/B
+= RST Reg8_0/DFlipFlop_6/NAND3_0/B
+= RST Reg8_0/DFlipFlop_6/NAND3_2/B
+= RST Reg8_0/DFlipFlop_5/RST
+= RST Reg8_0/DFlipFlop_5/NAND3_4/B
+= RST Reg8_0/DFlipFlop_5/NAND3_0/B
+= RST Reg8_0/DFlipFlop_5/NAND3_2/B
+= RST Reg8_0/DFlipFlop_4/RST
+= RST Reg8_0/DFlipFlop_4/NAND3_4/B
+= RST Reg8_0/DFlipFlop_4/NAND3_0/B
+= RST Reg8_0/DFlipFlop_4/NAND3_2/B
+= RST Reg8_0/DFlipFlop_3/RST
+= RST Reg8_0/DFlipFlop_3/NAND3_4/B
+= RST Reg8_0/DFlipFlop_3/NAND3_0/B
+= RST Reg8_0/DFlipFlop_3/NAND3_2/B
+= RST Reg8_0/DFlipFlop_2/RST
+= RST Reg8_0/DFlipFlop_2/NAND3_4/B
+= RST Reg8_0/DFlipFlop_2/NAND3_0/B
+= RST Reg8_0/DFlipFlop_2/NAND3_2/B
+= RST Reg8_0/DFlipFlop_1/RST
+= RST Reg8_0/DFlipFlop_1/NAND3_4/B
+= RST Reg8_0/DFlipFlop_1/NAND3_0/B
+= RST Reg8_0/DFlipFlop_1/NAND3_2/B
+C EN GND 91.93
+R EN 2245
+= EN Reg8_1/CLK
+= EN Reg8_1/DFlipFlop_0/CLK
+= EN Reg8_1/DFlipFlop_0/NAND3_1/B
+= EN Reg8_1/DFlipFlop_0/NAND3_2/A
+= EN Reg8_1/DFlipFlop_8/CLK
+= EN Reg8_1/DFlipFlop_8/NAND3_1/B
+= EN Reg8_1/DFlipFlop_8/NAND3_2/A
+= EN Reg8_1/DFlipFlop_7/CLK
+= EN Reg8_1/DFlipFlop_7/NAND3_1/B
+= EN Reg8_1/DFlipFlop_7/NAND3_2/A
+= EN Reg8_1/DFlipFlop_6/CLK
+= EN Reg8_1/DFlipFlop_6/NAND3_1/B
+= EN Reg8_1/DFlipFlop_6/NAND3_2/A
+= EN Reg8_1/DFlipFlop_5/CLK
+= EN Reg8_1/DFlipFlop_5/NAND3_1/B
+= EN Reg8_1/DFlipFlop_5/NAND3_2/A
+= EN Reg8_1/DFlipFlop_4/CLK
+= EN Reg8_1/DFlipFlop_4/NAND3_1/B
+= EN Reg8_1/DFlipFlop_4/NAND3_2/A
+= EN Reg8_1/DFlipFlop_3/CLK
+= EN Reg8_1/DFlipFlop_3/NAND3_1/B
+= EN Reg8_1/DFlipFlop_3/NAND3_2/A
+= EN Reg8_1/DFlipFlop_2/CLK
+= EN Reg8_1/DFlipFlop_2/NAND3_1/B
+= EN Reg8_1/DFlipFlop_2/NAND3_2/A
+= EN Reg8_1/DFlipFlop_1/CLK
+= EN Reg8_1/DFlipFlop_1/NAND3_1/B
+= EN Reg8_1/DFlipFlop_1/NAND3_2/A
+= EN Reg8_0/CLK
+= EN Reg8_0/DFlipFlop_0/CLK
+= EN Reg8_0/DFlipFlop_0/NAND3_1/B
+= EN Reg8_0/DFlipFlop_0/NAND3_2/A
+= EN Reg8_0/DFlipFlop_8/CLK
+= EN Reg8_0/DFlipFlop_8/NAND3_1/B
+= EN Reg8_0/DFlipFlop_8/NAND3_2/A
+= EN Reg8_0/DFlipFlop_7/CLK
+= EN Reg8_0/DFlipFlop_7/NAND3_1/B
+= EN Reg8_0/DFlipFlop_7/NAND3_2/A
+= EN Reg8_0/DFlipFlop_6/CLK
+= EN Reg8_0/DFlipFlop_6/NAND3_1/B
+= EN Reg8_0/DFlipFlop_6/NAND3_2/A
+= EN Reg8_0/DFlipFlop_5/CLK
+= EN Reg8_0/DFlipFlop_5/NAND3_1/B
+= EN Reg8_0/DFlipFlop_5/NAND3_2/A
+= EN Reg8_0/DFlipFlop_4/CLK
+= EN Reg8_0/DFlipFlop_4/NAND3_1/B
+= EN Reg8_0/DFlipFlop_4/NAND3_2/A
+= EN Reg8_0/DFlipFlop_3/CLK
+= EN Reg8_0/DFlipFlop_3/NAND3_1/B
+= EN Reg8_0/DFlipFlop_3/NAND3_2/A
+= EN Reg8_0/DFlipFlop_2/CLK
+= EN Reg8_0/DFlipFlop_2/NAND3_1/B
+= EN Reg8_0/DFlipFlop_2/NAND3_2/A
+= EN Reg8_0/DFlipFlop_1/CLK
+= EN Reg8_0/DFlipFlop_1/NAND3_1/B
+= EN Reg8_0/DFlipFlop_1/NAND3_2/A
+C Reg8_0/DFlipFlop_1/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_1/NAND3_4/A 139
+= Reg8_0/DFlipFlop_1/NAND3_4/A Reg8_0/DFlipFlop_1/NAND3_1/Y
+= Reg8_0/DFlipFlop_1/NAND3_4/A Reg8_0/DFlipFlop_1/NAND3_0/C
+= Reg8_0/DFlipFlop_1/NAND3_4/A Reg8_0/DFlipFlop_1/m1_22_n8#
+C Reg8_0/DFlipFlop_1/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_1/NAND3_3/B 138
+= Reg8_0/DFlipFlop_1/NAND3_3/B Reg8_0/DFlipFlop_1/NAND3_1/A
+= Reg8_0/DFlipFlop_1/NAND3_3/B Reg8_0/DFlipFlop_1/NAND3_0/Y
+= Reg8_0/DFlipFlop_1/NAND3_3/B Reg8_0/DFlipFlop_1/m1_30_n32#
+C A1 GND 11.47
+R A1 72
+= A1 Reg8_0/D1
+= A1 Reg8_0/DFlipFlop_1/D
+= A1 Reg8_0/DFlipFlop_1/NAND3_0/A
+C Reg8_0/Q0b GND 2.91
+R Reg8_0/Q0b 75
+= Reg8_0/Q0b Reg8_0/DFlipFlop_0/Qb
+= Reg8_0/Q0b Reg8_0/DFlipFlop_0/NAND3_4/Y
+= Reg8_0/Q0b Reg8_0/DFlipFlop_0/NAND3_5/A
+C Reg8_0/DFlipFlop_0/NAND3_5/B GND 8.91
+R Reg8_0/DFlipFlop_0/NAND3_5/B 201
+= Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/NAND3_3/A
+= Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/NAND3_2/Y
+= Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/NAND3_1/C
+= Reg8_0/DFlipFlop_0/NAND3_5/B Reg8_0/DFlipFlop_0/m1_58_n40#
+C Reg8_0/DFlipFlop_0/NAND3_3/Y GND 3.79
+R Reg8_0/DFlipFlop_0/NAND3_3/Y 77
+= Reg8_0/DFlipFlop_0/NAND3_3/Y Reg8_0/DFlipFlop_0/NAND3_2/C
+= Reg8_0/DFlipFlop_0/NAND3_3/Y Reg8_0/DFlipFlop_0/m1_94_n24#
+C Reg8_0/DFlipFlop_0/NAND3_4/A GND 6.89
+R Reg8_0/DFlipFlop_0/NAND3_4/A 139
+= Reg8_0/DFlipFlop_0/NAND3_4/A Reg8_0/DFlipFlop_0/NAND3_1/Y
+= Reg8_0/DFlipFlop_0/NAND3_4/A Reg8_0/DFlipFlop_0/NAND3_0/C
+= Reg8_0/DFlipFlop_0/NAND3_4/A Reg8_0/DFlipFlop_0/m1_22_n8#
+C Reg8_0/DFlipFlop_0/NAND3_3/B GND 6.01
+R Reg8_0/DFlipFlop_0/NAND3_3/B 138
+= Reg8_0/DFlipFlop_0/NAND3_3/B Reg8_0/DFlipFlop_0/NAND3_1/A
+= Reg8_0/DFlipFlop_0/NAND3_3/B Reg8_0/DFlipFlop_0/NAND3_0/Y
+= Reg8_0/DFlipFlop_0/NAND3_3/B Reg8_0/DFlipFlop_0/m1_30_n32#
+C A0 GND 11.47
+R A0 72
+= A0 Reg8_0/D0
+= A0 Reg8_0/DFlipFlop_0/D
+= A0 Reg8_0/DFlipFlop_0/NAND3_0/A
